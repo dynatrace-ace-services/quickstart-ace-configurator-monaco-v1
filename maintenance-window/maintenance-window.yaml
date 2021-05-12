@@ -1,7 +1,0 @@
-config:
-- ondemand: ondemand-mw.json
-ondemand:
-- name: "{{.Env.CodeAppli}}"
-- uppername: "{{.Env.CodeAppliUpper}}"
-- start: "{{.Env.Start}}"
-- stop: "{{.Env.Stop}}"
