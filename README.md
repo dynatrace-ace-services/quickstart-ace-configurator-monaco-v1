@@ -12,12 +12,14 @@
 
 - test variable
 
-    echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "CodeAppli="$Appname;echo "CodeAppliUpper="$Appname;echo "Start="$Start;echo "Stop="$Stop
+     echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "CodeAppli="$Appname;echo "CodeAppliUpper="$Appname;echo "Start="$Start;echo "Stop="$Stop
      
 - deploy
-
-    monaco deploy -e=environments.yaml test
+ 
+     cd;cd test; 
+     monaco deploy -e=environments.yaml test
 
 - delete
 
+    cd;cd test;
     sed -i 's/CodeAppli/'$CodeAppli'/g' OnDemandMaintenance/delete.yml;./monaco deploy -e=environments.yaml OnDemandMaintenance;sed -i 's/'$CodeAppli'/CodeAppli/g' OnDemandMaintenance/delete.yaml
