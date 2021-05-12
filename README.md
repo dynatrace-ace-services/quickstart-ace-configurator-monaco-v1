@@ -22,4 +22,4 @@
 - delete
 
       cd;cd test;
-      sed -i 's/CodeAppli/'$CodeAppli'/g' OnDemandMaintenance/delete.yml;./monaco deploy -e=environments.yaml OnDemandMaintenance;sed -i 's/'$CodeAppli'/CodeAppli/g' OnDemandMaintenance/delete.yaml
+      sed -i 's/CodeAppli/'$CodeAppli'/g' DeleteMaintenance/delete.yml;./monaco deploy -e=environments.yaml DeleteMaintenance;sed -i 's/'$CodeAppli'/CodeAppli/g' DeleteMaintenance/delete.yaml
