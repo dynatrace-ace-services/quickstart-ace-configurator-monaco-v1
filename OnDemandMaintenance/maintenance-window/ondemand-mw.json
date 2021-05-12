@@ -1,0 +1,178 @@
+{
+ "description": "On-demand maintenance : {{.name}} =  start {{.start}} -> stop {{.stop}}",
+ "name": "OnDemand:{{.name}}",
+ "schedule": {
+  "end": "{{.stop}}",
+  "recurrenceType": "ONCE",
+  "start": "{{.start}}",
+  "zoneId": "Europe/Paris"
+ },
+ "scope": {
+  "entities": [],
+  "matches": [
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "CodeAppli",
+      "value": "{{.name}}"
+     }
+    ],
+    "type": "SERVICE"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "CodeAppli",
+      "value": "{{.uppername}}"
+     }
+    ],
+    "type": "SERVICE"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "{{.name}}"
+     }
+    ],
+    "type": "APPLICATION"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "{{.name}}"
+     }
+    ],
+    "type": "SERVICE"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "{{.name}}"
+     }
+    ],
+    "type": "MOBILE_APPLICATION"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "{{.name}}"
+     }
+    ],
+    "type": "SYNTHETIC_TEST"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "{{.name}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "PGavailabilityOFF"
+     }
+    ],
+    "type": "PROCESS_GROUP"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "{{.name}}"
+     }
+    ],
+    "type": "AUXILIARY_SYNTHETIC_TEST"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "CodeAppli",
+      "value": "{{.uppername}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "PGavailabilityOFF"
+     }
+    ],
+    "type": "PROCESS_GROUP"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "CodeAppli",
+      "value": "{{.name}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "PGavailabilityOFF"
+     }
+    ],
+    "type": "PROCESS_GROUP"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "{{.name}}"
+     }
+    ],
+    "type": "HTTP_CHECK"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "{{.name}}"
+     }
+    ],
+    "type": "CUSTOM_APPLICATION"
+   }
+  ]
+ },
+ "suppressSyntheticMonitorsExecution": true,
+ "suppression": "DETECT_PROBLEMS_DONT_ALERT",
+ "type": "PLANNED"
+}
