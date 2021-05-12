@@ -17,7 +17,7 @@
 - deploy
  
       cd;cd test; 
-      ./monaco deploy -e=environments.yaml test
+      ./monaco deploy -e=environments.yaml OnDemandMaintenance
 
 - delete
 
