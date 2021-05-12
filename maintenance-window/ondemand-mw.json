@@ -1,6 +1,6 @@
 {
  "description": "On-demand maintenance : {{.name}} =  start {{.start}} -> stop {{.stop}}",
- "name": "ondemand_{{.name}}",
+ "name": "OnDemand:{{.name}}",
  "schedule": {
   "end": "{{.stop}}",
   "recurrenceType": "ONCE",
