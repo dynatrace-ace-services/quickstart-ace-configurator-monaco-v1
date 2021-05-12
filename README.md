@@ -7,3 +7,6 @@
     chmod +x monaco;
     export NEW_CLI=1;
     ./monaco --version
+
+
+    monaco deploy -e=environments.yaml test
