@@ -81,7 +81,8 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "{{.name}}"
+      "key": "CodeAppli",
+      "value": "{{.name}}"
      }
     ],
     "type": "SYNTHETIC_TEST"
