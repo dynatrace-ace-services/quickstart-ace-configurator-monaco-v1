@@ -1,5 +1,6 @@
 {
  "description": "On-demand maintenance : {{.name}} =  start {{.start}} -> stop {{.stop}}",
+ "id": "c2b47f11-8a20-4a8e-bd09-bb2df9e98bd5",
  "name": "OnDemand:{{.name}}",
  "schedule": {
   "end": "{{.stop}}",
