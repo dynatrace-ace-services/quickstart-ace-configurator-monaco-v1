@@ -1,4 +1,6 @@
-# Maintenance window OnDemand
+# Maintenance Window OnDemand
+
+You will create a maintenance window for a specific period.
 
 - git clone 
       
