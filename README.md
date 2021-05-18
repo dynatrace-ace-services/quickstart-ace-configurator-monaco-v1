@@ -10,6 +10,15 @@
       ./monaco --version
 
 
+- config variables
+      
+      export MyTenant=<MyTenant>
+      export MyToken=<MyToken>
+      export CodeAppli=<CodeAppli>
+      export CodeAppliUpper=<CodeAppliUpper>
+      export Start="2021-05-18 09:45"
+      export Stop="2021-05-19 09:45"
+      
 - test variable
 
       echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "CodeAppli="$CodeAppli;echo "CodeAppliUpper="$CodeAppliUpper;echo "Start="$Start;echo "Stop="$Stop
