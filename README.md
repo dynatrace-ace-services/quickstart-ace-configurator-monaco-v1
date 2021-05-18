@@ -23,7 +23,7 @@ You will create a maintenance window for a specific period.
       export CodeAppliUpper=`echo $CodeAppli|tr [:lower:] [:upper:]`
       export Start=`date +"%Y-%m-%d %H:%M"`
       export Stop=`date +"%Y-%m-%d %H:%M"` -d "+120 min"
-or
+ or
 
       export Start="2021-05-18 18:30"
       export Stop="2021-05-19 06:30"
