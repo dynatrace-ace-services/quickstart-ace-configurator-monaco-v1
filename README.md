@@ -14,7 +14,7 @@ You will create a maintenance window for a specific period.
       mv monaco-linux-amd64 monaco;
       chmod +x monaco;
     
-- export variables
+- export variables (date format "2021-05-21 23:59")
 
       export NEW_CLI=1
       export MyTenant=<MyTenant>
@@ -23,11 +23,6 @@ You will create a maintenance window for a specific period.
       export CodeAppliUpper=`echo $CodeAppli|tr [:lower:] [:upper:]`
       export Start=`date +"%Y-%m-%d %H:%M"`
       export Stop=`date +"%Y-%m-%d %H:%M"` -d "+120 min"
- 
- format date
-
-      Start="2021-05-18 18:30"
-      Stop="2021-05-19 06:30"
       
 - test variables
 
