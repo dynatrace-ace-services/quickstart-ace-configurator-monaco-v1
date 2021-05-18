@@ -1,5 +1,10 @@
 # Maintenance window
 
+- git clone 
+      
+      cd;
+      git clone https://github.com/JLLormeau/test
+
 - install monaco
 
       cd;cd test;
