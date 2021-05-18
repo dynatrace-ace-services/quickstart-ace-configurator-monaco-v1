@@ -15,14 +15,17 @@ You will create a maintenance window for a specific period.
       chmod +x monaco;
     
 - export variables
-     
+
       export NEW_CLI=1
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
       export CodeAppli=<CodeAppli>
       export CodeAppliUpper=`echo $CodeAppli|tr [:lower:] [:upper:]`
-      export Start="2021-05-18 09:45"
-      export Stop="2021-05-19 09:45"
+      export Start=`date +"%Y-%m-%d %H:%M"`
+      export Stop=`date +"%Y-%m-%d %H:%M"` -d "+120 min"
+or
+      export Start="2021-05-18 18:30"
+      export Stop="2021-05-19 06:30"
       
 - test variables
 
