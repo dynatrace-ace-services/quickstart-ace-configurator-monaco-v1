@@ -14,7 +14,7 @@
     
 - config variables
      
-      export NEW_CLI=1;
+      export NEW_CLI=1
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
       export CodeAppli=<CodeAppli>
