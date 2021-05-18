@@ -5,3 +5,4 @@ ondemand:
 - uppername: "{{.Env.CodeAppliUpper}}"
 - start: "{{.Env.Start}}"
 - stop: "{{.Env.Stop}}"
+- mwId: "/test/OnDemandMaintenance/ondemand.id"
