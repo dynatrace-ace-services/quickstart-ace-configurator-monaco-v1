@@ -29,7 +29,7 @@ You will create a maintenance window for a specific period.
       echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "CodeAppli="$CodeAppli;echo "CodeAppliUpper="$CodeAppliUpper;echo "Start="$Start;echo "Stop="$Stop
      
 - deploy
-- 
+
       cd;cd test;
       ./monaco deploy -e=environments.yaml OnDemandMaintenance
 
