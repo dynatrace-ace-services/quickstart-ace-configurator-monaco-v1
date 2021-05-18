@@ -14,7 +14,7 @@ You will create a maintenance window for a specific period.
       mv monaco-linux-amd64 monaco;
       chmod +x monaco;
     
-- config variables
+- export variables
      
       export NEW_CLI=1
       export MyTenant=<MyTenant>
