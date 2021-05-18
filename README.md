@@ -30,7 +30,8 @@ You will create a maintenance window for a specific period.
      
 - deploy
  
-      cd;cd test; 
+      cd;cd test;
+      sed -i 's/CodeAppli/'$CodeAppli'/g' DeleteMaintenance/delete.yaml;./monaco deploy -e=environments.yaml DeleteMaintenance;sed -i 's/'$CodeAppli'/CodeAppli/g' DeleteMaintenance/delete.yaml
       ./monaco deploy -e=environments.yaml OnDemandMaintenance
 
 - delete
