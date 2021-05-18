@@ -18,7 +18,7 @@
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
       export CodeAppli=<CodeAppli>
-      export CodeAppliUpper=<CodeAppliUpper>
+      export CodeAppliUpper=`echo $CodeAppli|tr [:lower:] [:upper:]`
       export Start="2021-05-18 09:45"
       export Stop="2021-05-19 09:45"
       
