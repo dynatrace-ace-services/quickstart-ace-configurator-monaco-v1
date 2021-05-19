@@ -1,10 +1,16 @@
 {
- "description": "On-demand maintenance : {{.name}} =  start {{.start}} -> stop {{.stop}}",
+ "description": "On-demand maintenance : OnDemand - jll =  start 2021-05-19 12:39 -\u003e stop 2021-05-19 14:39",
+ "metadata": {
+  "clusterVersion": "1.217.123.20210517-133838",
+  "configurationVersions": [
+   0
+  ]
+ },
  "name": "{{.name}}",
  "schedule": {
-  "end": "{{.stop}}",
+  "end": "2021-05-19 14:39",
   "recurrenceType": "ONCE",
-  "start": "{{.start}}",
+  "start": "2021-05-19 12:39",
   "zoneId": "Europe/Paris"
  },
  "scope": {
@@ -17,59 +23,13 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappli}}"
-     }
-    ],
-    "type": "SERVICE"
-   },
-   {
-    "managementZoneId": null,
-    "mzId": null,
-    "tagCombination": "AND",
-    "tags": [
+      "key": "env",
+      "value": "{{.env}}"
+     },
      {
       "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappliupper}}"
-     }
-    ],
-    "type": "SERVICE"
-   },
-   {
-    "managementZoneId": null,
-    "mzId": null,
-    "tagCombination": "AND",
-    "tags": [
-     {
-      "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappli}}"
-     }
-    ],
-    "type": "APPLICATION"
-   },
-   {
-    "managementZoneId": null,
-    "mzId": null,
-    "tagCombination": "AND",
-    "tags": [
-     {
-      "context": "CONTEXTLESS",
-      "key": "{{.codeappli}}"
-     }
-    ],
-    "type": "SERVICE"
-   },
-   {
-    "managementZoneId": null,
-    "mzId": null,
-    "tagCombination": "AND",
-    "tags": [
-     {
-      "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappli}}"
+      "key": "app",
+      "value": "{{.app}}"
      }
     ],
     "type": "MOBILE_APPLICATION"
@@ -81,8 +41,31 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappli}}"
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "SERVICE"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
      }
     ],
     "type": "SYNTHETIC_TEST"
@@ -94,14 +77,16 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "{{.codeappli}}"
+      "key": "env",
+      "value": "{{.env}}"
      },
      {
       "context": "CONTEXTLESS",
-      "key": "PGavailabilityOFF"
+      "key": "app",
+      "value": "{{.app}}"
      }
     ],
-    "type": "PROCESS_GROUP"
+    "type": "APPLICATION"
    },
    {
     "managementZoneId": null,
@@ -110,8 +95,13 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappli}}"
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
      }
     ],
     "type": "AUXILIARY_SYNTHETIC_TEST"
@@ -123,12 +113,13 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappliupper}}"
+      "key": "env",
+      "value": "{{.env}}"
      },
      {
       "context": "CONTEXTLESS",
-      "key": "PGavailabilityOFF"
+      "key": "app",
+      "value": "{{.app}}"
      }
     ],
     "type": "PROCESS_GROUP"
@@ -140,15 +131,16 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappli}}"
+      "key": "env",
+      "value": "{{.env}}"
      },
      {
       "context": "CONTEXTLESS",
-      "key": "PGavailabilityOFF"
+      "key": "app",
+      "value": "{{.app}}"
      }
     ],
-    "type": "PROCESS_GROUP"
+    "type": "CUSTOM_APPLICATION"
    },
    {
     "managementZoneId": null,
@@ -157,8 +149,13 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappli}}"
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
      }
     ],
     "type": "HTTP_CHECK"
@@ -170,11 +167,16 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "CodeAppli",
-      "value": "{{.codeappli}}"
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
      }
     ],
-    "type": "CUSTOM_APPLICATION"
+    "type": "HOST"
    }
   ]
  },
