@@ -5,4 +5,3 @@ ondemand:
 - uppername: "{{.Env.CodeAppliUpper}}"
 - start: "{{.Env.Start}}"
 - stop: "{{.Env.Stop}}"
-- mwId: "c2b47f11-8a20-4a8e-bd09-bb2df9e98bd5"
