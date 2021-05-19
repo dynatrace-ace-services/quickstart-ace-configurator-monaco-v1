@@ -18,7 +18,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.name}}"
+      "value": "{{.codeappli}}"
      }
     ],
     "type": "SERVICE"
@@ -31,7 +31,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.uppername}}"
+      "value": "{{.codeappliupper}}"
      }
     ],
     "type": "SERVICE"
@@ -44,7 +44,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.name}}"
+      "value": "{{.codeappli}}"
      }
     ],
     "type": "APPLICATION"
@@ -56,7 +56,7 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "{{.name}}"
+      "key": "{{.codeappli}}"
      }
     ],
     "type": "SERVICE"
@@ -69,7 +69,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.name}}"
+      "value": "{{.codeappli}}"
      }
     ],
     "type": "MOBILE_APPLICATION"
@@ -82,7 +82,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.name}}"
+      "value": "{{.codeappli}}"
      }
     ],
     "type": "SYNTHETIC_TEST"
@@ -94,7 +94,7 @@
     "tags": [
      {
       "context": "CONTEXTLESS",
-      "key": "{{.name}}"
+      "key": "{{.codeappli}}"
      },
      {
       "context": "CONTEXTLESS",
@@ -111,7 +111,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.name}}"
+      "value": "{{.codeappli}}"
      }
     ],
     "type": "AUXILIARY_SYNTHETIC_TEST"
@@ -124,7 +124,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.uppername}}"
+      "value": "{{.codeappliupper}}"
      },
      {
       "context": "CONTEXTLESS",
@@ -141,7 +141,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.name}}"
+      "value": "{{.codeappli}}"
      },
      {
       "context": "CONTEXTLESS",
@@ -158,7 +158,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.name}}"
+      "value": "{{.codeappli}}"
      }
     ],
     "type": "HTTP_CHECK"
@@ -171,7 +171,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "CodeAppli",
-      "value": "{{.name}}"
+      "value": "{{.codeappli}}"
      }
     ],
     "type": "CUSTOM_APPLICATION"
