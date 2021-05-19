@@ -1,19 +1,7 @@
 # Maintenance Window OnDemand
 
 You will create a maintenance window for a specific period.
-
-- git clone 
-      
-      cd;
-      git clone https://github.com/JLLormeau/test
-
-- install monaco
-
-      cd;cd test;
-      wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/download/v1.5.3/monaco-linux-amd64;
-      mv monaco-linux-amd64 monaco;
-      chmod +x monaco;
-    
+ 
 - export variables (date format `2021-05-21 23:59`)
 
       export NEW_CLI=1
@@ -30,19 +18,18 @@ You will create a maintenance window for a specific period.
      
 - deploy or update
 
-      cd;cd test;
-      ./monaco deploy -e=environments.yaml OnDemandMaintenance
-
-
+      cd;cd OnDemand-Configuration-with-Monaco;
+      ./monaco deploy -e=environments.yaml OnDemand-Configuration-with-Monaco/Maintenance_Window
+      
 - stop
 
       cd;cd test;
-      export Stop=`date +"%Y-%m-%d %H:%M"`;./monaco deploy -e=environments.yaml OnDemandMaintenance
+      export Stop=`date +"%Y-%m-%d %H:%M"`;./monaco deploy -e=environments.yaml OnDemand-Configuration-with-Monaco/Maintenance_Window
 
 
 - delete
 
-      cd;cd test;
-      sed -i 's/CodeAppli/'$CodeAppli'/g' DeleteMaintenance/delete.yaml;./monaco deploy -e=environments.yaml DeleteMaintenance;sed -i 's/'$CodeAppli'/CodeAppli/g' DeleteMaintenance/delete.yaml
+      cd;cd OnDemand-Configuration-with-Monaco;
+      sed -i 's/app_env/'$app_$env'/g'  OnDemand-Configuration-with-Monaco/MeleteMaintenance/delete.yaml;./monaco deploy -e=environments.yaml  OnDemand-Configuration-with-Monaco/DeleteMaintenance;sed -i 's/'$app_$env'/app_env/g' OnDemand-Configuration-with-Monaco/DeleteMaintenance/delete.yaml
 
 
