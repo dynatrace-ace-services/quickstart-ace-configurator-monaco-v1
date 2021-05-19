@@ -1,4 +1,4 @@
-free_trial:
+OnDemand:
     - name: "lab_dynatrace"
     - env-url: "https://{{.Env.MyTenant}}"
     - env-token-name: "MyToken"
