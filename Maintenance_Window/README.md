@@ -31,6 +31,6 @@ You will create a maintenance window for a specific period.
 - delete
 
       cd;cd OnDemand-Configuration-with-Monaco;
-      sed -i 's/app_env/'$app_$env'/g'  Maintenance_Window/DeleteMaintenance/delete.yaml;./monaco deploy -e=environments.yaml   Maintenance_Window/DeleteMaintenance;sed -i 's/'$app_$env'/app_env/g' Maintenance_Window/DeleteMaintenance/delete.yaml
+      sed -i 's/app_env/'$app_$env'/g'  Maintenance_Window/DeleteOnDemandMaintenance//delete.yaml;./monaco deploy -e=environments.yaml   Maintenance_Window/DeleteOnDemandMaintenance/;sed -i 's/'$app_$env'/app_env/g' Maintenance_Window/DeleteOnDemandMaintenance//delete.yaml
 
 
