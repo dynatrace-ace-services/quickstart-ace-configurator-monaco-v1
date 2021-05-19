@@ -28,15 +28,10 @@ You will create a maintenance window for a specific period.
 
       echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "CodeAppli="$CodeAppli;echo "CodeAppliUpper="$CodeAppliUpper;echo "Start="$Start;echo "Stop="$Stop
      
-- deploy
+- deploy or update
 
       cd;cd test;
       ./monaco deploy -e=environments.yaml OnDemandMaintenance
-
-- deploy or update
- 
-      cd;cd test;
-      sed -i 's/CodeAppli/'$CodeAppli'/g' DeleteMaintenance/delete.yaml;./monaco deploy -e=environments.yaml DeleteMaintenance;sed -i 's/'$CodeAppli'/CodeAppli/g' DeleteMaintenance/delete.yaml; ./monaco deploy -e=environments.yaml OnDemandMaintenance
 
 
 - delete
