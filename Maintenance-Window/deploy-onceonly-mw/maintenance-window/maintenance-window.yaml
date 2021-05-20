@@ -1,8 +1,8 @@
-config:
+dconfig:
 - ondemand: onceonly-mw.json
 ondemand:
 - name: "OnceOnly:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
 - app: "{{.Env.Tag_app}}"
 - env: "{{.Env.Tag_env}}"
 - start: "{{.Env.Start}}"
-- stop: "{{.Env.End}}"
+- end: "{{.Env.End}}"
