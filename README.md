@@ -5,7 +5,7 @@ You will create generic configuration with monaco for :
       - [Application](/Application)  
       - [Management-Zone](/Application)  
 
-By default, these configurations are filtere by application (with tag `app`) and by environemnt (with tag `env`)
+By default, these configurations are filtered by application (with tag `app`) and by environemnt (with tag `env`)
 If you have organized your Autotag with these 2 tags like that, you can use these generic configuration without change:  
    <img src="https://user-images.githubusercontent.com/40337213/119023081-a7bd3400-b9a1-11eb-8b4e-8776d2df4a3e.png" width="520" height="200">
 
