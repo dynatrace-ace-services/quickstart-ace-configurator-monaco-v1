@@ -1,5 +1,5 @@
 {
- "description": "On-demand maintenance : OnDemand - {{.name}} =  start {{.start}} -\u003e stop {{.stop}}",
+ "description": "On-demand maintenance : OnDemand - {{.name}} \nstart={{.start}} \nstop={{.stop}}",
  "metadata": {
   "clusterVersion": "1.217.123.20210517-133838",
   "configurationVersions": [
