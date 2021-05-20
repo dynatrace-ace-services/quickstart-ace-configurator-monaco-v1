@@ -1,0 +1,192 @@
+{
+ "description": "{{.name}} \ntype=Dayli \nDailyStart={{.dailystart}} & Duration={{.durationminutes}} minutes",
+ "metadata": {
+  "clusterVersion": "1.217.123.20210517-133838",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "name": "{{.name}}",
+ "schedule": {
+  "end": "{{.end}}",
+  "recurrence": {
+   "dayOfMonth": null,
+   "dayOfWeek": null,
+   "durationMinutes": "{{.durationminutes}}",
+   "startTime": "{{.dailystart}}"
+  },
+  "recurrenceType": "DAILY",
+  "start": "{{.start}}",
+  "zoneId": "Europe/Paris"
+ },
+ "scope": {
+  "entities": [],
+  "matches": [
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "MOBILE_APPLICATION"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "SERVICE"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "SYNTHETIC_TEST"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "APPLICATION"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "AUXILIARY_SYNTHETIC_TEST"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "PROCESS_GROUP"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "CUSTOM_APPLICATION"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "HTTP_CHECK"
+   },
+   {
+    "managementZoneId": null,
+    "mzId": null,
+    "tagCombination": "AND",
+    "tags": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "env",
+      "value": "{{.env}}"
+     },
+     {
+      "context": "CONTEXTLESS",
+      "key": "app",
+      "value": "{{.app}}"
+     }
+    ],
+    "type": "HOST"
+   }
+  ]
+ },
+ "suppressSyntheticMonitorsExecution": true,
+ "suppression": "DETECT_PROBLEMS_DONT_ALERT",
+ "type": "PLANNED"
+}
