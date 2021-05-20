@@ -8,7 +8,7 @@ You will create generic configuration with monaco for :
 By default, these configurations are filtered by application (with tag `app`) and by environemnt (with tag `env`)  
 Apply these 2 tags to all your entities (host, process groups, services, application, http monitor, browser monitor, custom etc...)  
 If you have organized your Autotag with these 2 tags like that, you can directly use these prebuild configurations with monaco:    
-   <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
+    <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
 
 
 # Prerequisite
