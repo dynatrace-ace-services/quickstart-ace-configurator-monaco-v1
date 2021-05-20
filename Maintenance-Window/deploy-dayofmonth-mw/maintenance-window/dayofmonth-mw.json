@@ -10,8 +10,8 @@
  "schedule": {
   "end": "{{.end}}",
   "recurrence": {
-   "dayOfMonth": null,
-   "dayOfWeek": "{{.dayofmonth}}",
+   "dayOfMonth": "{{.dayofmonth}}",
+   "dayOfWeek": null,
    "durationMinutes": "{{.durationminutes}}",
    "startTime": "{{.monthlystart}}"
   },
