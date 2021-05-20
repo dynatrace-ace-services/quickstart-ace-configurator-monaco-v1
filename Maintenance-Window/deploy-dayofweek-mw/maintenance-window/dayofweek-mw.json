@@ -1,5 +1,5 @@
 {
- "description": "{{.name}} \ntype=Dayli \nDailyStart={{.dailystart}} & Duration={{.durationminutes}} minutes",
+ "description": "{{.name}} \nWeeklyStart={{.weeklystart}} & Duration={{.durationminutes}} minutes",
  "metadata": {
   "clusterVersion": "1.217.123.20210517-133838",
   "configurationVersions": [
@@ -11,11 +11,11 @@
   "end": "{{.end}}",
   "recurrence": {
    "dayOfMonth": null,
-   "dayOfWeek": null,
+   "dayOfWeek": "{{.dayofweek}}",
    "durationMinutes": "{{.durationminutes}}",
-   "startTime": "{{.dailystart}}"
+   "startTime": "{{.weeklystart}}"
   },
-  "recurrenceType": "DAILY",
+  "recurrenceType": "WEEKLY",
   "start": "{{.start}}",
   "zoneId": "Europe/Paris"
  },
