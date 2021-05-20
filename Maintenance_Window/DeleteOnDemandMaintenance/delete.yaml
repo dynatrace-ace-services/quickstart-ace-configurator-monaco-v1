@@ -1,2 +1,2 @@
 delete:
- - "maintenance-window/OnDemand:app_env_"
+ - "maintenance-window/OnDemand:app_env"
