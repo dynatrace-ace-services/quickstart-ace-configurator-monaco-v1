@@ -11,11 +11,11 @@
   "end": "{{.end}}",
   "recurrence": {
    "dayOfMonth": null,
-   "dayOfWeek": "{{.dayofweek}}",
+   "dayOfWeek": "{{.dayofmonth}}",
    "durationMinutes": "{{.durationminutes}}",
-   "startTime": "{{.weeklystart}}"
+   "startTime": "{{.monthlystart}}"
   },
-  "recurrenceType": "WEEKLY",
+  "recurrenceType": "MONTHLY",
   "start": "{{.start}}",
   "zoneId": "Europe/Paris"
  },
