@@ -1,7 +1,7 @@
 config:
 - monthly: dayofmonth-mw.json
 monthly:
-- name: "DayOfMonth {{.Env.DayOfMonth}}:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
+- name: "DayOfMonth={{.Env.DayOfMonth}}:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
 - app: "{{.Env.Tag_app}}"
 - env: "{{.Env.Tag_env}}"
 - dayofmonth: "{{.Env.DayOfMonth}}"
