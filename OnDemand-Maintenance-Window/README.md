@@ -19,7 +19,7 @@ You will create a maintenance window for a specific period.
 - deploy or update
 
       cd;cd OnDemand-Configuration-with-Monaco;
-      ./monaco deploy -e=environments.yaml Maintenance_Window
+      ./monaco deploy -e=environments.yaml OnDemand-Maintenance-Window
       
 - stop
 
