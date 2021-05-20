@@ -24,7 +24,7 @@ You will create a maintenance window for a specific period.
 - stop
 
       cd;cd test;
-      export Stop=`date +"%Y-%m-%d %H:%M"`;./monaco deploy -e=environments.yaml Maintenance_Window
+      export Stop=`date +"%Y-%m-%d %H:%M"`;./monaco deploy -e=environments.yaml OnDemand-Maintenance-Window
 
 
 - delete
