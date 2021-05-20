@@ -5,4 +5,4 @@ ondemand:
 - app: "{{.Env.Tag_app}}"
 - env: "{{.Env.Tag_env}}"
 - start: "{{.Env.Start}}"
-- stop: "{{.Env.Stop}}"
+- stop: "{{.Env.End}}"
