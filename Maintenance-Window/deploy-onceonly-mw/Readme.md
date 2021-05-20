@@ -38,7 +38,4 @@ You will create a maintenance window for a specific period from `Start` to `Stop
        **Tag_app**=`easytravel03`  
        **Tag_env**=`sandbox`  
    
-   <img src="https://user-images.githubusercontent.com/40337213/118972761-32396f80-b971-11eb-87da-7f410c36830b.png" width="600" height="700">
-
-
-
+   <img src="https://user-images.githubusercontent.com/40337213/118992874-50a96600-b985-11eb-9daa-9f647b277d70.png" width="600" height="700">
