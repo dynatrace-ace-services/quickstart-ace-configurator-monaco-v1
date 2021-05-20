@@ -1,4 +1,4 @@
-# Maintenance Window OnDemand
+# Maintenance Window : OnceOnly
 
 You will create a maintenance window for a specific period from `Start` to `Stop`
  
@@ -19,12 +19,12 @@ You will create a maintenance window for a specific period from `Start` to `Stop
 - deploy or update
 
       cd;cd OnDemand-Configuration-with-Monaco;
-      ./monaco deploy -e=environments.yaml Maintenance-Window/deploy-ondemand-mw
+      ./monaco deploy -e=environments.yaml Maintenance-Window/deploy-onceonly-mw
       
 - stop
 
       cd;cd OnDemand-Configuration-with-Monaco;
-      export Stop=`date +"%Y-%m-%d %H:%M"`;./monaco deploy -e=environments.yaml Maintenance-Window/deploy-ondemand-mw
+      export Stop=`date +"%Y-%m-%d %H:%M"`;./monaco deploy -e=environments.yaml Maintenance-Window/deploy-onceonly-mw
 
 
 - delete
