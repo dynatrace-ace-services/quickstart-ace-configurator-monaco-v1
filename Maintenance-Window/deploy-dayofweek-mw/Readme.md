@@ -1,8 +1,8 @@
-# Maintenance Window : Daily
+# Maintenance Window : Day of week
 
-You will create a daily maintenance window which will be actif every day at the same period starts at `DailyStart` with the duration `DurationMinutes`.   
+You will create a daily maintenance window which will be actif every Monday (or Tuesday...) at the same period which starts at `DailyStart` and with the duration `DurationMinutes`.   
 This maintenance window  will be enabled during `Star` to `End` period.  
-This daily maintenance window is applied to the entities filtered on these 2 tags `app` and `env`    
+This daily maintenance window is applied to the entities filtered by these 2 tags `app` and `env`    
 On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
  
 - export variables
