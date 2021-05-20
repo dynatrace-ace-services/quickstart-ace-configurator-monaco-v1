@@ -37,4 +37,5 @@ On prerequisit, you need to git clone this repository and install monaco [here](
        **Tag_app**=`easytravel03`  
        **Tag_env**=`sandbox`  
    
-   <img src="https://user-images.githubusercontent.com/40337213/119016877-b6ecb380-b99a-11eb-87e1-429a85581d4d.png" width="600" height="700">
+   <img src="https://user-images.githubusercontent.com/40337213/119017255-1b0f7780-b99b-11eb-91ef-0011f5161ba0.png" width="600" height="700">
+
