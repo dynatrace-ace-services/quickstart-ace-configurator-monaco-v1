@@ -23,7 +23,7 @@ You will create a maintenance window for a specific period.
       
 - stop
 
-      cd;cd test;
+      cd;cd OnDemand-Configuration-with-Monaco;
       export Stop=`date +"%Y-%m-%d %H:%M"`;./monaco deploy -e=environments.yaml OnDemand-Maintenance-Window
 
 
