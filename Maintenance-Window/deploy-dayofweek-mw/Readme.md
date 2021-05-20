@@ -1,6 +1,6 @@
 # Maintenance Window : Day of week
 
-You will create a daily maintenance window which will be enable at a specific `Day` (MONDAY or TUESDAY...) at the same period which starts at `DailyStart` and with the duration `DurationMinutes`.   
+You will create a daily maintenance window which will be enable at a specific `DayOfWeek` (MONDAY or TUESDAY...) at the same period which starts at `DailyStart` and with the duration `DurationMinutes`.   
 This maintenance window  will be enabled during `Star` to `End` period.  
 This daily maintenance window is applied to the entities filtered by these 2 tags `app` and `env`    
 On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
@@ -12,7 +12,7 @@ On prerequisit, you need to git clone this repository and install monaco [here](
       export MyToken=<MyToken>
       export Tag_app=<app>
       export Tag_env=<env>
-      export Day="MONDAY"
+      export DayOfWeek="MONDAY"
       export DailyStart="19:00"
       export DurationMinutes="720"
       export Start=`date +"%Y-%m-%d %H:%M"`
@@ -20,7 +20,7 @@ On prerequisit, you need to git clone this repository and install monaco [here](
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "Day="$Day;echo "DayStart="$DayStart;echo "DurationMinutes="$DurationMinutes;echo "Start="$Start;echo "End="$End
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DayOfWeek="$DayOfWeek;echo "DayStart="$DayStart;echo "DurationMinutes="$DurationMinutes;echo "Start="$Start;echo "End="$End
      
 - deploy or update
 
