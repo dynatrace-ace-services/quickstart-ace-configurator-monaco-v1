@@ -1,6 +1,6 @@
 # Maintenance Window : OnceOnly
 
-You will create a maintenance window for a specific period from `Start` to `Stop`  
+You will create a maintenance window for a specific period from `Start` to `End`  
 This on demand maintenance window is applied to the entities filtered on these 2 tags `app` and `env`  
 On prerequisite, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
 
