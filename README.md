@@ -1,6 +1,6 @@
 # On demand configuration with Monaco
 
-You will create generic configurations in your Dynatrace environement with monaco for :   
+You will create generic configurations in your Dynatrace environement with Monaco for :   
       - [Maintenance window](/Maintenance-Window)  
       - [Application](/Application)  
       - [Management-Zone](/Management-Zone)  
