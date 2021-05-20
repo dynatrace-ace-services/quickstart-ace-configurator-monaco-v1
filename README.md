@@ -1,7 +1,7 @@
 # OnDemand configuration with Monaco
 
 You will create generic configuration with monaco for :   
-      - [Maintenance window](/OnDemand-Configuration-with-Monaco/tree/main/Maintenance-Window)
+      - [Maintenance window](/Maintenance-Window)
 
 
 - git clone 
