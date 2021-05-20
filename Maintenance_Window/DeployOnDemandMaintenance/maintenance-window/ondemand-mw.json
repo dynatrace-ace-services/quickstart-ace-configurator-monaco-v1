@@ -1,5 +1,5 @@
 {
- "description": "On-demand maintenance : OnDemand - jll =  start 2021-05-19 12:39 -\u003e stop 2021-05-19 14:39",
+ "description": "On-demand maintenance : OnDemand - {{.name}} =  start {{.start}} -\u003e stop {{.stop}}",
  "metadata": {
   "clusterVersion": "1.217.123.20210517-133838",
   "configurationVersions": [
@@ -8,9 +8,9 @@
  },
  "name": "{{.name}}",
  "schedule": {
-  "end": "2021-05-19 14:39",
+  "end": "{{.stop}}",
   "recurrenceType": "ONCE",
-  "start": "2021-05-19 12:39",
+  "start": "{{.start}}",
   "zoneId": "Europe/Paris"
  },
  "scope": {
