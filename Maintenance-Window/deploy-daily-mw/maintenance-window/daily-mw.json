@@ -8,7 +8,7 @@
  },
  "name": "{{.name}}",
  "schedule": {
-  "end": "{{.stop}}",
+  "end": "{{.end}}",
   "recurrence": {
    "dayOfMonth": null,
    "dayOfWeek": null,
