@@ -9,7 +9,6 @@ You will create a maintenance window for a specific period.
       export MyToken=<MyToken>
       export app=<app>
       export env=<env>
-      export CodeAppliUpper=`echo $CodeAppli|tr [:lower:] [:upper:]`
       export Start=`date +"%Y-%m-%d %H:%M"`
       export Stop=`date +"%Y-%m-%d %H:%M" -d "+120 min"`
       
