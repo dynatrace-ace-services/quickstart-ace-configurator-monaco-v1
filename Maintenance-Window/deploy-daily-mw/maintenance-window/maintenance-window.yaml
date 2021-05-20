@@ -5,6 +5,6 @@ ondemand:
 - app: "{{.Env.Tag_app}}"
 - env: "{{.Env.Tag_env}}"
 - dailystart: "{{.Env.DailyStart}}"
-- dailystop: "{{.Env.DailyStop}}"
+- durationminutes: "{{.Env.DurationMinutes}}"
 - start: "{{.Env.Start}}"
 - end: "{{.Env.End}}"
