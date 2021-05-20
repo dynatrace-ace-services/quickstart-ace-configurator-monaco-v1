@@ -2,7 +2,7 @@ config:
 - ondemand: ondemand-mw.json
 ondemand:
 - name: "OnDemand-{{.Env.Tag-app}}_{{.Env.Tag-env}}"
-- app: "{{.Env.Tag-app}}"
-- env: "{{.Env.Tag-env}}"
+- app: "{{.Env.Tag_app}}"
+- env: "{{.Env.Tag_env}}"
 - start: "{{.Env.Start}}"
 - stop: "{{.Env.Stop}}"
