@@ -13,7 +13,7 @@ Create these 2 tags `app` and `env` and apply them to all your entities (host, p
     <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
 
 
-# Prerequisite
+# Install this prebuild configuration for monaco
 
 - git clone 
       
@@ -34,7 +34,7 @@ Enable these privileges (more info about token permission for monaco [here](http
 
        tip: keep the value of the token you will not be able to display it afterwards 
 
-1) export your Dynatrace environment variables for monaco 
+-  export your Dynatrace environment variables for monaco 
 
        export MyTenant=abcd123.live.dynatrace.com (without https://...)
        export MyToken=xxxx1234yyyy1234
