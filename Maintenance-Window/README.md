@@ -34,6 +34,7 @@ You will create a maintenance window for a specific period.
 
 
 - default configuration
-![image](https://user-images.githubusercontent.com/40337213/118972761-32396f80-b971-11eb-87da-7f410c36830b.png)
+ <img src="https://user-images.githubusercontent.com/40337213/118972761-32396f80-b971-11eb-87da-7f410c36830b.png" width="200" height="600">
+
 
 
