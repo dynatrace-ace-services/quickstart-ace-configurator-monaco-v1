@@ -9,12 +9,12 @@ You will create a maintenance window for a specific period.
       export MyToken=<MyToken>
       export app=<app>
       export env=<env>
-      export Start=`date +"%Y-%m-%d %H:%M"`
-      export Stop=`date +"%Y-%m-%d %H:%M" -d "+120 min"`
+      export start=`date +"%Y-%m-%d %H:%M"`
+      export stop=`date +"%Y-%m-%d %H:%M" -d "+120 min"`
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "app="$app;echo "env="$env;echo "Start="$Start;echo "Stop="$Stop
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "app="$app;echo "env="$env;echo "start="$start;echo "stop="$stop
      
 - deploy or update
 
