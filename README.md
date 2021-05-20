@@ -3,7 +3,7 @@
 You will create generic configurations in your Dynatrace environement with monaco for :   
       - [Maintenance window](/Maintenance-Window)  
       - [Application](/Application)  
-      - [Management-Zone](/Application)  
+      - [Management-Zone](/Management-Zone)  
 
 By default, this prebuild configuration with monaco has been designed to be filtred by these 2 tags `app` and tag `env` 
    - `app` to define your application : easytravel, socshop, monsterticket etc.  
@@ -43,5 +43,5 @@ Enable these privileges (more info about token permission for monaco [here](http
 Now, you can apply this prebuid configuration for these use cases :    
       - [Deploy your Maintenance window  per `app` and `env`](/Maintenance-Window)  
       - [Deploy your Application and Synthetic configuration per `app` and `env`](/Application)  
-      - [Deploy your Management-Zone and Alerting profile  per `app` and `env`](/Application)  
+      - [Deploy your Management-Zone and Alerting profile  per `app` and `env`](/Management-Zone)  
 
