@@ -30,7 +30,7 @@ You will create a maintenance window for a specific period from `Start` to `Stop
 - delete
 
       cd;cd OnDemand-Configuration-with-Monaco;
-      echo " - \"maintenance-window/OnDemand:"$Tag_app"_"$Tag_env"\"" >> Maintenance-Window/delete/delete.yaml;./monaco deploy -e=environments.yaml Maintenance-Window/delete;echo "delete:" > Maintenance-Window/delete/delete.yaml
+      echo " - \"maintenance-window/OnceOnly:"$Tag_app"_"$Tag_env"\"" >> Maintenance-Window/delete/delete.yaml;./monaco deploy -e=environments.yaml Maintenance-Window/delete;echo "delete:" > Maintenance-Window/delete/delete.yaml
 
 
 # Result in Dynatrace 
