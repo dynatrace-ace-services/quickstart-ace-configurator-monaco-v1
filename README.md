@@ -19,7 +19,7 @@ You will create generic configuration with monaco for :
     
 1) create your token   
 Go to your Dynatrace environment :  _Settings > Integration > Dynatrace API > Generate Token_   
-With these privileges (more info about token permission for monaco [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code#supported-configuration-types-and-token-permissions):  
+Enable these privileges (more info about token permission for monaco [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code#supported-configuration-types-and-token-permissions)):  
     <img src="https://user-images.githubusercontent.com/40337213/115966397-aed15d80-a52d-11eb-8156-a278b8f9a489.png" width="700" height="250">
 
        tip: keep the value of the token you will not be able to display it afterwards 
