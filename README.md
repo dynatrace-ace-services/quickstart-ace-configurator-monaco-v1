@@ -38,3 +38,10 @@ Enable these privileges (more info about token permission for monaco [here](http
 
        export MyTenant=abcd123.live.dynatrace.com (without https://...)
        export MyToken=xxxx1234yyyy1234
+
+
+Now, you can apply this prebuid configuration for these use cases :   
+      - [Deploy your Maintenance window  per `app` and `env`](/Maintenance-Window)  
+      - [Deploy your Application and Synthetic configuration per `app` and `env`](/Application)  
+      - [Deploy your Management-Zone and Alerting profile  per `app` and `env`](/Application)  
+
