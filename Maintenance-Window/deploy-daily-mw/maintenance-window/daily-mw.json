@@ -1,5 +1,5 @@
 {
- "description": "On-demand maintenance : OnDemand - {{.name}} \nstart={{.start}} \nstop={{.stop}}",
+ "description": "{{.name}} \ntype=Dayli \nDailyStart={{.dailystart}} & Duration={{.durationminutes}} minutes",
  "metadata": {
   "clusterVersion": "1.217.123.20210517-133838",
   "configurationVersions": [
@@ -9,7 +9,13 @@
  "name": "{{.name}}",
  "schedule": {
   "end": "{{.stop}}",
-  "recurrenceType": "ONCE",
+  "recurrence": {
+   "dayOfMonth": null,
+   "dayOfWeek": null,
+   "durationMinutes": "{{.durationminutes}}",
+   "startTime": "{{.dailystart}}"
+  },
+  "recurrenceType": "DAILY",
   "start": "{{.start}}",
   "zoneId": "Europe/Paris"
  },
