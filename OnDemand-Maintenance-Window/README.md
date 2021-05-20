@@ -7,8 +7,8 @@ You will create a maintenance window for a specific period.
       export NEW_CLI=1
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
-      export app=<app>
-      export env=<env>
+      export Tag-app=<app>
+      export Tag-env=<env>
       export start=`date +"%Y-%m-%d %H:%M"`
       export stop=`date +"%Y-%m-%d %H:%M" -d "+120 min"`
       
