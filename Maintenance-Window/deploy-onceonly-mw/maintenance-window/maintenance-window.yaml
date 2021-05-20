@@ -1,4 +1,4 @@
-dconfig:
+config:
 - ondemand: onceonly-mw.json
 ondemand:
 - name: "OnceOnly:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
