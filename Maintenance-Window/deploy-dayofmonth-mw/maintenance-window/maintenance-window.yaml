@@ -1,11 +1,11 @@
 config:
 - weekly: dayofweek-mw.json
 weekly:
-- name: "{{.Env.DayOfWeek}}:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
+- name: "DayOfMonth={{.Env.DayOfWeek}}:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
 - app: "{{.Env.Tag_app}}"
 - env: "{{.Env.Tag_env}}"
-- dayofweek: "{{.Env.DayOfWeek}}"
-- weeklystart: "{{.Env.WeeklyStart}}"
+- dayofmonth: "{{.Env.DayOfMonth}}"
+- monthlystart: "{{.Env.MonthlyStart}}"
 - durationminutes: "{{.Env.DurationMinutes}}"
 - start: "{{.Env.Start}}"
 - end: "{{.Env.End}}"
