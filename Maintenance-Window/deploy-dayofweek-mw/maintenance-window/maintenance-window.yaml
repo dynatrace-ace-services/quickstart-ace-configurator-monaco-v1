@@ -1,7 +1,7 @@
 config:
 - weekly: dayofweek-mw.json
 weekly:
-- name: "Daily:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
+- name: "{{.Env.DayOfWeek}}_:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
 - app: "{{.Env.Tag_app}}"
 - env: "{{.Env.Tag_env}}"
 - dayofweek: "{{.Env.DayOfWeek}}"
