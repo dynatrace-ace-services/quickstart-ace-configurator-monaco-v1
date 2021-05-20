@@ -4,5 +4,5 @@ ondemand:
 - name: "OnDemand-{{.Env.app}}_{{.Env.env}}"
 - app: "{{.Env.app}}"
 - env: "{{.Env.env}}"
-- start: "{{.Env.Start}}"
-- stop: "{{.Env.Stop}}"
+- start: "{{.Env.start}}"
+- stop: "{{.Env.stop}}"
