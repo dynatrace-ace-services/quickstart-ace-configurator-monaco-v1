@@ -1,5 +1,5 @@
 {
- "description": "{{.name}} \nWeeklyStart={{.weeklystart}} & Duration={{.durationminutes}} minutes",
+ "description": "{{.name}} \nMonthlyStart={{.monthlystart}} & Duration={{.durationminutes}} minutes",
  "metadata": {
   "clusterVersion": "1.217.123.20210517-133838",
   "configurationVersions": [
