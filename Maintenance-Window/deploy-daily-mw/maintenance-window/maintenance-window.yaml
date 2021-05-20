@@ -1,8 +1,10 @@
 config:
-- ondemand: ondemand-mw.json
+- ondemand: daily-mw.json
 ondemand:
-- name: "OnDemand:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
+- name: "Daily:{{.Env.Tag_app}}_{{.Env.Tag_env}}"
 - app: "{{.Env.Tag_app}}"
 - env: "{{.Env.Tag_env}}"
+- dailystart: "{{.Env.DailyStart}}"
+- dailystop: "{{.Env.DailyStop}}"
 - start: "{{.Env.Start}}"
-- stop: "{{.Env.Stop}}"
+- end: "{{.Env.End}}"
