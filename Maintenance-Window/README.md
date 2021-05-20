@@ -1,4 +1,4 @@
-# Maintenance Window
+# Maintenance Window configuration
 
 Choose what type of maintenance window you want to apply to the entities filtered on the tag `app` and the tag `env`: 
 - [Only once](/Maintenance-Window/deploy-daily-mw) => **just once** from a start time to an end time period
