@@ -1,6 +1,6 @@
 # Maintenance Window : Daily
 
-You will create a daily maintenance window which will be actif every day at the same period from `DailyStart` to `DailyStop` time.   
+You will create a daily maintenance window which will be actif every day at the same period starts at `DailyStart` with the duration `DurationMinutes`.   
 This maintenance window  will be enabled during `Star` to `End` period.  
 This daily maintenance window is applied to the entities filtered on these 2 tags `app` and `env`    
 On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
@@ -13,7 +13,7 @@ On prerequisit, you need to git clone this repository and install monaco [here](
       export Tag_app=<app>
       export Tag_env=<env>
       export DailyStart="19:00"
-      export DailyStop="6:30"
+      export DurationMinutes="720"
       export Start=`date +"%Y-%m-%d %H:%M"`
       export End=`date +"%Y-%m-%d %H:%M" -d "+10 year"`
       
