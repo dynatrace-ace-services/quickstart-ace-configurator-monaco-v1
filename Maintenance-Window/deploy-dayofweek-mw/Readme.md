@@ -12,6 +12,7 @@ On prerequisit, you need to git clone this repository and install monaco [here](
       export MyToken=<MyToken>
       export Tag_app=<app>
       export Tag_env=<env>
+      export Day="MONDAY"
       export DailyStart="19:00"
       export DurationMinutes="720"
       export Start=`date +"%Y-%m-%d %H:%M"`
@@ -19,7 +20,7 @@ On prerequisit, you need to git clone this repository and install monaco [here](
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DailyStart="$DailyStart;echo "DurationMinutes="$DurationMinutes;echo "Start="$Start;echo "End="$End
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "Day="$Day;echo "DayStart="$DayStart;echo "DurationMinutes="$DurationMinutes;echo "Start="$Start;echo "End="$End
      
 - deploy or update
 
