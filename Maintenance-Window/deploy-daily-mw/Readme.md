@@ -4,7 +4,7 @@ You will create a maintenance window every day at the same period from `DailySta
 This daily maintenance window is applied to the entities filtered on these 2 tags `app` and `env`    
 On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
  
-- export variables (date format `2021-05-21 23:59`)
+- export variables
 
       export NEW_CLI=1
       export MyTenant=<MyTenant>
