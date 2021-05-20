@@ -1,5 +1,5 @@
 {
- "description": "{{.name}} \ntype=Dayli \nDailyStart={{.dailystart}} & Duration={{.durationminutes}} minutes",
+ "description": "{{.name}} \nDailyStart={{.dailystart}} & Duration={{.durationminutes}} minutes",
  "metadata": {
   "clusterVersion": "1.217.123.20210517-133838",
   "configurationVersions": [
