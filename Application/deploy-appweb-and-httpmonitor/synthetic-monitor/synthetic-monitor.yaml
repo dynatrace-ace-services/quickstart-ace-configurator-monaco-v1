@@ -1,5 +1,5 @@
 config:
-- httpmonitor: lab-http-monitor.json
+- httpmonitor: http-monitor.json
 
 httpmonitor:
 - name: "{{.Env.Tag_app}} - {{.Env.DomainName}} - {{.Env.Tag_env}}"
