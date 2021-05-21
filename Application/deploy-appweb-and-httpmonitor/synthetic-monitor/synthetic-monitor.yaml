@@ -3,6 +3,7 @@ config:
 
 httpmonitor:
 - name: "{{.Env.Tag_app}} - {{.Env.DomainName}} - {{.Env.Tag_env}}"
+- url: "http://{{.Env.DomainName}}"
 - domainename: "http://{{.Env.DomainName}}"
 - enable: "{{.Env.EnableSynthetic}}"
 - applicationId: "/application-web/app.id"
