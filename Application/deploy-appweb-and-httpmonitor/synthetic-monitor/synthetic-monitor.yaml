@@ -1,17 +1,8 @@
 config:
-- clickpath-1: lab-click-path.json
-- httpmonitor-1: lab-http-monitor.json
+- httpmonitor: lab-http-monitor.json
 
-clickpath-1:
-- name: "{{.Env.Appname}}-clickpath"
-- url: "http://{{.Env.Hostname}}"
-- mz: "{{.Env.Appname}}"
+httpmonitor:
+- name: "{{.Env.Tag_app}} - {{.Env.DomainName}} - {{.Env.Tag_env}}"
+- domainename: "http://{{.Env.DomainName}}"
 - enable: "{{.Env.EnableSynthetic}}"
-- applicationId: "/application-web/app-1.id"
-
-httpmonitor-1:
-- name: "{{.Env.Appname}}-httpmonitor"
-- url: "http://{{.Env.Hostname}}"
-- mz: "{{.Env.Appname}}"
-- enable: "{{.Env.EnableSynthetic}}"
-- applicationId: "/application-web/app-1.id"
+- applicationId: "/application-web/app.id"
