@@ -1,4 +1,4 @@
-# On demand configuration with Monaco
+# QuickStart Ace Configurator with Monaco
 
 You will create generic configurations in your Dynatrace environement with Monaco for :   
       - [Maintenance window](/Maintenance-Window)  
@@ -13,7 +13,7 @@ Create these 2 tags `app` and `env` and apply them to all your entities (host, p
     <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
 
 
-# Install the prebuild configuration
+# Install the quickstart-ace-configurator
 
 - git clone 
       
