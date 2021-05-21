@@ -37,8 +37,8 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 
 # Result in Dynatrace 
 - for this configuration  
-       **Tag_app**=`easytravel03`  
+       **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
    
-   <img src="https://user-images.githubusercontent.com/40337213/119018045-f23bb200-b99b-11eb-8e7c-ae5f55bc7518.png" width="600" height="700">
+   <img src="https://user-images.githubusercontent.com/40337213/119090024-59dd1600-ba0b-11eb-9cf0-2a9b54ef2725.png" width="500" height="200">
 
