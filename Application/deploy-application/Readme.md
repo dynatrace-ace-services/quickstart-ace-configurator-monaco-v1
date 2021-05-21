@@ -1,8 +1,9 @@
 # Deploy web application
 
 
-You will create an application detection rule with a web application configuration base on the `DomainName`.
+You will create an application detection rule with a web application configuration base on the `DomainName`.  
 This web application will be automatically tagged with these 2 tags `app` and `env`    
+By default the Session Replay : `ReplayPerc`= 10 %
 On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
  
 - export variables
@@ -13,6 +14,7 @@ On prerequisit, you need to git clone this repository and install monaco [here](
       export Tag_app=<app>
       export Tag_env=<env>
       export DomainName="www.monappli.com"
+      export ReplayPerc=10
       
 - test variables
 
