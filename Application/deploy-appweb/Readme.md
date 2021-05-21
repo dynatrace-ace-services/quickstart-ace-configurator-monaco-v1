@@ -2,7 +2,11 @@
 
 
 You will create an application detection rule with a web application configuration base on the `DomainName`.  
-This web application will be automatically tagged with these 2 tags `app` and `env`    
+This web application will be automatically named with that `app` - `DomainName` - `env`    
+Add in the Auto Tag the rules : 
+ - Tag `app` : Application name starts with 'app -'
+ - Tag `env` : Application name ends with '- env'
+
 By default the Session Replay : `ReplayPerc`= 10 %
 On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
  
@@ -28,7 +32,7 @@ On prerequisit, you need to git clone this repository and install monaco [here](
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"Application/"$DomainName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
+      echo " - \"Application/"$Tag_app" - $DomainName" - "$Tag_env"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
 
 
 # Result in Dynatrace 
