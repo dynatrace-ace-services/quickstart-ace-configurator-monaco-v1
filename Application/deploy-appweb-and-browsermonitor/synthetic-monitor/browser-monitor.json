@@ -1,5 +1,6 @@
 {
-   "name": "{{.name}}",
+  "entityId": "SYNTHETIC_TEST-4072426C6AE93A1C",
+  "name": "{{.name}}",
   "frequencyMin": 15,
   "enabled": true,
   "type": "BROWSER",
