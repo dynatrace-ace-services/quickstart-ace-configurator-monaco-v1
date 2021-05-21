@@ -1,13 +1,7 @@
 config:
-- detect-rule1: lab-detect-rule.json
-- detect-rule2: lab-detect-rule.json
+- app-detect-rule: app-detect-rule.json
 
 detect-rule1:
 - name: "easytravel"
-- pattern: "{{.Env.Appname}}-www"
-- applicationId: "/application-web/app-1.id"
-
-detect-rule2:
-- name: "dynatracelab"
-- pattern: "{{.Env.Hostname}}"
-- applicationId: "/application-web/app-1.id"
+- domainname: "{{.Env.DomainName}}"
+- applicationId: "/application-web/app.id"
