@@ -122,7 +122,10 @@
   "useFirstDetectedLoadAction": false,
   "xhrActionNamingRules": []
  },
- "userTags": [],
+ "userTags": [
+   "app": "{{.app}}",
+   "env": "{{.env}}"
+ ],
  "waterfallSettings": {
   "resourceBrowserCachingThreshold": 50,
   "resourcesThreshold": 100000,
