@@ -29,7 +29,9 @@
   "GEOLOCATION-8A751DADED5D705A"
  ],
  "managementZones": [],
- "manuallyAssignedApps": [],
+ "manuallyAssignedApps": [
+  "{{.applicationId}}"
+ ],
  "name": "{{.name}}",
  "script": {
   "configuration": {
@@ -41,9 +43,9 @@
   },
   "events": [
    {
-    "description": "Loading of \"www.google.com\"",
+    "description": "Loading of \""{{.domainename}}"\"",
     "type": "navigate",
-    "url": "http://www.google.com",
+    "url": "{{.domainename}}",
     "wait": {
      "waitFor": "page_complete"
     }
