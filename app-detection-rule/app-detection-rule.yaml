@@ -1,0 +1,7 @@
+config:
+- app-detect-rule: app-detect-rule.json
+
+app-detect-rule:
+- name: "easytravel"
+- domainname: "{{.Env.DomainName}}"
+- applicationId: "/application-web/app.id"
