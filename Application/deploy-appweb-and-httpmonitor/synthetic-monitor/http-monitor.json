@@ -53,7 +53,7 @@
     },
     "description": "{{.name}}",
     "method": "GET",
-    "url": "{{.domainename}}",
+    "url": "{{.url}}",
     "validation": {
      "rules": [
       {
