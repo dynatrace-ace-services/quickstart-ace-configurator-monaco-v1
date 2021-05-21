@@ -15,17 +15,11 @@
   }
  },
  "automaticallyAssignedApps": [],
- "createdFrom": "API",
- "enabled": "{{.enable}}",
- "entityId": "SYNTHETIC_TEST-6B59FBD754D59A11",
- "events": [
-  {
-   "entityId": "SYNTHETIC_TEST_STEP-4BFC10488DA70683",
-   "name": "home",
-   "sequenceNumber": 1
-  }
- ],
- "frequencyMin": 10,
+ "createdFrom": "GUI",
+ "enabled": true,
+ "entityId": "SYNTHETIC_TEST-4072426C6AE93A1C",
+ "events": [],
+ "frequencyMin": 15,
  "keyPerformanceMetrics": {
   "loadActionKpm": "VISUALLY_COMPLETE",
   "xhrActionKpm": "VISUALLY_COMPLETE"
@@ -35,9 +29,7 @@
   "GEOLOCATION-8A751DADED5D705A"
  ],
  "managementZones": [],
- "manuallyAssignedApps": [
-  "{{.applicationId}}"
- ],
+ "manuallyAssignedApps": [],
  "name": "{{.name}}",
  "script": {
   "configuration": {
@@ -49,15 +41,15 @@
   },
   "events": [
    {
-    "description": "loading of page easytravel home",
+    "description": "Loading of \"www.google.com\"",
     "type": "navigate",
-    "url": "{{.url}}",
+    "url": "http://www.google.com",
     "wait": {
      "waitFor": "page_complete"
     }
    }
   ],
-  "type": "webcheck",
+  "type": "availability",
   "version": "1.0"
  },
  "tags": [],
