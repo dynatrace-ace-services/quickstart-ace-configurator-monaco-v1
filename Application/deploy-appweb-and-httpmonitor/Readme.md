@@ -27,7 +27,8 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Application/deploy-appweb
+      ./monaco deploy -e=environments.yaml Application/deploy-appweb-and-httpmonitor
+
       
 - delete
 
