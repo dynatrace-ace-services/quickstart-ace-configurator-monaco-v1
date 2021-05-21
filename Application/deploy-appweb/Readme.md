@@ -3,7 +3,7 @@
 
 You will create an application detection rule with a web application configuration base on the `DomainName`.  
 This web application will be automatically named with that `app` - `DomainName` - `env`    
-Add the Auto Tag the rules with : 
+Add the Auto Tag with the rules : 
  - Tag `app` : and cath the **app** in the name `app - DomainName - env`
  - Tag `env` : and cath the **env** in the name `app - DomainName - env`
 
