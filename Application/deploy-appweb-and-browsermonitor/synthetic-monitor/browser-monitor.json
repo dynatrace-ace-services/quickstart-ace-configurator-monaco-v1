@@ -1,0 +1,65 @@
+{
+ "anomalyDetection": {
+  "loadingTimeThresholds": {
+   "enabled": false,
+   "thresholds": []
+  },
+  "outageHandling": {
+   "globalOutage": true,
+   "localOutage": false,
+   "localOutagePolicy": {
+    "affectedLocations": 1,
+    "consecutiveRuns": 3
+   },
+   "retryOnError": true
+  }
+ },
+ "automaticallyAssignedApps": [],
+ "createdFrom": "API",
+ "enabled": "{{.enable}}",
+ "entityId": "SYNTHETIC_TEST-6B59FBD754D59A11",
+ "events": [
+  {
+   "entityId": "SYNTHETIC_TEST_STEP-4BFC10488DA70683",
+   "name": "home",
+   "sequenceNumber": 1
+  }
+ ],
+ "frequencyMin": 10,
+ "keyPerformanceMetrics": {
+  "loadActionKpm": "VISUALLY_COMPLETE",
+  "xhrActionKpm": "VISUALLY_COMPLETE"
+ },
+ "locations": [
+  "GEOLOCATION-E266126A762728A2",
+  "GEOLOCATION-8A751DADED5D705A"
+ ],
+ "managementZones": [],
+ "manuallyAssignedApps": [
+  "{{.applicationId}}"
+ ],
+ "name": "{{.name}}",
+ "script": {
+  "configuration": {
+   "device": {
+    "deviceName": "Desktop",
+    "orientation": "landscape"
+   },
+   "disableWebSecurity": false
+  },
+  "events": [
+   {
+    "description": "loading of page easytravel home",
+    "type": "navigate",
+    "url": "{{.url}}",
+    "wait": {
+     "waitFor": "page_complete"
+    }
+   }
+  ],
+  "type": "webcheck",
+  "version": "1.0"
+ },
+ "tags": [],
+ "type": "BROWSER"
+}
