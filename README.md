@@ -18,11 +18,11 @@ Create these 2 tags `app` and `env` and apply them to all your entities (host, p
 - git clone 
       
       cd;
-      git clone https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco
+      git clone https://github.com/dynatrace-ace-services/quickstart-ace-configurator
 
 - install monaco
 
-      cd;cd OnDemand-Configuration-with-Monaco;
+      cd;cd quickstart-ace-configurator;
       wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/latest/download/monaco-linux-amd64;
       mv monaco-linux-amd64 monaco;
       chmod +x monaco;
