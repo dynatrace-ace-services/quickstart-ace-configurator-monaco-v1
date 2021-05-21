@@ -8,7 +8,7 @@ Add the Auto Tag with the 2 rules :
  - Tag `env` : and catch the **env** in `app - DomainName - env`
 
 By default the Session Replay : `ReplayPerc`= 10 %  
-On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
+On prerequisite, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
  
 - export variables
 
