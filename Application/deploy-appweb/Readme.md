@@ -4,8 +4,8 @@
 You will create an application detection rule with a web application configuration base on the `DomainName`.  
 This web application will be automatically named with that `app` - `DomainName` - `env`    
 Add the Auto Tag the rules with : 
- - Tag `app` : and cath the app in the name `app - DomainName - env`
- - Tag `env` : and cath the env in the name `app - DomainName - env`
+ - Tag `app` : and cath the **app** in the name `app - DomainName - env`
+ - Tag `env` : and cath the **env** in the name `app - DomainName - env`
 
 By default the Session Replay : `ReplayPerc`= 10 %
 On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
