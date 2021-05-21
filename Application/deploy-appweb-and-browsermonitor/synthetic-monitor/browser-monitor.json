@@ -17,7 +17,6 @@
  "automaticallyAssignedApps": [],
  "createdFrom": "GUI",
  "enabled": true,
- "entityId": "SYNTHETIC_TEST-4072426C6AE93A1C",
  "events": [],
  "frequencyMin": 15,
  "keyPerformanceMetrics": {
