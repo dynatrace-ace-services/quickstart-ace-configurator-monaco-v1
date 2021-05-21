@@ -3,6 +3,7 @@ config:
 
 browsermonitor:
 - name: "{{.Env.Tag_app}} - {{.Env.DomainName}} - {{.Env.Tag_env}}"
-- domainename: "http://{{.Env.DomainName}}"
+- url: "http://{{.Env.DomainName}}"
 - enable: "{{.Env.EnableSynthetic}}"
 - applicationId: "/application-web/app.id"
+
