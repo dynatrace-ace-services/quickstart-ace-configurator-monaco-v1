@@ -1,8 +1,8 @@
-# Maintenance Window : Day of week
+# Deploy web application
 
-You will create a daily maintenance window which will be enable at a specific `DayOfWeek` (MONDAY or TUESDAY...) at the same period which starts at `WeeklyStart` and with the duration `DurationMinutes`.   
-This maintenance window  will be enabled during `Star` to `End` period.  
-This daily maintenance window is applied to the entities filtered by these 2 tags `app` and `env`    
+
+You will create an application detection rule with a web application configuration base on the `DomainName`.
+This web application will be automatically tagged with these 2 tags `app` and `env`    
 On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
  
 - export variables
@@ -12,25 +12,21 @@ On prerequisit, you need to git clone this repository and install monaco [here](
       export MyToken=<MyToken>
       export Tag_app=<app>
       export Tag_env=<env>
-      export DayOfWeek="MONDAY"
-      export WeeklyStart="19:00"
-      export DurationMinutes="720"
-      export Start=`date +"%Y-%m-%d %H:%M"`
-      export End=`date +"%Y-%m-%d %H:%M" -d "+10 year"`
+      export DomainName="www.monappli.com"
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DayOfWeek="$DayOfWeek;echo "WeeklyStart="$WeeklyStart;echo "DurationMinutes="$DurationMinutes;echo "Start="$Start;echo "End="$End
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DomainName="$DomainName
      
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Maintenance-Window/deploy-dayofweek-mw
+      ./monaco deploy -e=environments.yaml Application/deploy-application
       
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"maintenance-window/$DayOfWeek:"$Tag_app"_"$Tag_env"\"" >> Maintenance-Window/delete/delete.yaml;./monaco deploy -e=environments.yaml Maintenance-Window/delete;echo "delete:" > Maintenance-Window/delete/delete.yaml
+      echo " - \"Application/"$DomainName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
 
 
 # Result in Dynatrace 
