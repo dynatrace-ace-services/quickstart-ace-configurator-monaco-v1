@@ -1,7 +1,7 @@
 # Deploy web application
 
 
-You will create an application detection rule with a web application configuration base on the `DomainName`.  
+You will create an application detection rule with a web application configuration based on the `DomainName`.  
 This web application will be automatically named with that `app` - `DomainName` - `env`    
 Add the Auto Tag with the 2 rules : 
  - Tag `app` : and catch the **app** in `app - DomainName - env`
