@@ -3,8 +3,8 @@
 
 You will create an application detection rule with a web application configuration based on the `DomainName` and an http monitor based on the same configuration name.  
 This web application will be automatically named with that `app` - `DomainName` - `env`    
-Add the Auto Tag with the 2 rules : 
- - Tag `app` : and catch the **app** in `app - DomainName - env`
+Add the Auto Tag with the 2 rules for application-web and http-monitor : 
+ - Tag `app` : and catch the **app** in `app - DomainName - env` 
  - Tag `env` : and catch the **env** in `app - DomainName - env`
 
 By default the Session Replay : `ReplayPerc`= 10 %  
@@ -43,6 +43,6 @@ On prerequisite, you need to git clone this repository and install monaco [here]
        **Tag_env**=`sandbox`  
    
    <img src="https://user-images.githubusercontent.com/40337213/119090024-59dd1600-ba0b-11eb-9cf0-2a9b54ef2725.png" width="500" height="200">
-   <img src="https://user-images.githubusercontent.com/40337213/119090164-8db83b80-ba0b-11eb-9d31-9cb603b8feb1.png" width="500" height="600">
+   <img src="https://user-images.githubusercontent.com/40337213/119092702-08368a80-ba0f-11eb-8bd8-ccc311c7e9ee.png" width="500" height="600">
 
 
