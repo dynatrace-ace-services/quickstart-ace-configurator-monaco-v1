@@ -8,7 +8,7 @@ Add the Auto Tag with the 2 rules :
  - Tag `env` : and catch the **env** in `app - DomainName - env`
 
 By default the Session Replay : `ReplayPerc`= 10 %  
-On prerequisite, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
+On prerequisite, you need to git clone this repository and install monaco [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator#install-the-quickstart-ace-configurator)
  
 - export variables
 
