@@ -30,13 +30,13 @@
  "managementZones": [
   {
    "id": "-6494714325138593169",
-   "name": "{{.mz}}"
+   "name": ""
   }
  ],
  "manuallyAssignedApps": [
   "{{.applicationId}}"
  ],
- "name": "{{.name}}",
+ "name": "",
  "requests": [
   {
    "entityId": "HTTP_CHECK_STEP-5A8FF4D52755ADB2",
@@ -53,7 +53,7 @@
     },
     "description": "{{.name}}",
     "method": "GET",
-    "url": "{{.url}}",
+    "url": "{{.domainename}}",
     "validation": {
      "rules": [
       {
