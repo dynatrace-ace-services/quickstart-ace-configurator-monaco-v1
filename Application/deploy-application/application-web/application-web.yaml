@@ -1,9 +1,0 @@
-config:
-- app: application.json
-
-app:
-- name: "{{.Env.DomainName}}"
-- replayperc: "{{.Env.ReplayPerc}}"
-- app: "{{.Env.Tag_app}}"
-- env: "{{.Env.Tag_env}}"
-
