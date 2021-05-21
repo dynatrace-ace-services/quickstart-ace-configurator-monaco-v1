@@ -24,12 +24,12 @@ On prerequisit, you need to git clone this repository and install monaco [here](
      
 - deploy or update
 
-      cd;cd OnDemand-Configuration-with-Monaco;
+      cd;cd quickstart-ace-configurator;
       ./monaco deploy -e=environments.yaml Maintenance-Window/deploy-dayofmonth-mw
       
 - delete
 
-      cd;cd OnDemand-Configuration-with-Monaco;
+      cd;cd quickstart-ace-configurator;
       echo " - \"maintenance-window/DayOfMonth="$DayOfMonth":"$Tag_app"_"$Tag_env"\"" >> Maintenance-Window/delete/delete.yaml;./monaco deploy -e=environments.yaml Maintenance-Window/delete;echo "delete:" > Maintenance-Window/delete/delete.yaml
 
 
