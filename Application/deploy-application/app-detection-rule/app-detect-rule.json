@@ -4,6 +4,6 @@
  "filterConfig": {
   "applicationMatchTarget": "DOMAIN",
   "applicationMatchType": "MATCHES",
-  "pattern": "{{.pattern}}"
+  "pattern": "{{.domainname}}"
  }
 }
