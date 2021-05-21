@@ -1,9 +1,9 @@
-# Deploy web application with http monitor
+# Deploy web application with bowser monitor
 
 
 You will create an application detection rule with a web application configuration based on the `DomainName` and an http monitor based on the same configuration name.  
 This web application will be automatically named with that `app` - `DomainName` - `env`    
-Add the Auto Tag with the 2 rules for application-web and http-monitor : 
+Add the Auto Tag with the 2 rules for application-web and browser-monitor : 
  - Tag `app` : and catch the **app** in `app - DomainName - env` 
  - Tag `env` : and catch the **env** in `app - DomainName - env`
 
@@ -28,7 +28,7 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Application/deploy-appweb-and-httpmonitor
+      ./monaco deploy -e=environments.yaml Application/deploy-appweb-and-browsermonitor
 
       
 - delete
