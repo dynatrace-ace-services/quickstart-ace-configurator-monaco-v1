@@ -108,7 +108,7 @@
  "name": "{{.name}}",
  "realUserMonitoringEnabled": true,
  "sessionReplayConfig": {
-  "costControlPercentage": 20,
+  "costControlPercentage": "{{.replayperc}}",
   "enabled": true
  },
  "type": "AUTO_INJECTED",
