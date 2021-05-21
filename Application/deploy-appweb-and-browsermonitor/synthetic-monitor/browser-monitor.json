@@ -43,7 +43,7 @@
   },
   "events": [
    {
-    "description": "Loading of \""{{.domainename}}"\"",
+    "description": "Loading of {{.domainename}}",
     "type": "navigate",
     "url": "{{.domainename}}",
     "wait": {
