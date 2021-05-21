@@ -1,59 +1,63 @@
 {
- "anomalyDetection": {
-  "loadingTimeThresholds": {
-   "enabled": false,
-   "thresholds": []
+  "entityId": "SYNTHETIC_TEST-4072426C6AE93A1C",
+  "name": "{{.name}}",
+  "frequencyMin": 15,
+  "enabled": true,
+  "type": "BROWSER",
+  "createdFrom": "GUI",
+  "script": {
+    "type": "availability",
+    "version": "1.0",
+    "configuration": {
+      "device": {
+        "deviceName": "Desktop",
+        "orientation": "landscape"
+      },
+      "disableWebSecurity": false
+    },
+    "events": [
+      {
+        "type": "navigate",
+        "description": "Loading of {{.domainname}}",
+        "url": "{{.url}}",
+        "wait": {
+          "waitFor": "page_complete"
+        }
+      }
+    ]
   },
-  "outageHandling": {
-   "globalOutage": true,
-   "localOutage": false,
-   "localOutagePolicy": {
-    "affectedLocations": 1,
-    "consecutiveRuns": 3
-   },
-   "retryOnError": true
-  }
- },
- "automaticallyAssignedApps": [],
- "entityId": "SYNTHETIC_TEST-4072426C6AE93A1C",
- "createdFrom": "GUI",
- "enabled": true,
- "events": [],
- "frequencyMin": 15,
- "keyPerformanceMetrics": {
-  "loadActionKpm": "VISUALLY_COMPLETE",
-  "xhrActionKpm": "VISUALLY_COMPLETE"
- },
- "locations": [
-  "GEOLOCATION-E266126A762728A2",
-  "GEOLOCATION-8A751DADED5D705A"
- ],
- "managementZones": [],
- "manuallyAssignedApps": [
-  "{{.applicationId}}"
- ],
- "name": "{{.name}}",
- "script": {
-  "configuration": {
-   "device": {
-    "deviceName": "Desktop",
-    "orientation": "landscape"
-   },
-   "disableWebSecurity": false
+  "locations": [
+    "GEOLOCATION-E266126A762728A2",
+    "GEOLOCATION-8A751DADED5D705A"
+  ],
+  "anomalyDetection": {
+    "outageHandling": {
+      "globalOutage": true,
+      "localOutage": false,
+      "localOutagePolicy": {
+        "affectedLocations": 1,
+        "consecutiveRuns": 3
+      },
+      "retryOnError": true
+    },
+    "loadingTimeThresholds": {
+      "enabled": false,
+      "thresholds": []
+    }
+  },
+  "tags": [],
+  "managementZones": [],
+  "automaticallyAssignedApps": [],
+  "manuallyAssignedApps": [],
+  "keyPerformanceMetrics": {
+    "loadActionKpm": "VISUALLY_COMPLETE",
+    "xhrActionKpm": "VISUALLY_COMPLETE"
   },
   "events": [
-   {
-    "description": "Loading of {{.domainename}}",
-    "type": "navigate",
-    "url": "{{.domainename}}",
-    "wait": {
-     "waitFor": "page_complete"
+    {
+      "entityId": "SYNTHETIC_TEST_STEP-9797FC93AC66C6C7",
+      "name": "{{.domainname}}",
+      "sequenceNumber": 1
     }
-   }
-  ],
-  "type": "availability",
-  "version": "1.0"
- },
- "tags": [],
- "type": "BROWSER"
+  ]
 }
