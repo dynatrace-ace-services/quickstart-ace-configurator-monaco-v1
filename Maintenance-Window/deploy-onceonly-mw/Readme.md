@@ -1,36 +1,38 @@
-# Maintenance Window : Day of week
+# Maintenance Window : OnceOnly
 
-You will create a daily maintenance window which will be enable at a specific `DayOfWeek` (MONDAY or TUESDAY...) at the same period which starts at `WeeklyStart` and with the duration `DurationMinutes`.   
-This maintenance window  will be enabled during `Star` to `End` period.  
-This daily maintenance window is applied to the entities filtered by these 2 tags `app` and `env`    
-On prerequisit, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
- 
-- export variables
+You will create a maintenance window for a specific period from `Start` to `End`  
+This on demand maintenance window is applied to the entities filtered by these 2 tags `app` and `env`  
+On prerequisite, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
+
+- export variables (date format `2021-05-21 23:59`)
 
       export NEW_CLI=1
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
       export Tag_app=<app>
       export Tag_env=<env>
-      export DayOfWeek="MONDAY"
-      export WeeklyStart="19:00"
-      export DurationMinutes="720"
       export Start=`date +"%Y-%m-%d %H:%M"`
-      export End=`date +"%Y-%m-%d %H:%M" -d "+10 year"`
+      export End=`date +"%Y-%m-%d %H:%M" -d "+180 min"`
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DayOfWeek="$DayOfWeek;echo "WeeklyStart="$WeeklyStart;echo "DurationMinutes="$DurationMinutes;echo "Start="$Start;echo "End="$End
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "Start="$Start;echo "End="$End
      
 - deploy or update
 
-      cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Maintenance-Window/deploy-dayofweek-mw
+      cd;cd OnDemand-Configuration-with-Monaco;
+      ./monaco deploy -e=environments.yaml Maintenance-Window/deploy-onceonly-mw
       
+- stop
+
+      cd;cd OnDemand-Configuration-with-Monaco;
+      export End=`date +"%Y-%m-%d %H:%M"`;./monaco deploy -e=environments.yaml Maintenance-Window/deploy-onceonly-mw
+
+
 - delete
 
-      cd;cd quickstart-ace-configurator;
-      echo " - \"maintenance-window/$DayOfWeek:"$Tag_app"_"$Tag_env"\"" >> Maintenance-Window/delete/delete.yaml;./monaco deploy -e=environments.yaml Maintenance-Window/delete;echo "delete:" > Maintenance-Window/delete/delete.yaml
+      cd;cd OnDemand-Configuration-with-Monaco;
+      echo " - \"maintenance-window/OnceOnly:"$Tag_app"_"$Tag_env"\"" >> Maintenance-Window/delete/delete.yaml;./monaco deploy -e=environments.yaml Maintenance-Window/delete;echo "delete:" > Maintenance-Window/delete/delete.yaml
 
 
 # Result in Dynatrace 
@@ -38,5 +40,4 @@ On prerequisit, you need to git clone this repository and install monaco [here](
        **Tag_app**=`easytravel03`  
        **Tag_env**=`sandbox`  
    
-   <img src="https://user-images.githubusercontent.com/40337213/119018045-f23bb200-b99b-11eb-8e7c-ae5f55bc7518.png" width="600" height="700">
-
+   <img src="https://user-images.githubusercontent.com/40337213/118992874-50a96600-b985-11eb-9daa-9f647b277d70.png" width="600" height="700">
