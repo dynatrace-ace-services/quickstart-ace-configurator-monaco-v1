@@ -41,4 +41,4 @@ On prerequisite, you need to git clone this repository and install monaco [here]
        **Tag_env**=`sandbox`  
    
    ![image](https://user-images.githubusercontent.com/40337213/119887862-f71cda80-bf34-11eb-8ea2-47af768c0118.png)
-   <img src="https://user-images.githubusercontent.com/40337213/119887790-dfdded00-bf34-11eb-9199-7dc600c0759e.png" width="500" height="600">
+    ![image](https://user-images.githubusercontent.com/40337213/119887790-dfdded00-bf34-11eb-9199-7dc600c0759e.png)
