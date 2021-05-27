@@ -2,8 +2,8 @@ config:
 - httpmonitor: http-monitor.json
 
 httpmonitor:
-- name: "{{.Env.Tag_app}} - {{.Env.DomainName}} - {{.Env.Tag_env}}"
-- url: "http://{{.Env.DomainName}}"
+- name: "{{.Env.Tag_app}}.{{.Env.Tag_env}} - {{.Env.DomainName}}"
+- url: "{{.Env.Protocol}}://{{.Env.DomainName}}"
 - domainename: "http://{{.Env.DomainName}}"
 - enable: "{{.Env.EnableSynthetic}}"
 - applicationId: "/application-web/app.id"
