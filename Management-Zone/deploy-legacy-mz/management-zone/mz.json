@@ -98,7 +98,7 @@
       "value": {
        "context": "CONTEXTLESS",
        "key": "app",
-       "value": "{{.app}}"
+       "value":  "{{.app}}"
       }
      },
      "key": {
