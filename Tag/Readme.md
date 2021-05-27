@@ -19,7 +19,7 @@ These 2 autotags are already configure for [Application and Syntetic](https://gi
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken
      
 - backup your autotag config
 
