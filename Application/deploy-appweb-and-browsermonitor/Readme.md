@@ -43,7 +43,7 @@ On prerequisite, you need to git clone this repository and install monaco [here]
        **Tag_app**=`easy`  
        **Tag_env'**=`sandbox`  
    
-   <img src="https://user-images.githubusercontent.com/40337213/119090024-59dd1600-ba0b-11eb-9cf0-2a9b54ef2725.png" width="500" height="200">
-   <img src="https://user-images.githubusercontent.com/40337213/119092702-08368a80-ba0f-11eb-8bd8-ccc311c7e9ee.png" width="1000" height="600">
+  ![image](https://user-images.githubusercontent.com/40337213/119882450-b91cb800-bf2e-11eb-8006-934d050a2ba0.png)
+
 
 
