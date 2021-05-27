@@ -31,6 +31,7 @@ You just need to have these 2 tags on all your entity you want to managed :
       wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/latest/download/monaco-linux-amd64;
       mv monaco-linux-amd64 monaco;
       chmod +x monaco;
+      export NEW_CLI=1;
     
 - create your token   
 Go to your Dynatrace environment :  _Settings > Integration > Dynatrace API > Generate Token_   
@@ -39,10 +40,14 @@ Enable these privileges (more info about token permission for monaco [here](http
 
        tip: keep the value of the token you will not be able to display it afterwards 
 
--  export your Dynatrace environment variables for monaco 
+- export your Dynatrace environment variables for monaco 
 
        export MyTenant=abcd123.live.dynatrace.com (without https://...)
        export MyToken=xxxx1234yyyy1234
+
+- test variables
+
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "
 
 - backup your env
 
