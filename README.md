@@ -13,7 +13,7 @@ Create these 2 tags `app` and `env` and apply them to all your entities (host, p
     <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
 
 You just need to have these 2 tags on all your entity you need to managed :  
-<img src="https://user-images.githubusercontent.com/40337213/119873392-c8970380-bf24-11eb-9716-acf50d1cbe09.png" width="200" height="300">
+<img src="https://user-images.githubusercontent.com/40337213/119873392-c8970380-bf24-11eb-9716-acf50d1cbe09.png" width="300" height="200">
 
 
 
