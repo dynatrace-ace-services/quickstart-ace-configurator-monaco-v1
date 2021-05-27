@@ -40,6 +40,5 @@ On prerequisite, you need to git clone this repository and install monaco [here]
        **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
    
-   <img src="https://user-images.githubusercontent.com/40337213/119887862-f71cda80-bf34-11eb-8ea2-47af768c0118.png" width="500" height="200">
+   ![image](https://user-images.githubusercontent.com/40337213/119887862-f71cda80-bf34-11eb-8ea2-47af768c0118.png)
    <img src="https://user-images.githubusercontent.com/40337213/119887790-dfdded00-bf34-11eb-9199-7dc600c0759e.png" width="500" height="600">
-
