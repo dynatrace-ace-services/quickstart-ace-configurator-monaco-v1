@@ -12,6 +12,9 @@ By default, this prebuild configuration with monaco has been designed to be filt
 Create these 2 tags `app` and `env` and apply them to all your entities (host, process groups, services, application, http monitor, browser monitor, custom etc...)  
     <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
 
+You just need to have these 2 tags on all your entity you need to managed :  
+<img src="https://user-images.githubusercontent.com/40337213/119873156-82da3b00-bf24-11eb-8018-1c40271f4676.png" width="600" height="200">
+
 
 # Install the quickstart-ace-configurator
 
