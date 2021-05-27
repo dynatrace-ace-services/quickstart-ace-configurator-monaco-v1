@@ -1,44 +1,46 @@
-# Deploy web application
+# Deploy autotag
 
 
-You will create an application detection rule with a web application configuration based on the `DomainName`.  
-This web application will be automatically named with that `app`.`env` - `DomainName`   
-Add the Auto Tag with the 2 rules : 
- - Tag `app` : and catch the **app** in `app.env - DomainName`
- - Tag `env` : and catch the **env** in `app.env - DomainName`
+You will create these 2 autotags :  
+ - `app`
+ - `env`
 
-By default the Session Replay : `ReplayPerc`= 10 %  
-On prerequisite, you need to git clone this repository and install monaco [here](https://github.com/JLLormeau/OnDemand-Configuration-with-Monaco#ondemand-configuration-with-monaco)
- 
+Adjust these autotags to adapt your context : 
+These 2 autotags are already configure for [Application and Syntetic](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/tree/main/Application) setcion 
+
+**Warning** If you already have autotag with name `app` or `env` you will erase your autoag. 
+
+
 - export variables
 
       export NEW_CLI=1
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
-      export Tag_app=<app>
-      export Tag_env=<env>
-      export DomainName="www.monappli.com"
-      export ReplayPerc=10
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DomainName="$DomainName;echo "ReplayPerc="$ReplayPerc
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "
      
+- backup your autotag config
+
+      cd;cd quickstart-ace-configurator;
+      ./monaco download -e=environments.yaml --auto-tag Backup
+
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Application/deploy-appweb
+      ./monaco deploy -e=environments.yaml Tag
       
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"application-web/"$Tag_app"."$Tag_env" - "$DomainName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
+      echo " - \"auto-tag/app\"" >> Application/delete/delete.yaml;echo " - \"auto-tag/env\"";./monaco deploy -e=environments.yaml Tag/delete;echo "delete:" > Tag/delete/delete.yaml
 
 
 # Result in Dynatrace 
-- for this configuration  
+- create these autotags :  
        **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
    
-   ![image](https://user-images.githubusercontent.com/40337213/119887862-f71cda80-bf34-11eb-8ea2-47af768c0118.png)
-    ![image](https://user-images.githubusercontent.com/40337213/119887790-dfdded00-bf34-11eb-9199-7dc600c0759e.png)
+![image](https://user-images.githubusercontent.com/40337213/119894270-b32dd380-bf3c-11eb-9aee-d11146792a88.png)
+![image](https://user-images.githubusercontent.com/40337213/119894746-46ff9f80-bf3d-11eb-9c4d-c0c5f71b9ee5.png)
