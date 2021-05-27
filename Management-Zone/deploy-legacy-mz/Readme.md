@@ -2,8 +2,8 @@
 
 
 You will deploy management-zone with the name `app`.`env` for all the entities which have these 2 tags :  
- - *Tag_app* = `app`
- - *Tag_env* = `env`
+ - **Tag_app** = `app`
+ - **Tag_env** = `env`
 
 
 - export variables
