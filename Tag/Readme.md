@@ -34,7 +34,7 @@ These 2 autotags are already configure for [Application and Syntetic](https://gi
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"auto-tag/app\"" >> Application/delete/delete.yaml;echo " - \"auto-tag/env\"";./monaco deploy -e=environments.yaml Tag/delete;echo "delete:" > Tag/delete/delete.yaml
+      echo " - \"auto-tag/app\"" >> Tag/delete/delete.yaml;echo " - \"auto-tag/env\"" >> Tag/delete/delete.yaml;./monaco deploy -e=environments.yaml Tag/delete;echo "delete:" > Tag/delete/delete.yaml
 
 
 # Result in Dynatrace 
