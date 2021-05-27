@@ -1,0 +1,8 @@
+config:
+- app.env: app.env.json
+
+app.env:
+- name: "{{.Env.Tag_app}}"."{{.Env.Tag_env}}"
+- app: "{{.Env.Tag_app}}"
+- env: "{{.Env.Tag_env}}"
+
