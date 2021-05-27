@@ -3,7 +3,7 @@
 
 You will create an application detection rule with a web application configuration based on the `DomainName` and an http monitor based on the same configuration name.  
 This web application will be automatically named with that `app`.`env` - `DomainName`    
-Add the Auto Tag with the 2 rules for application-web and http-monitor : 
+Add the [AutoTag](/Tag) with the 2 rules for application-web and http-monitor : 
  - Tag `app` : and catch the **app** in `app.env - DomainName` 
  - Tag `env` : and catch the **env** in `app.env - DomainName`
 
