@@ -17,13 +17,14 @@ On prerequisite, you need to git clone this repository and install monaco [here]
       export MyToken=<MyToken>
       export Tag_app=<app>
       export Tag_env=<env>
+      export Protocol="http"
       export DomainName="www.monappli.com"
       export ReplayPerc=10
       export EnableSynthetic=true
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DomainName="$DomainName;echo "ReplayPerc="$ReplayPerc"%";echo "EnableSynthetic="$EnableSynthetic
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "Protocol="$Protocol;echo "DomainName="$DomainName;echo "ReplayPerc="$ReplayPerc"%";echo "EnableSynthetic="$EnableSynthetic
      
 - deploy or update
 
