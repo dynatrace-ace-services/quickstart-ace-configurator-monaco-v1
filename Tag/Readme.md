@@ -24,7 +24,7 @@ These 2 autotags are already configure for [Application and Syntetic](https://gi
 - backup your autotag config
 
       cd;cd quickstart-ace-configurator;
-      ./monaco download -e=environments.yaml ----downloadSpecificAPI auto-tag Backup
+      ./monaco download -e=environments.yaml --downloadSpecificAPI auto-tag Backup
 
 - deploy or update
 
