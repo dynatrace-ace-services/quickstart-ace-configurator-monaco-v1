@@ -41,7 +41,7 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 # Result in Dynatrace 
 - for this configuration  
        **Tag_app**=`easy`  
-       **Tag_env'**=`sandbox`  
+       **Tag_env**=`sandbox`  
    
   ![image](https://user-images.githubusercontent.com/40337213/119882450-b91cb800-bf2e-11eb-8006-934d050a2ba0.png)
 
