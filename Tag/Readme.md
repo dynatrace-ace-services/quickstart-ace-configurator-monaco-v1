@@ -29,7 +29,7 @@ These 2 autotags are already configure for [Application and Syntetic](https://gi
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Tag
+      ./monaco deploy -e=environments.yaml Tag/deploy-tag
       
 - delete
 
