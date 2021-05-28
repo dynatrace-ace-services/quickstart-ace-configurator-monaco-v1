@@ -1,4 +1,4 @@
-# QuickStart Ace Configurator with Monaco
+# QuickStart : Getting Started with the Ace Configurator 
 
 You will create generic configurations in your Dynatrace environement with Monaco for :   
       - [Tag](/Tag)  
