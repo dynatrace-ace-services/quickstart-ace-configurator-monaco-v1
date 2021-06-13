@@ -41,8 +41,12 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 - for this configuration  
        **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
-       **DomaineName**=`dynatracelab01.francecentral.cloudapp.azure.com`
        **ShortName**=`dynatracelab01`
+       **DomaineName**=`dynatracelab01.francecentral.cloudapp.azure.com`
    
-   ![image](https://user-images.githubusercontent.com/40337213/119887862-f71cda80-bf34-11eb-8ea2-47af768c0118.png)
-    ![image](https://user-images.githubusercontent.com/40337213/119887790-dfdded00-bf34-11eb-9199-7dc600c0759e.png)
+    ![image](https://user-images.githubusercontent.com/40337213/119887862-f71cda80-bf34-11eb-8ea2-47af768c0118.png)
+   
+ - to have multi domaines attached to the same application, rerun the deploy with another DomainName
+       **DomaineName**=`easytravel01-www`
+       
+    
