@@ -2,6 +2,6 @@ config:
 - app-detect-rule: app-detect-rule.json
 
 app-detect-rule:
-- name: "{{.Env.Tag_app}}.{{.Env.Tag_env}} - {{.Env.DomainName}}"
+- name: "[{{.Env.Tag_app}}.{{.Env.Tag_env}}] {{.Env.ShortName}}"
 - domainname: "{{.Env.DomainName}}"
 - applicationId: "/application-web/app.id"
