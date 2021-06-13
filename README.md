@@ -36,9 +36,9 @@ In this case import the [Tag](/Tag) and adapt them to your context :
     - Do your own naming for host, process group and service  
 
 Once all your entities have the 2 tags `app` and `env` like describe in result, you can apply these configurations on your context as many times as necessary :  
-   - [Deploy your Management-Zone and Alerting profile  per `app` and `env`](/Management-Zone)  
-   - [Deploy your Application and Synthetic configuration per `app` and `env`](/Application)  
-   - [Deploy your Maintenance window  per `app` and `env`](/Maintenance-Window)  
+    - [Deploy your Management-Zone and Alerting profile  per `app` and `env`](/Management-Zone)  
+    - [Deploy your Application and Synthetic configuration per `app` and `env`](/Application)  
+    - [Deploy your Maintenance window  per `app` and `env`](/Maintenance-Window)  
 
 
 ## Result
