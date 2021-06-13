@@ -42,4 +42,4 @@ Generalizes this HostGroup configuration in your ansible roles : https://github.
  
 # Next Step
 
-- Create the autotag with monaco :  [Tag](/Tag)
+- Create the [Tag](/Tag) with monaco :  
