@@ -1,9 +1,6 @@
 # Naming 
 
-Base on the HostGroup recommandations, you will apply the rule naming for 
- - host
- - process group
- - service
+Base on the HostGroup recommandations, you will apply the rule naming for **host**, **process group** and **service**
 
 - export variables
 
