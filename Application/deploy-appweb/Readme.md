@@ -2,7 +2,7 @@
 
 
 You will create an application detection rule with a web application configuration based on the `DomainName`.  
-This web application will be automatically named with that `app`.`env` - `DomainName`   
+This web application will be automatically named with that [`app`.`env] `DomainName`   
 Add the [AutoTag](/Tag) with the 2 rules : 
  - Tag `app` : and catch the **app** in `app.env - DomainName`
  - Tag `env` : and catch the **env** in `app.env - DomainName`
@@ -32,7 +32,7 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"application-web/"$Tag_app"."$Tag_env" - "$DomainName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
+      echo " - \"application-web/["$Tag_app"."$Tag_env"] "$DomainName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
 
 
 # Result in Dynatrace 
