@@ -1,6 +1,6 @@
 # QuickStart : Getting Started with the Ace Configurator 
 
-## Presentation
+## Best practices & confgurations
 
 Recommandations, define your hostgroup with this best practice :  
       - [HostGroup](/HostGroup)  
