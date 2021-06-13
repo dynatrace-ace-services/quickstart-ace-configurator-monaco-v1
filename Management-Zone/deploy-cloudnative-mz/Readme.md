@@ -1,22 +1,19 @@
-# Deploy Management Zone for Legacy SI
+# Deploy Management Zone for Cloud native app
 
 
-You will deploy management-zone with the name `app`.`env` for all the entities which have these 2 tags :  
- - **Tag_app** = `app`
- - **Tag_env** = `env`
-
+You will deploy management-zone with the name **[k8s] `NameSpace`.`ClusterName`** for  a spcefic `ClusterName`
 
 - export variables
 
       export NEW_CLI=1
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
-      export Tag_app=<app>
-	  export Tag_env=<env>
+      export NameSpace=<namespace>
+      export ClusterName=<clustername>
 
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "NameSpace="$NameSpace;echo "ClusterName="$ClusterName
      
 - backup your autotag config
 
@@ -31,7 +28,7 @@ You will deploy management-zone with the name `app`.`env` for all the entities w
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"management-zone/"$Tag_app"."$Tag_env"\"" >> Management-Zone/delete/delete.yaml;./monaco deploy -e=environments.yaml Management-Zone/delete;echo "delete:" > Tag/delete/delete.yaml
+      echo " - \"management-zone/[k8s] "$NameSpace"."$ClusterName"\"" >> Management-Zone/delete/delete.yaml;./monaco deploy -e=environments.yaml Management-Zone/delete;echo "delete:" > Tag/delete/delete.yaml
 
 
 # Result in Dynatrace 
