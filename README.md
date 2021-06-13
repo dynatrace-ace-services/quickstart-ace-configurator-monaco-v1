@@ -5,7 +5,7 @@ In this QuickStart Ace Configurator you will do :
 
 1) Define the hostgroup with these best practices based on our experience:    
       - [HostGroup](/HostGroup)  
-      - 
+
 2) Install Monaco and backup your Dynatrace tenant configuration before starting :  
       - [Install-Ace-Configurator](/Install-Ace-Configurator)
 
@@ -53,5 +53,6 @@ Monaco is used to apply the generic configuration based on the 2 main tags `app`
 
 # Fisrt Step
 
-- [install-ace-configurator](/Install-Ace-Configurator)
+ - [HostGroup](/HostGroup)  
+
 
