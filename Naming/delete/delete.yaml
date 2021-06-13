@@ -1,1 +1,4 @@
 delete:
+- "conditional-naming-host/[<app>.<env>] Host:DetectedName"
+- "conditional-naming-processgroup/[<app>.<env>] ProcessGroup:DetectedName
+- "conditional-naming-service/[<app>.<env>] Service:DetectedName"
