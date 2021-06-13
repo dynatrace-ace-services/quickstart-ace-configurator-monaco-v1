@@ -2,7 +2,7 @@
 
 ## Best practices & confgurations
 
-Recommandations : define your hostgroup with this best practices based on our experience:    
+Recommandations : define your hostgroup with these best practices based on our experience:    
       - [HostGroup](/HostGroup)  
 
 Moncao installation and backup configuration :  
