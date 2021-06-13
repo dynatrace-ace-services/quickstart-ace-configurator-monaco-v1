@@ -29,7 +29,9 @@ Enable these privileges (more info about token permission for monaco [here](http
 
       echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "
 
-# Backup your env
+# Backup your Dynatrace tenant configuration
+
+- before starting, it's recommanded to backup your configuration  
 
       cd;cd quickstart-ace-configurator;
       ./monaco download -e=environments.yaml Backup
