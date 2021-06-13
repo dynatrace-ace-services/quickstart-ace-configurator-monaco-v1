@@ -175,7 +175,7 @@
       "negate": false,
       "operator": "BEGINS_WITH",
       "type": "STRING",
-      "value": "[app.env]"
+      "value": "[{{.app}}.{{.env}}]"
      },
      "key": {
       "attribute": "WEB_APPLICATION_NAME",
