@@ -34,12 +34,12 @@ Default configuration for application Session Replay : `ReplayPerc`= 10 %.
       ./monaco deploy -e=environments.yaml Application/deploy-appweb-and-httpmonitor
 
       
-- delete synthetic http monitor
+- delete the http monitor
 
       cd;cd quickstart-ace-configurator;
       echo " - \"synthetic-monitor/["$Tag_app"."$Tag_env"] "$ShortName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
 
-- delete application
+- delete the application
 
       cd;cd quickstart-ace-configurator;
       echo " - \"application-web/["$Tag_app"."$Tag_env"] "$ShortName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
