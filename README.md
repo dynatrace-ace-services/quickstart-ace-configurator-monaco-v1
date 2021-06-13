@@ -1,6 +1,7 @@
 # QuickStart : Getting Started with the Ace Configurator 
 
 You will create generic configurations in your Dynatrace environement with Monaco for :   
+      - [HostGroup](/HostGroup)  
       - [Tag](/Tag)  
       - [Maintenance window](/Maintenance-Window)  
       - [Application](/Application)  
