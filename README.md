@@ -5,9 +5,9 @@ Prerequisite, define your hostgroup :
 
 You will create generic configurations in your Dynatrace environement with Monaco for :   
       - [Tag](/Tag)  
-      - [Maintenance window](/Maintenance-Window)  
-      - [Application](/Application)  
       - [Management-Zone](/Management-Zone)  
+      - [Application](/Application)  
+      - [Maintenance window](/Maintenance-Window)  
 
 By default, this prebuild configuration with monaco has been designed to be filtred by these 2 tags `app` and tag `env` 
    - `app` to define your application : easytravel, socshop, monsterticket etc.  
