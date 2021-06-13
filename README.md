@@ -28,7 +28,7 @@ After you can apply these configurations on your context as many times as necess
 
 ## If you start with your own HostGroup configuration 
 
-In this case import the [Tag](/Tag) and adapt them to your context : 
+In this case import the [Tag](/Tag) and adapt them to your context :   
     - [Tag](/Tag) + apply your own configuration
 
 Once all your entities have the 2 tags `app` and `env` like describe in result, you can apply these configurations on your context as many times as necessary :  
