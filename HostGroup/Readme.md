@@ -18,16 +18,21 @@ Optionnel, depends on the context, you could have to add these informations :
   - `_C_<company>`= for a hoster, prefer lower case for `<company>`
   - etc...
 
+Constraint : 
+  
+   - No `_` and no `space`  in the name app, env, project,, role, zone, etc.
+   - Prefer lower case for all name.
+
 We propose to create the  HostGroup like that : 
 
-  `_E_sandbox_A_easy_T_yes_P_labs`
+  `_E_sandbox_A_easy_T_yes_P_lab-dynatrace`
 
 During the installation  
 
-  ![image](https://user-images.githubusercontent.com/40337213/121800077-09cf2900-cc30-11eb-8f46-c56ffd8b55a0.png)
+  ![image](https://user-images.githubusercontent.com/40337213/121800383-b3fb8080-cc31-11eb-9568-29d556ef30d7.png)
   
-  `/bin/sh Dynatrace-OneAgent-Linux-1.217.162.sh --set-host-group=_E_sandbox_A_easy_T_yes_P_labs`
+  `/bin/sh Dynatrace-OneAgent-Linux-1.217.162.sh --set-host-group=_E_sandbox_A_easy_T_yes_P_lab-dynatrace`
 
 With the OneAgent cli 
 
-  `./oneagentctl --set-host-group=_E_sandbox_A_easy_T_yes_P_labs --restart-service`
+  `./oneagentctl --set-host-group="_E_sandbox_A_easy_T_yes_P_lab-dynatrace" --restart-service`
