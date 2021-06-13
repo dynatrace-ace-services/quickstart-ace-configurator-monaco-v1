@@ -26,7 +26,7 @@ You will deploy management-zone with the name **[app] `app`.`env`** for all the 
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Management-Zone/deploy-legacy-mz
+      ./monaco deploy -e=environments.yaml Management-Zone/deploy-app-mz
       
 - delete
 
