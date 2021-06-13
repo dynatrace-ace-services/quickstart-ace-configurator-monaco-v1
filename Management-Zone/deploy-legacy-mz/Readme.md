@@ -1,4 +1,4 @@
-# Deploy Management Zone for Legacy SI
+# Deploy Management Zone for Legacy APP
 
 
 You will deploy management-zone with the name `app`.`env` for all the entities which have these 2 tags :  
