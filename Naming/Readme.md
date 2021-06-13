@@ -24,9 +24,8 @@ Base on the HostGroup recommandations, you will apply the rule naming for **host
 
 
 - Result
+![image](https://user-images.githubusercontent.com/40337213/121803578-a0a4e100-cc42-11eb-85e5-319253a0b63b.png)
 
-![image](https://user-images.githubusercontent.com/40337213/119894270-b32dd380-bf3c-11eb-9aee-d11146792a88.png)
-![image](https://user-images.githubusercontent.com/40337213/119894746-46ff9f80-bf3d-11eb-9c4d-c0c5f71b9ee5.png)
 
 # Next Step
 
