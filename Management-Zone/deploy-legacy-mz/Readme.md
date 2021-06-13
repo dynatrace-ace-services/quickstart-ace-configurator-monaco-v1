@@ -39,4 +39,5 @@ You will deploy management-zone with the name `app`.`env` for all the entities w
        **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
    
-![image](https://user-images.githubusercontent.com/40337213/121813693-82080f80-cc6d-11eb-9dbc-181a1a6a7f7b.png)
+![image](https://user-images.githubusercontent.com/40337213/121814060-656cd700-cc6f-11eb-86f0-81e7bf7b7370.png)
+
