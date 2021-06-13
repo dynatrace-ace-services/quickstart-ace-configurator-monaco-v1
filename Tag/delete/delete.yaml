@@ -1,1 +1,3 @@
 delete:
+ - "auto-tag/app"
+ - "auto-tag/env"
