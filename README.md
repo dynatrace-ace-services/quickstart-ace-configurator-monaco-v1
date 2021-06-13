@@ -11,6 +11,7 @@ In this QuickStart Ace Configurator you will do :
 
 3) Create generic configurations in your Dynatrace environment with Monaco for :   
       - [Tag](/Tag)  
+      - [Naming](/Naming) (based on HostGroup recommandations)  
       - [Management-Zone](/Management-Zone)
       - [Application](/Application)  
       - [Maintenance window](/Maintenance-Window)  
@@ -20,6 +21,7 @@ In this QuickStart Ace Configurator you will do :
 Use the [HostGroup](/HostGroup) recommandations and deploy the genecir [Tag](/Tag) definition with monaco.   
     - [HostGroup](/HostGroup)  
     - [Tag](/Tag)  
+    - [Naming](/Naming)
     
 After you can apply these configurations on your context as many times as necessary :  
     - [Management-Zone](/Management-Zone)  
@@ -31,6 +33,7 @@ After you can apply these configurations on your context as many times as necess
 In this case import the [Tag](/Tag) and adapt them to your context :   
     - [Tag](/Tag)  
     - Modify tag rule to apply your own configuration to `app` and `env` auto tag  
+    - Do your own naming for host, process group and service  
 
 Once all your entities have the 2 tags `app` and `env` like describe in result, you can apply these configurations on your context as many times as necessary :  
    - [Deploy your Management-Zone and Alerting profile  per `app` and `env`](/Management-Zone)  
