@@ -2,7 +2,7 @@ config:
 - browsermonitor: browser-monitor.json
 
 browsermonitor:
-- name: "[{{.Env.Tag_app}}.{{.Env.Tag_env}}] {{.Env.DomainName}}"
+- name: "[{{.Env.Tag_app}}.{{.Env.Tag_env}}] webcheck {{.Env.ShortName}}"
 - url: "{{.Env.Protocol}}://{{.Env.DomainName}}"
 - domainname: "{{.Env.DomainName}}"
 - enable: "{{.Env.EnableSynthetic}}"
