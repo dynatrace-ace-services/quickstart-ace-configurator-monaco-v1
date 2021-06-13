@@ -6,7 +6,3 @@ Choose what type of maintenance window you want to apply to the entities filtere
 - [Day of week](/Maintenance-Window/deploy-dayofweek-mw)         => **every MONDAY**,...,  at the same hour
 - [Day of month](/Maintenance-Window/deploy-dayofmonth-mw)       => **every 1er day of the Month**,...,  at the same hour
 
-# Next Steps
-
-   - [Application](/Application)  
-   - [Maintenance window](/Maintenance-Window)  
