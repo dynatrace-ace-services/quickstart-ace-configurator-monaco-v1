@@ -3,12 +3,12 @@
 ## Best practices & confgurations
 In this QuickStart Ace Configurator you will do : 
 
-1) Define the hostgroup with these best practices based on our experience:    
+1) Install Monaco and backup your Dynatrace tenant configuration before starting :  
+      - [Install-Ace-Configurator](/Install-Ace-Configurator)
+
+2) Define the hostgroup with these best practices based on our experience:    
       - [HostGroup](/HostGroup)  
 
-2) Install Monaco and backup your Dynatrace tenant configuration before starting :  
-      - [Install-Ace-Configurator](/Install-Ace-Configurator)
-      
 3) Create generic configurations in your Dynatrace environment with Monaco for :   
       - [Tag](/Tag)  
       - [Management-Zone](/Management-Zone)
