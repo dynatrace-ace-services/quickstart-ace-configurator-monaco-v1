@@ -15,7 +15,7 @@ Base on the HostGroup recommandations, you will apply the rule naming for **host
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Naming/deploy-name
+      ./monaco deploy -e=environments.yaml Naming/deploy-naming-rules
       
 - delete
 
