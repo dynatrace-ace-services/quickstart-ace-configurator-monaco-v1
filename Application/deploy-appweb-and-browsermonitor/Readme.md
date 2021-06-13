@@ -37,7 +37,7 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"application-web/["$Tag_app"."$Tag_env"] "$ShortName"\"" >> Application/delete/delete.yaml;echo " - \"synthetic-monitor/["$Tag_app"."$Tag_env"] "$ShortName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
+      echo " - \"application-web/["$Tag_app"."$Tag_env"] "$ShortName"\"" >> Application/delete/delete.yaml;echo " - \"synthetic-monitor/["$Tag_app"."$Tag_env"] webcheck "$ShortName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
 
 
 # Result in Dynatrace 
