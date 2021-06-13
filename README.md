@@ -35,6 +35,7 @@ In this case import the [Tag](/Tag) and adapt them to your context :
    - [Deploy your Maintenance window  per `app` and `env`](/Maintenance-Window)  
 
   <img src="https://user-images.githubusercontent.com/40337213/119873392-c8970380-bf24-11eb-9716-acf50d1cbe09.png" width="300" height="200">
+  <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
 
 
 # Fisrt Step
