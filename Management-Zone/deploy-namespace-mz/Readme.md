@@ -22,7 +22,7 @@ You will deploy management-zone with the name **[k8s] `NameSpace`.`ClusterName`*
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Management-Zone/deploy-legacy-mz
+      ./monaco deploy -e=environments.yaml Management-Zone/deploy-namespace-mz
       
 - delete
 
