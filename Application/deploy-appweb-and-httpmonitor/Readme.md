@@ -8,7 +8,8 @@ Add the [AutoTag](/Tag) with the 2 rules for application-web and http-monitor :
  - Tag `app` : and catch the **app** in `[app.env] DomainName` 
  - Tag `env` : and catch the **env** in `[app.env] DomainName`
 
-Default configuration for http monitor : Public Location = `Paris` and `Marseille` and Frequence = 5 min, for application Session Replay : `ReplayPerc`= 10 %. 
+Default configuration for http monitor : Public Location = `Paris` and `Marseille` and Frequence = 5 min.
+Default configuration for application Session Replay : `ReplayPerc`= 10 %. 
  
 - export variables
 
