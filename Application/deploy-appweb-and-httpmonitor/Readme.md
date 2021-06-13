@@ -45,8 +45,8 @@ Default configuration for application Session Replay : `ReplayPerc`= 10 %.
        **Tag_app**=`easy`  
        **Tag_env**=`sandbox` 
        **ShortName**=`dynatracelab01`  
-       **DomaineName**=`dynatracelab01.francecentral.cloudapp.azure.com` 
-       **Protocol**=`http`
-       **EnableSynthetic**=`true`
+       **DomaineName**=`dynatracelab01.francecentral.cloudapp.azure.com`   
+       **Protocol**=`http`  
+       **EnableSynthetic**=`true`  
    
  ![image](https://user-images.githubusercontent.com/40337213/121808239-cf798200-cc57-11eb-8a6d-37b460bdc700.png)
