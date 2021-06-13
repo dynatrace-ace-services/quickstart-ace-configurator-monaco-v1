@@ -51,7 +51,7 @@ Monaco is used to apply the generic configuration based on the 2 main tags `app`
  <img src="https://user-images.githubusercontent.com/40337213/119873392-c8970380-bf24-11eb-9716-acf50d1cbe09.png" width="300" height="200">
 
 
-# Fisrt Step
+# Next Step
 
  - [HostGroup](/HostGroup)  
 
