@@ -1,8 +1,0 @@
-config:
-- legacy_mz: mz.json
-
-legacy_mz:
-- name: "[k8s] {{.Env.NameSpace}}.{{.Env.ClusterName}}"
-- namespace: "{{.Env.NameSpace}}"
-- cluster: "{{.Env.ClusterName}}"
-
