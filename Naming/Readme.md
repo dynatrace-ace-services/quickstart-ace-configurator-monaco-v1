@@ -27,7 +27,9 @@ Base on the HostGroup recommandations, you will apply the rule naming for **host
 ![image](https://user-images.githubusercontent.com/40337213/121803578-a0a4e100-cc42-11eb-85e5-319253a0b63b.png)
 
 
-# Next Step
+# Next Steps
 
-- [Naming](/Naming)
+   - [Management-Zone](/Management-Zone)
+   - [Application](/Application)  
+   - [Maintenance window](/Maintenance-Window)  
 
