@@ -1,7 +1,7 @@
-# Deploy Management Zone for Legacy APP
+# Deploy Management Zone for APP
 
 
-You will deploy management-zone with the name `app`.`env` for all the entities which have these 2 tags :  
+You will deploy management-zone with the name **[app] `app`.`env`** for all the entities which have these 2 tags :  
    **Tag_app** = `app`  
    **Tag_env** = `env`  
 
