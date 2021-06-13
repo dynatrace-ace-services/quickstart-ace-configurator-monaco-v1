@@ -1,0 +1,40 @@
+{
+ "displayName": "{{.name}}",
+ "enabled": true,
+ "metadata": {
+  "clusterVersion": "1.219.83.20210609-130419",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "nameFormat": "[{HostGroup:Name/_A_([^_]++)}.{HostGroup:Name/_E_([^_]++)}] {Service:DetectedName}",
+ "rules": [
+  {
+   "comparisonInfo": {
+    "caseSensitive": true,
+    "negate": false,
+    "operator": "REGEX_MATCHES",
+    "type": "STRING",
+    "value": "_A_[^_]++"
+   },
+   "key": {
+    "attribute": "HOST_GROUP_NAME",
+    "type": "STATIC"
+   }
+  },
+  {
+   "comparisonInfo": {
+    "caseSensitive": true,
+    "negate": false,
+    "operator": "REGEX_MATCHES",
+    "type": "STRING",
+    "value": "_E_[^_]++"
+   },
+   "key": {
+    "attribute": "HOST_GROUP_NAME",
+    "type": "STATIC"
+   }
+  }
+ ],
+ "type": "SERVICE"
+}

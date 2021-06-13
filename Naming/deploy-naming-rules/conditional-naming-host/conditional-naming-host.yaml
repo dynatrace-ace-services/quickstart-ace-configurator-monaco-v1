@@ -1,0 +1,4 @@
+config:
+- appenvHostDetectedName: appenvHostDetectedName.json
+appenvHostDetectedName:
+- name: '[<app>.<env>] Host:DetectedName'

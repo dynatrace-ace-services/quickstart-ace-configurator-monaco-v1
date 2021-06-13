@@ -1,0 +1,4 @@
+config:
+- appenvServiceDetectedName: appenvServiceDetectedName.json
+appenvServiceDetectedName:
+- name: '[<app>.<env>] Service:DetectedName'

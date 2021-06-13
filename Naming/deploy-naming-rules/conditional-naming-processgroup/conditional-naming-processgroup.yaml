@@ -1,0 +1,4 @@
+config:
+- appenvProcessGroupDetectedName: appenvProcessGroupDetectedName.json
+appenvProcessGroupDetectedName:
+- name: '[<app>.<env>] ProcessGroup:DetectedName'
