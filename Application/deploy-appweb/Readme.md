@@ -3,7 +3,7 @@
 
 You will create an application detection rule with a web application configuration based on the `DomainName`.  
 This web application will be automatically named with that [`app`.`env`] `DomainName`  
-As the appliation name is limited use `ShortDomainName` if `DomaineName` is to long.
+As the appliation name is limited use `ShortDomainName` if `DomaineName` is to long.  
 Add the [AutoTag](/Tag) with the 2 rules : 
  - Tag `app` : and catch the **app** in `[app.env] DomainName` 
  - Tag `env` : and catch the **env** in `[app.env] DomainName`
