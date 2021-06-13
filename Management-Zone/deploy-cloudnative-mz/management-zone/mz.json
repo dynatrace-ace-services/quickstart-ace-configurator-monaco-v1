@@ -3,7 +3,7 @@
  "dimensionalRules": [],
  "entitySelectorBasedRules": [],
  "metadata": {
-  "clusterVersion": "1.218.79.20210526-114136",
+  "clusterVersion": "1.219.83.20210609-130419",
   "configurationVersions": [
    0
   ]
@@ -14,196 +14,34 @@
    "conditions": [
     {
      "comparisonInfo": {
+      "caseSensitive": false,
       "negate": false,
       "operator": "EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "app",
-       "value": "{{.app}}"
-      }
+      "type": "STRING",
+      "value": "{{.namespace}}"
      },
      "key": {
-      "attribute": "HOST_TAGS",
+      "attribute": "KUBERNETES_CLUSTER_NAME",
       "type": "STATIC"
      }
     },
     {
      "comparisonInfo": {
+      "caseSensitive": false,
       "negate": false,
       "operator": "EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "env",
-       "value": "{{.env}}"
-      }
+      "type": "STRING",
+      "value": "{{.cluster}}"
      },
      "key": {
-      "attribute": "HOST_TAGS",
+      "attribute": "KUBERNETES_CLUSTER_NAME",
       "type": "STATIC"
      }
     }
    ],
    "enabled": true,
    "propagationTypes": [],
-   "type": "HOST"
-  },
-  {
-   "conditions": [
-    {
-     "comparisonInfo": {
-      "negate": false,
-      "operator": "EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "app",
-       "value": "{{.app}}"
-      }
-     },
-     "key": {
-      "attribute": "PROCESS_GROUP_TAGS",
-      "type": "STATIC"
-     }
-    },
-    {
-     "comparisonInfo": {
-      "negate": false,
-      "operator": "EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "env",
-       "value": "{{.env}}"
-      }
-     },
-     "key": {
-      "attribute": "PROCESS_GROUP_TAGS",
-      "type": "STATIC"
-     }
-    }
-   ],
-   "enabled": true,
-   "propagationTypes": [],
-   "type": "PROCESS_GROUP"
-  },
-  {
-   "conditions": [
-    {
-     "comparisonInfo": {
-      "negate": false,
-      "operator": "EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "app",
-       "value": "{{.app}}"
-      }
-     },
-     "key": {
-      "attribute": "SERVICE_TAGS",
-      "type": "STATIC"
-     }
-    },
-    {
-     "comparisonInfo": {
-      "negate": false,
-      "operator": "EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "env",
-       "value": "{{.env}}"
-      }
-     },
-     "key": {
-      "attribute": "SERVICE_TAGS",
-      "type": "STATIC"
-     }
-    }
-   ],
-   "enabled": true,
-   "propagationTypes": [],
-   "type": "SERVICE"
-  },
-  {
-   "conditions": [
-    {
-     "comparisonInfo": {
-      "negate": false,
-      "operator": "TAG_KEY_EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "app",
-       "value": "{{.app}}"
-      }
-     },
-     "key": {
-      "attribute": "BROWSER_MONITOR_TAGS",
-      "type": "STATIC"
-     }
-    },
-    {
-     "comparisonInfo": {
-      "negate": false,
-      "operator": "TAG_KEY_EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "env",
-       "value": "{{.env}}"
-      }
-     },
-     "key": {
-      "attribute": "BROWSER_MONITOR_TAGS",
-      "type": "STATIC"
-     }
-    }
-   ],
-   "enabled": true,
-   "propagationTypes": [],
-   "type": "BROWSER_MONITOR"
-  },
-  {
-   "conditions": [
-    {
-     "comparisonInfo": {
-      "negate": false,
-      "operator": "EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "app",
-       "value": "{{.app}}"
-      }
-     },
-     "key": {
-      "attribute": "HTTP_MONITOR_TAGS",
-      "type": "STATIC"
-     }
-    },
-    {
-     "comparisonInfo": {
-      "negate": false,
-      "operator": "EQUALS",
-      "type": "TAG",
-      "value": {
-       "context": "CONTEXTLESS",
-       "key": "env",
-       "value": "{{.env}}"
-      }
-     },
-     "key": {
-      "attribute": "HTTP_MONITOR_TAGS",
-      "type": "STATIC"
-     }
-    }
-   ],
-   "enabled": true,
-   "propagationTypes": [],
-   "type": "HTTP_MONITOR"
+   "type": "CLOUD_APPLICATION_NAMESPACE"
   }
  ]
 }
