@@ -2,7 +2,7 @@ config:
 - legacy_mz: mz.json
 
 legacy_mz:
-- name: "{{.Env.Tag_app}}.{{.Env.Tag_env}}"
-- app: "{{.Env.Tag_app}}"
-- env: "{{.Env.Tag_env}}"
+- name: "[k8s] {{.Env.NameSpace}}.{{.Env.ClusterName}}"
+- namespace: "{{.Env.NameSpace}}"
+- cluster: "{{.Env.ClusterName}}"
 
