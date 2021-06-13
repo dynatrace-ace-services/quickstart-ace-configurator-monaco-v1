@@ -20,7 +20,7 @@ Base on the HostGroup recommandations, you will apply the rule naming for **host
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"auto-tag/app\"" >> Tag/delete/delete.yaml;echo " - \"auto-tag/env\"" >> Tag/delete/delete.yaml;./monaco deploy -e=environments.yaml Tag/delete;echo "delete:" > Tag/delete/delete.yaml
+      echo " - \"conditional-naming-host/appenvHostDetectedName\"" >> Naming/delete/delete.yaml;echo " - \""conditional-naming-host/appenvProcessGroupDetectedName\"" >> Naming/delete/delete.yaml;cho " - \"conditional-naming-host/appenvServiceDetectedName\"" >> Naming/delete/delete.yaml;./monaco deploy -e=environments.yaml Naming/delete;echo "delete:" > Naming/delete/delete.yaml
 
 
 - Result
