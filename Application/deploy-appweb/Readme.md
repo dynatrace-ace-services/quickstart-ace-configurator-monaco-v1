@@ -49,4 +49,5 @@ On prerequisite, you need to git clone this repository and install monaco [here]
  - to have multi domaines attached to the same application, rerun the deploy with another DomainName  
        **DomaineName**=`easytravel01-www`  
        
-    
+    ![image](https://user-images.githubusercontent.com/40337213/121807765-da331780-cc55-11eb-91d6-464309ba5602.png)
+
