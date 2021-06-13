@@ -18,21 +18,28 @@ Optionnel, depends on the context, you could have to add these informations :
   - `_C_<company>`= for a hoster, prefer lower case for `<company>`
   - etc...
 
-Constraint : 
+Constraints : 
   
    - No `_` and no `space`  in the name app, env, project,, role, zone, etc.
    - Prefer lower case for all name.
 
-We propose to create the  HostGroup like that : 
+Example of HostGroup : 
 
   `_E_sandbox_A_easy_T_yes_P_lab-dynatrace`
 
-During the installation  
+Apply your HostGroup configuration at the manual installation  :
 
   ![image](https://user-images.githubusercontent.com/40337213/121800383-b3fb8080-cc31-11eb-9568-29d556ef30d7.png)
   
   `/bin/sh Dynatrace-OneAgent-Linux-1.217.162.sh --set-host-group=_E_sandbox_A_easy_T_yes_P_lab-dynatrace`
 
-With the OneAgent cli 
+Modify the HostGroup configuration with OneAgent cli 
 
   `./oneagentctl --set-host-group="_E_sandbox_A_easy_T_yes_P_lab-dynatrace" --restart-service`
+  
+Generalizes this HostGroup configuration in your ansible roles : https://github.com/Dynatrace/Dynatrace-OneAgent-Ansible
+ 
+ 
+# Next Step
+
+      - [Tag](/Tag)
