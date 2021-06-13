@@ -1,9 +1,8 @@
-# Deploy Management Zone for Legacy SI
+# Deploy Management Zone for environment
 
 
-You will deploy management-zone with the name `app`.`env` for all the entities which have these 2 tags :  
- - **Tag_app** = `app`
- - **Tag_env** = `env`
+You will deploy management-zone with the name **[env] `env`** for all the entities which have this tag :   
+ **Tag_env** = `env`
 
 
 - export variables
@@ -11,12 +10,11 @@ You will deploy management-zone with the name `app`.`env` for all the entities w
       export NEW_CLI=1
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
-      export Tag_app=<app>
-	  export Tag_env=<env>
+      export Tag_env=<env>
 
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_env="$Tag_env
      
 - backup your autotag config
 
@@ -26,17 +24,16 @@ You will deploy management-zone with the name `app`.`env` for all the entities w
 - deploy or update
 
       cd;cd quickstart-ace-configurator;
-      ./monaco deploy -e=environments.yaml Management-Zone/deploy-legacy-mz
+      ./monaco deploy -e=environments.yaml Management-Zone/deploy-env-mz
       
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"management-zone/"$Tag_app"."$Tag_env"\"" >> Management-Zone/delete/delete.yaml;./monaco deploy -e=environments.yaml Management-Zone/delete;echo "delete:" > Tag/delete/delete.yaml
+      echo " - \"management-zone/[env] "$Tag_env"\"" >> Management-Zone/delete/delete.yaml;./monaco deploy -e=environments.yaml Management-Zone/delete;echo "delete:" > Tag/delete/delete.yaml
 
 
 # Result in Dynatrace 
 - create this management-zone :  
-       **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
    
 ![image](https://user-images.githubusercontent.com/40337213/119894270-b32dd380-bf3c-11eb-9aee-d11146792a88.png)
