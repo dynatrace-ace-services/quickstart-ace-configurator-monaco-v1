@@ -18,7 +18,7 @@ You will deploy management-zone with the name `app`.`env` for all the entities w
 
       echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env
      
-- backup your autotag config
+- backup your management zone config
 
       cd;cd quickstart-ace-configurator;
       ./monaco download -e=environments.yaml --downloadSpecificAPI management-zone Backup
