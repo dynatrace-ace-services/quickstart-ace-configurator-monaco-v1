@@ -7,6 +7,5 @@ Choose what type of management zone you want to apply to the entities filtered o
 
 # Next Steps
 
-   - [Management-Zone](/Management-Zone)
    - [Application](/Application)  
    - [Maintenance window](/Maintenance-Window)  
