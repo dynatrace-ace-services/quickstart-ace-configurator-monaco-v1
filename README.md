@@ -6,7 +6,7 @@ Recommandations : define your hostgroup with these best practices based on our e
       - [HostGroup](/HostGroup)  
 
 Moncao installation and backup configuration :  
-      - [install-ace-configurator](/Install-Ace-Configurator)
+      - [Install-Ace-Configurator](/Install-Ace-Configurator)
       
 You will create generic configurations in your Dynatrace environement with Monaco for :   
       - [Tag](/Tag)  
