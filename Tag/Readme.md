@@ -38,8 +38,7 @@ These 2 autotags are already configure for [Application and Syntetic](https://gi
 
 - Result
 
-![image](https://user-images.githubusercontent.com/40337213/119894270-b32dd380-bf3c-11eb-9aee-d11146792a88.png)
-![image](https://user-images.githubusercontent.com/40337213/119894746-46ff9f80-bf3d-11eb-9c4d-c0c5f71b9ee5.png)
+![image](https://user-images.githubusercontent.com/40337213/121811414-a6abb980-cc64-11eb-81b5-d55cac8db561.png)
 
 # Next Step
 
