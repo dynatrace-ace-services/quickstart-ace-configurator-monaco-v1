@@ -42,4 +42,4 @@ Generalizes this HostGroup configuration in your ansible roles : https://github.
  
 # Next Step
 
-- Create the [Tag](/Tag) with monaco. 
+- Install the Ace-Configurator and backup your config before starting : [install-ace-configurator](/Install-Ace-Configurator)
