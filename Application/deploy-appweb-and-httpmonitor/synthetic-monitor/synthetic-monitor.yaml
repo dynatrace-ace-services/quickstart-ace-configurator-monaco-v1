@@ -2,7 +2,7 @@ config:
 - httpmonitor: http-monitor.json
 
 httpmonitor:
-- name: "[{{.Env.Tag_app}}.{{.Env.Tag_env}}] {{.Env.DomainName}}"
+- name: "[{{.Env.Tag_app}}.{{.Env.Tag_env}}] {{.Env.ShortName}}"
 - url: "{{.Env.Protocol}}://{{.Env.DomainName}}"
 - domainename: "http://{{.Env.DomainName}}"
 - enable: "{{.Env.EnableSynthetic}}"
