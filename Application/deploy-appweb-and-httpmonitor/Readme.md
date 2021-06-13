@@ -1,4 +1,4 @@
-# Deploy web application with http monitor
+# Deploy web application with an http monitor
 
 
 You will create an application detection rule with a web application configuration based on the `DomainName` and an http monitor based on the same configuration name.  
