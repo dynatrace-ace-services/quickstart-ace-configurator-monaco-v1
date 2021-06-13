@@ -35,5 +35,5 @@ You will deploy management-zone with the name **[env] `env`** for each monitored
 - create this management-zone :  
        **Tag_env**=`sandbox`  
    
-![image](https://user-images.githubusercontent.com/40337213/119894270-b32dd380-bf3c-11eb-9aee-d11146792a88.png)
-![image](https://user-images.githubusercontent.com/40337213/119894746-46ff9f80-bf3d-11eb-9c4d-c0c5f71b9ee5.png)
+![image](https://user-images.githubusercontent.com/40337213/121814717-c053fd80-cc72-11eb-81fd-61302cd28b22.png)
+
