@@ -2,7 +2,7 @@
 
 
 You will create an application detection rule with a web application configuration based on the `DomainName`.  
-This web application will be automatically named with that [`app`.`env`] `DomainName`   
+This web application will be automatically named with that [`app`.`env`] `DomainName` (or [`app`.`env`] `ShortDomainName` if `DomaineName` is to long)
 Add the [AutoTag](/Tag) with the 2 rules : 
  - Tag `app` : and catch the **app** in `[app.env] DomainName` 
  - Tag `env` : and catch the **env** in `[app.env] DomainName`
@@ -18,11 +18,12 @@ On prerequisite, you need to git clone this repository and install monaco [here]
       export Tag_app=<app>
       export Tag_env=<env>
       export DomainName="www.monappli.com"
+      export ShortDomainName=$DomainName
       export ReplayPerc=10
       
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DomainName="$DomainName;echo "ReplayPerc="$ReplayPerc
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Tag_app="$Tag_app;echo "Tag_env="$Tag_env;echo "DomainName="$DomainName;echo "ShortDomainName="$ShortDomainName;echo "ReplayPerc="$ReplayPerc
      
 - deploy or update
 
@@ -32,7 +33,7 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 - delete
 
       cd;cd quickstart-ace-configurator;
-      echo " - \"application-web/["$Tag_app"."$Tag_env"] "$DomainName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
+      echo " - \"application-web/["$Tag_app"."$Tag_env"] "$ShortDomainName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
 
 
 # Result in Dynatrace 
