@@ -24,7 +24,7 @@ We propose to create the  HostGroup like that :
 
 During the installation  
 
-  ![image](https://user-images.githubusercontent.com/40337213/121799975-8dd4e100-cc2f-11eb-99e6-6871466bf377.png)
+  ![image](https://user-images.githubusercontent.com/40337213/121800077-09cf2900-cc30-11eb-8f46-c56ffd8b55a0.png)
   
   `/bin/sh Dynatrace-OneAgent-Linux-1.217.162.sh --set-host-group=_E_sandbox_A_easy_T_yes_P_labs`
 
