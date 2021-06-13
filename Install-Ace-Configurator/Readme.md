@@ -36,4 +36,4 @@ Enable these privileges (more info about token permission for monaco [here](http
 
 # Netx Step
 
-- Create the [Tag](/Tag) with monaco. 
+- [Tag](/Tag)
