@@ -12,6 +12,7 @@ You will create generic configurations in your Dynatrace environement with Monac
 By default, this prebuild configuration with monaco has been designed to be filtred by these 2 tags `app` and tag `env` 
    - `app` to define your application : easytravel, socshop, monsterticket etc.  
    - `env` to define your environment : prod, staging, dev etc. 
+Use the HostGroup recommandations defined above. 
     
 Create these 2 tags `app` and `env` and apply them to all your entities (host, process groups, services, application, http monitor, browser monitor, custom etc...)  
 You can start your Tag configuration [here](/Tag)  
