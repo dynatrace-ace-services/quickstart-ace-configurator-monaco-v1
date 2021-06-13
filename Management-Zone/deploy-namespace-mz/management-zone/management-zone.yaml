@@ -4,5 +4,5 @@ config:
 legacy_mz:
 - name: "[k8s] {{.Env.NameSpace}}.{{.Env.ClusterName}}"
 - namespace: "{{.Env.NameSpace}}"
-- cluster: "{{.Env.ClusterName}}"
+- cluster: "{{.Env.Cluster}}"
 
