@@ -17,11 +17,11 @@ In this QuickStart Ace Configurator you will do :
 
 ## If you start from scratch 
 
-Use the [HostGroup](/HostGroup) recommandations and deploy the genecir [Tag](/Tag) definition with monaco.  
-    - [HostGroup](/HostGroup)
-    - [Tag](/Tag) 
+Use the [HostGroup](/HostGroup) recommandations and deploy the genecir [Tag](/Tag) definition with monaco.   
+    - [HostGroup](/HostGroup)  
+    - [Tag](/Tag)  
     
-After you can apply these configurations on your context as many times as necessary : 
+After you can apply these configurations on your context as many times as necessary :  
     - [Management-Zone](/Management-Zone)  
     - [Application](/Application)  
     - [Maintenance window](/Maintenance-Window)  
