@@ -23,13 +23,21 @@ Monaco is used to apply the generic configuration based on the 2 main tags `app`
 
 ## If you start from scratch 
 
-Define your [HostGroup](/HostGroup), and your [Tag](/Tag)   
-    <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
+Use the [HostGroup](/HostGroup) recommandations and deploy the genecir [Tag](/Tag) definition with monaco.  
+    - [HostGroup](/HostGroup)
+    - [Tag](/Tag) 
+    
+After you can apply these configurations on your context as many times as necessary : 
+    - [Management-Zone](/Management-Zone)  
+    - [Application](/Application)  
+    - [Maintenance window](/Maintenance-Window)  
 
 ## If you start with your own HostGroup configuration 
 
-In this case import the [Tag](/Tag) and adapt them to your context :    
+In this case import the [Tag](/Tag) and adapt them to your context : 
+    - [Tag](/Tag) + apply your own configuration
 
+Once all your entities have the 2 tags `app` and `env` like describe in result, you can apply these configurations on your context as many times as necessary :  
    - [Deploy your Management-Zone and Alerting profile  per `app` and `env`](/Management-Zone)  
    - [Deploy your Application and Synthetic configuration per `app` and `env`](/Application)  
    - [Deploy your Maintenance window  per `app` and `env`](/Maintenance-Window)  
