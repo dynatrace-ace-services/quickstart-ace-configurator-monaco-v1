@@ -44,7 +44,7 @@ Default configuration for application Session Replay : `ReplayPerc`= 10 %.
       cd;cd quickstart-ace-configurator;
       echo " - \"application-web/["$Tag_app"."$Tag_env"] "$ShortName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
 
-# Result in Dynatrace 
+# Result
 - for this configuration  
        **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
@@ -53,7 +53,7 @@ Default configuration for application Session Replay : `ReplayPerc`= 10 %.
        **Protocol**=`http`  
        **EnableSynthetic**=`true`  
    
-  ![image](https://user-images.githubusercontent.com/40337213/119882450-b91cb800-bf2e-11eb-8006-934d050a2ba0.png)
+  ![image](https://user-images.githubusercontent.com/40337213/121808806-8971ed80-cc5a-11eb-92ce-1ea635f950de.png)
 
 
 
