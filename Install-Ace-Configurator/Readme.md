@@ -1,4 +1,4 @@
-# Install the quickstart-ace-configurator
+# Install the Ace Configurator
 
 - git clone 
       
@@ -35,3 +35,5 @@ Enable these privileges (more info about token permission for monaco [here](http
       ./monaco download -e=environments.yaml Backup
 
 # Netx Step
+
+- Create the [Tag](/Tag) with monaco. 
