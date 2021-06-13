@@ -42,4 +42,4 @@ Generalizes this HostGroup configuration in your ansible roles : https://github.
  
 # Next Step
 
-- Install the Ace-Configurator and backup your config before starting : [install-ace-configurator](/Install-Ace-Configurator)
+- [Install-Ace-Configurator](/Install-Ace-Configurator)
