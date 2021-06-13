@@ -1,8 +1,7 @@
 # Deploy Management Zone for environment
 
 
-You will deploy management-zone with the name **[env] `env`** for all the entities which have this tag :   
- **Tag_env** = `env`
+You will deploy management-zone with the name **[env] `env`** for each monitored environments.
 
 
 - export variables
