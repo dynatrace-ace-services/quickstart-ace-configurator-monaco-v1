@@ -22,8 +22,8 @@ Enable these privileges (more info about token permission for monaco [here](http
 
 - export your Dynatrace environment variables for monaco 
 
-       export MyTenant=abcd123.live.dynatrace.com (without https://...)
-       export MyToken=xxxx1234yyyy1234
+      export MyTenant=abcd123.live.dynatrace.com (without https://...)
+      export MyToken=xxxx1234yyyy1234
 
 dynatrace saas tenant (and free trial) : "1234.live.dynatrace.com" (without https:// and / at the end of the line)  
 dynatrace managed tenant : "1234.dynatrace-managed.com/e/abc123etc" (without https:// and / at the end of the line)  
