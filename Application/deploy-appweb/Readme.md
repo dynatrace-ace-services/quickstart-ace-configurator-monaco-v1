@@ -37,7 +37,7 @@ On prerequisite, you need to git clone this repository and install monaco [here]
       echo " - \"application-web/["$Tag_app"."$Tag_env"] "$ShortName"\"" >> Application/delete/delete.yaml;./monaco deploy -e=environments.yaml Application/delete;echo "delete:" > Application/delete/delete.yaml
 
 
-# Result in Dynatrace 
+# Result
 - for this configuration  
        **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
