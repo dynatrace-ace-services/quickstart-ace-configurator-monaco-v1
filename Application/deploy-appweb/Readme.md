@@ -3,7 +3,7 @@
 
 You will create an application detection rule with a web application configuration based on the `DomainName`.  
 This web application will be automatically named with that [`app`.`env`] `DomainName`  
-As the appliation name is limited use `ShortName` if `DomaineName` is too long.  
+As the appliation name is limited use `ShortName` if `DomaineName` is too long (max 50 characteres).  
 Add the [AutoTag](/Tag) with the 2 rules : 
  - Tag `app` : and catch the **app** in `[app.env] DomainName` 
  - Tag `env` : and catch the **env** in `[app.env] DomainName`
@@ -41,6 +41,8 @@ On prerequisite, you need to git clone this repository and install monaco [here]
 - for this configuration  
        **Tag_app**=`easy`  
        **Tag_env**=`sandbox`  
+       **DomaineName**=`dynatracelab01.francecentral.cloudapp.azure.com`
+       **ShortName**=`dynatracelab01`
    
    ![image](https://user-images.githubusercontent.com/40337213/119887862-f71cda80-bf34-11eb-8ea2-47af768c0118.png)
     ![image](https://user-images.githubusercontent.com/40337213/119887790-dfdded00-bf34-11eb-9199-7dc600c0759e.png)
