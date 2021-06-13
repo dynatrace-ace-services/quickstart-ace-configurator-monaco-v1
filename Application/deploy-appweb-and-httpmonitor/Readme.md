@@ -8,8 +8,9 @@ Add the [AutoTag](/Tag) with the 2 rules for application-web and http-monitor :
  - Tag `app` : and catch the **app** in `[app.env] DomainName` 
  - Tag `env` : and catch the **env** in `[app.env] DomainName`
 
-By default the Session Replay : `ReplayPerc`= 10 %  
-On prerequisite, you need to git clone this repository and install monaco [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator#install-the-quickstart-ace-configurator)
+Default configuration 
+ - for http monitor : Public Location = `Paris` and `Marseille` and Frequence = 5 min   
+ - for application Session Replay : `ReplayPerc`= 10 %  
  
 - export variables
 
