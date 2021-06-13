@@ -1,27 +1,19 @@
 # QuickStart : Getting Started with the Ace Configurator 
 
 ## Best practices & confgurations
+In this QuickStart Ace Configurator you will do : 
 
-Recommandations : define your hostgroup with these best practices based on our experience:    
+1) Define the hostgroup with these best practices based on our experience:    
       - [HostGroup](/HostGroup)  
 
-Moncao installation and backup configuration :  
+2) Install Monaco and backup your Dynatrace tenant configuration before starting :  
       - [Install-Ace-Configurator](/Install-Ace-Configurator)
       
-You will create generic configurations in your Dynatrace environement with Monaco for :   
+3) Create generic configurations in your Dynatrace environment with Monaco for :   
       - [Tag](/Tag)  
-      - [Management-Zone](/Management-Zone)  
+      - [Management-Zone](/Management-Zone)
       - [Application](/Application)  
       - [Maintenance window](/Maintenance-Window)  
-
-
-By default, this prebuild configuration with monaco has been designed to be filtred by these 2 tags `app` and tag `env` 
-   - `app` to define your application : easytravel, socshop, monsterticket etc.  
-   - `env` to define your environment : prod, staging, dev etc. 
-Use the HostGroup recommandations defined above. 
-    
-The quickstart ace configurator presents the best practice to start the deployment of the OneAgent with the best configuration.  
-Monaco is used to apply the generic configuration based on the 2 main tags `app` and `env` and used them for all the entities (host, process groups, services, application, http monitor, browser monitor, custom etc...)  
 
 ## If you start from scratch 
 
@@ -47,8 +39,14 @@ Once all your entities have the 2 tags `app` and `env` like describe in result, 
 
 ## Result
 
-We will use these 2 tags `app` and `env` as the base of all the configuration :    
+By default, this prebuild configuration with monaco has been designed to be filtred by these 2 tags `app` and tag `env` 
+   - `app` to define your application : easytravel, socshop, monsterticket etc.  
+   - `env` to define your environment : prod, staging, dev etc. 
+Use the HostGroup recommandations defined above. 
  <img src="https://user-images.githubusercontent.com/40337213/119023814-af310d00-b9a2-11eb-8fe8-e83b6b53fc4e.png" width="600" height="200">
+    
+The quickstart ace configurator presents the best practice to start the deployment of the OneAgent with this generic configuration.  
+Monaco is used to apply the generic configuration based on the 2 main tags `app` and `env` and used them for all the entities (host, process groups, services, application, http monitor, browser monitor, custom etc...)  
  <img src="https://user-images.githubusercontent.com/40337213/119873392-c8970380-bf24-11eb-9716-acf50d1cbe09.png" width="300" height="200">
 
 
