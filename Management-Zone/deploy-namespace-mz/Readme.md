@@ -1,5 +1,4 @@
-# Deploy Management Zone for Cloud native app
-
+# Deploy Management Zone for namespace
 
 You will deploy management-zone with the name **[k8s] `NameSpace`.`ClusterName`** for  a spcefic `ClusterName`
 
