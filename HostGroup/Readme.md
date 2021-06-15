@@ -9,7 +9,7 @@ Recommanded informations :
   - `_T_<yes or no>` = Type of VM : dedicated to the application (`_T_yes`) or not (`_T_no`) 
   - `_A_<app>` = Application code (if existed) or application name (prefer short name), prefer lower case for `<app>`
  
-Optionnel, depends on the context, you could have to add these informations :   
+Optionnal, depends on the context, you could have to add these informations :   
   
   - `_R_<role>`= the role of the VM in the application, prefer lower case for `<role>`
   - `_P_<project>`= for the project name, which contains many application, prefer lower case for `<project>`
