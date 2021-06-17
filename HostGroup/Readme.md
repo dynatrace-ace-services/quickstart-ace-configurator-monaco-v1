@@ -8,6 +8,7 @@ Recommanded informations :
   - `_E_<env>` = environnement name (prod, or staging or dev etc...), prefer lower case for `<env>` 
   - `_T_<yes or no>` = Type of VM : dedicated to the application (`_T_yes`) or not (`_T_no`) 
   - `_A_<app>` = Application code (if existed) or application name (prefer short name), prefer lower case for `<app>`
+  The value must be filed. If there is no APP apply `_A_na`
  
 Optionnal, depends on the context, you could have to add these informations :   
   
