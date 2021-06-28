@@ -6,9 +6,9 @@ Based on our experience a host group has to contain, general role
 Recommanded informations :   
 
   - `_E_<env>` = environnement name (prod, or staging or dev etc...), prefer lower case for `<env>` 
-  - `_T_<yes or no>` = Type of VM : dedicated to the application (`_T_yes`) or not (`_T_no`) 
+  - `_M_<yes or no>` = is the VM mutualized ? (`_M_yes`) or (`_M_no`) 
   - `_A_<app>` = Application code (if existed) or application name (prefer short name), prefer lower case for `<app>`  
-  The value must be filed. If there is no APP apply you can have for example : `_A_na`
+  These 3 field must be filled. Apply _A_`empty` or _E_`empty` in case your are no value to put.
  
 Optionnal, depends on the context, you could have to add these informations :   
   
@@ -26,17 +26,17 @@ Constraints :
 
 Example of HostGroup : 
 
-  `_E_sandbox_A_easy_T_yes_P_lab-dynatrace`
+  `_E_sandbox_A_easy_M_no_P_lab-dynatrace`
 
 Apply your HostGroup configuration at the manual installation  :
 
   ![image](https://user-images.githubusercontent.com/40337213/121800383-b3fb8080-cc31-11eb-9568-29d556ef30d7.png)
   
-  `/bin/sh Dynatrace-OneAgent-Linux-1.217.162.sh --set-host-group=_E_sandbox_A_easy_T_yes_P_lab-dynatrace`
+  `/bin/sh Dynatrace-OneAgent-Linux-1.217.162.sh --set-host-group=_E_sandbox_A_easy_M_no_P_lab-dynatrace`
 
 Modify the HostGroup configuration with OneAgent cli 
 
-  `./oneagentctl --set-host-group="_E_sandbox_A_easy_T_yes_P_lab-dynatrace" --restart-service`
+  `./oneagentctl --set-host-group="_E_sandbox_A_easy_M_no_P_lab-dynatrace" --restart-service`
   
 Generalizes this HostGroup configuration in your ansible roles : https://github.com/Dynatrace/Dynatrace-OneAgent-Ansible
  
