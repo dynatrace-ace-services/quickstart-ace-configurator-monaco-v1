@@ -30,7 +30,7 @@ Example of HostGroup :
 
 Apply your HostGroup configuration at the manual installation  :
 
-  ![image](https://user-images.githubusercontent.com/40337213/121800383-b3fb8080-cc31-11eb-9568-29d556ef30d7.png)
+ ![image](https://user-images.githubusercontent.com/40337213/130984116-0d33e833-51d0-4499-b0c4-489633ef2e86.png)
   
   `/bin/sh Dynatrace-OneAgent-Linux-1.217.162.sh --set-host-group=_E_sandbox_A_easy_M_no_P_lab-dynatrace`
 
