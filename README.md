@@ -1,6 +1,6 @@
 # QuickStart : Getting Started with the Ace Configurator 
 
-## Best practices & confgurations
+## Best practices & configurations
 In this QuickStart Ace Configurator you will do : 
 
 1) Define the hostgroup with these best practices based on our experience:    
