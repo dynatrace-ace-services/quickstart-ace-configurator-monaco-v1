@@ -30,7 +30,7 @@ dynatrace managed tenant : "1234.dynatrace-managed.com/e/abc123etc" (without htt
 
 - test variables
 
-      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "
+      echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;
 
 # Backup your Dynatrace tenant configuration
 
