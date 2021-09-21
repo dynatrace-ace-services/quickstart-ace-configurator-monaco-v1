@@ -1,5 +1,7 @@
 # QuickStart : Getting Started with the Ace Configurator 
 
+Video : https://www.youtube.com/watch?v=irxN7PJd43M
+
 ## Best practices & configurations
 In this QuickStart Ace Configurator you will do : 
 
