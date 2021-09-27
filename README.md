@@ -1,6 +1,7 @@
 # QuickStart : Getting Started with the Ace Configurator 
 
-Video : https://www.youtube.com/watch?v=irxN7PJd43M
+University (2') : https://university.dynatrace.com/ondemand/series/26319/video/26936
+Youtube (18') : https://www.youtube.com/watch?v=irxN7PJd43M
 
 ## Best practices & configurations
 In this QuickStart Ace Configurator you will do : 
