@@ -1,8 +1,7 @@
 config:
-- legacy_mz: mz.json
+- app_mz: mz.json
 
-legacy_mz:
+app_mz:
 - name: "[app] {{.Env.Tag_app}}.{{.Env.Tag_env}}"
 - app: "{{.Env.Tag_app}}"
 - env: "{{.Env.Tag_env}}"
-
