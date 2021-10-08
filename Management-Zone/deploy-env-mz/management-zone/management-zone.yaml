@@ -1,7 +1,7 @@
 config:
-- legacy_mz: mz.json
+- env_mz: mz.json
 
-legacy_mz:
+env_mz:
 - name: "[env] {{.Env.Tag_env}}"
 - env: "{{.Env.Tag_env}}"
 
