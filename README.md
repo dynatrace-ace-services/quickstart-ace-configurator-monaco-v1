@@ -1,8 +1,8 @@
 # QuickStart : Getting Started with the Ace Configurator 
 
 
-University  : [From zero to hero in 2 minutes](https://university.dynatrace.com/ondemand/series/26319/video/26936)  
-Youtube  : [Full demo - From zero to hero](https://www.youtube.com/watch?v=irxN7PJd43M)  
+Youtube  : [From zero to hero in 2 minutes](https://youtu.be/vyabfN9zt8c)  
+Youtube  : [Full demo - From zero to hero](https://youtu.be/irxN7PJd43M)  
 Monaco introduction : [What is Monaco for Dynatrace?](/What-is-Monaco-for-Dynatrace.pdf)  
 
 ## Best practices & configurations
