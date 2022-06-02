@@ -19,7 +19,8 @@ In this QuickStart Ace Configurator you will do :
       - [Naming](/Naming) 
       - [Management-Zone](/Management-Zone)
       - [Application](/Application)  
-      - [Maintenance window](/Maintenance-Window)  
+      - [Maintenance window](/Maintenance-Window) 
+      - [SLO](/SLO)  
 
 ## If you start from scratch 
 
