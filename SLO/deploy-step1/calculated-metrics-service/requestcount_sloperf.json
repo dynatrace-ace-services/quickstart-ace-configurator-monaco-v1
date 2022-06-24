@@ -3,11 +3,23 @@
   {
    "attribute": "TOTAL_PROCESSING_TIME",
    "comparisonInfo": {
-    "comparison": "LOWER_THAN_OR_EQUAL",
+    "comparison": "GREATER_THAN_OR_EQUAL",
     "negate": false,
     "type": "NUMBER",
-    "value": 500
+    "value": 200
    }
+  },
+{
+  "attribute": "SERVICE_TYPE",
+  "comparisonInfo": {
+		"type": "SERVICE_TYPE",
+		"comparison": "EQUALS_ANY_OF",
+		"values": [
+		  "WEB_SERVICE",
+		  "WEB_REQUEST_SERVICE"
+		],
+		"negate": "false"
+  }
   }
  ],
  "dimensionDefinition": {
