@@ -31,5 +31,5 @@ Analyze view
 - to disable a slo from monaco, open slo/slo.yaml and comment the line: 
 <img src="https://user-images.githubusercontent.com/40337213/176834195-e5676e9c-25bc-41e8-b094-87c9c053c1f1.png" width="600" height="200">
 
-- to chnage the threshold, open the slo/xxx.json and modify the value : 
+- to change the threshold, open the slo/xxx.json and modify the value : 
 ![image](https://user-images.githubusercontent.com/40337213/176834354-fb68c020-7b7c-4a83-b518-92736ddaac9a.png)
