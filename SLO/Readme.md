@@ -1,7 +1,7 @@
 # Deploy SLO for Management Zone
 
 ## Prerequisite
-	[Install-Ace-Configurator](/Install-Ace-Configurator)
+- [Install-Ace-Configurator](/Install-Ace-Configurator)
 	
 ## Export the variable:
 
