@@ -32,7 +32,7 @@ Analyze view
 	
 
 ## Default configuration:  
-![image](https://user-images.githubusercontent.com/40337213/176890160-b207e8e9-1d42-4da8-bb16-deaa8e852f2a.png)
+![image](https://user-images.githubusercontent.com/40337213/176948834-a602780f-49b9-4e0a-ad64-5caf1d19fa3c.png)
 
 - to disable a slo from monaco, open slo/slo.yaml and comment the line: 
 <img src="https://user-images.githubusercontent.com/40337213/176834195-e5676e9c-25bc-41e8-b094-87c9c053c1f1.png" width="600" height="200">
