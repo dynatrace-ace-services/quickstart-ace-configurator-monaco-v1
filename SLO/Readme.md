@@ -1,4 +1,4 @@
-# SLO projetc centric
+# Automatically deploy SLOs per management zone
 ![image](https://user-images.githubusercontent.com/40337213/176840959-2778974b-950c-49bb-b79e-8f5bbfce94a0.png)
 
 
