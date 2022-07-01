@@ -1,5 +1,8 @@
 # Deploy SLO for Management Zone
 
+## Prerequisite
+	Install the [Ace Configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/Install-Ace-Configurator)
+
 ## Export the variable:
 
 	 export MZ=[MZ-name]
