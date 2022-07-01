@@ -32,8 +32,8 @@ Infra-availability(host):
 - name: {{.Env.MZ}} - Infrastructure - availability (host)
 - mz: {{.Env.MZ}}
 Infra-resourceCPU(host):
-- name: {{.Env.MZ}} - Infrastructure - resource CPU (host)
+- name: {{.Env.MZ}} - Infrastructure - cpu idle (host)
 - mz: {{.Env.MZ}}
 Infra-resourceMemory(host):
-- name: {{.Env.MZ}} - Infrastructure - resource Memory (host)
+- name: {{.Env.MZ}} - Infrastructure - memory available (host)
 - mz: {{.Env.MZ}}
