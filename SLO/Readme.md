@@ -24,14 +24,15 @@ Dynatrace_Simply Smarter home page
 ![image](https://user-images.githubusercontent.com/40337213/176837340-187a05bb-ef54-401a-92d2-77f15eadc503.png)
 
 SLO management zone centric
-![image](https://user-images.githubusercontent.com/40337213/176838706-36f87d7d-485f-4e03-a01e-cf80c40278a6.png)
+![image](https://user-images.githubusercontent.com/40337213/176890303-94327dd3-f884-4e16-9066-e8516b7f6750.png)
+
 
 Analyze view
 ![image](https://user-images.githubusercontent.com/40337213/176836841-76a461e0-3d9f-4bd3-adaf-840ad679e44b.png)
 	
 
 ## Default configuration:  
-<img src="https://user-images.githubusercontent.com/40337213/176833940-9d27f92e-eb72-49c6-87ed-72b84eca55bb.png" width="600" height="200">
+![image](https://user-images.githubusercontent.com/40337213/176890160-b207e8e9-1d42-4da8-bb16-deaa8e852f2a.png)
 
 - to disable a slo from monaco, open slo/slo.yaml and comment the line: 
 <img src="https://user-images.githubusercontent.com/40337213/176834195-e5676e9c-25bc-41e8-b094-87c9c053c1f1.png" width="600" height="200">
