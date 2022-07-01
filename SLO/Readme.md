@@ -24,5 +24,11 @@ Default configuration:
 Dashboard :
  import **Dynatrace_Simple Smarter** to have slo dashboard for management zone centric view :
  	https://dynatrace.github.io/BizOpsConfigurator/index.html#downloadExcel
+
+Dynatrace_Simply Smarter home page
+![image](https://user-images.githubusercontent.com/40337213/176837340-187a05bb-ef54-401a-92d2-77f15eadc503.png)
+
+
+![image](https://user-images.githubusercontent.com/40337213/176836841-76a461e0-3d9f-4bd3-adaf-840ad679e44b.png)
 	
 
