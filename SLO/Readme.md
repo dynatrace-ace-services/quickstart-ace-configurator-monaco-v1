@@ -5,7 +5,7 @@
 ## Prerequisite
 - [Install-Ace-Configurator](/Install-Ace-Configurator)
 	
-## Export variable:
+## Export variables:
 
 	export NEW_CLI=1 
 	export MZ=[MZ-name]
