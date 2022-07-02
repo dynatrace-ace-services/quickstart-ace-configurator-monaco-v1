@@ -5,9 +5,10 @@
 ## Prerequisite
 - [Install-Ace-Configurator](/Install-Ace-Configurator)
 	
-## Export the variable:
+## Export variable:
 
-	 export MZ=[MZ-name]
+	export NEW_CLI=1 
+	export MZ=[MZ-name]
 
 ## Deploy with monaco:
 
