@@ -9,7 +9,7 @@
 
 	 export MZ=[MZ-name]
 
-## Deploy Slo:
+## Deploy with monaco:
 
 	cd;cd quickstart-ace-configurator;
 	./monaco deploy -e=environments.yaml SLO/deploy-step1
