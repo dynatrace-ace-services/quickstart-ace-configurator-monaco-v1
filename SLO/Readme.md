@@ -26,11 +26,9 @@ Dynatrace_Simply Smarter home page
 SLO management zone centric
 ![image](https://user-images.githubusercontent.com/40337213/176890303-94327dd3-f884-4e16-9066-e8516b7f6750.png)
 
-
 Analyze view
-![image](https://user-images.githubusercontent.com/40337213/176997573-8e5fd2ed-44e4-4fc6-857a-ef74895736d4.png)
+![image](https://user-images.githubusercontent.com/40337213/176999225-1b6e9924-6d0f-4e78-89b7-c74220cde85a.png)
 	
-
 ## Default configuration:  
 ![image](https://user-images.githubusercontent.com/40337213/176948834-a602780f-49b9-4e0a-ad64-5caf1d19fa3c.png)
 
