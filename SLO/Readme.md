@@ -28,7 +28,7 @@ SLO management zone centric
 
 
 Analyze view
-![image](https://user-images.githubusercontent.com/40337213/176836841-76a461e0-3d9f-4bd3-adaf-840ad679e44b.png)
+![image](https://user-images.githubusercontent.com/40337213/176997573-8e5fd2ed-44e4-4fc6-857a-ef74895736d4.png)
 	
 
 ## Default configuration:  
