@@ -9,6 +9,7 @@
 
 	export NEW_CLI=1 
 	export MZ=[MZ-name]
+	export MZid=[MZ-id]
 
 ## Deploy with monaco:
 
