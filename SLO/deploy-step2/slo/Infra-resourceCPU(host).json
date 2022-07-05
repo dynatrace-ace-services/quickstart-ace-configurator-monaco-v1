@@ -8,7 +8,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(HOST),mzId(-5832182566370877728)",
+ "filter": "type(HOST),mzName({{.mz}})",
  "metricDenominator": "",
  "metricExpression": "builtin:host.cpu.idle:splitBy()",
  "metricKey": "func:slo.{{.mz}}___infra___resourceCPU_host",
