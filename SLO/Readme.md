@@ -7,9 +7,19 @@
 	
 ## Export variables:
 
-	export NEW_CLI=1 
+	export NEW_CLI=1
+	export MyTenant=xxx
+	export MyToken=yyy
 	export MZ=[mzname (without space)]
 	export MZID=[mzid]
+
+example :
+
+   	export NEW_CLI=1
+	export MyTenant=guu84124.live.dynatrace.com
+	export MyToken=xxxx
+	export MZ=Keptn_hipstershop_prod
+	export MZID=5437045748241476667
 
 ## Deploy with monaco:
 
