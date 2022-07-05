@@ -3,7 +3,7 @@ config:
 - Application-availability(http): Application-availability(http).json
 - Application-performance: Application-performance.json
 - Service-availability: Service-availability.json
-- Service-performance: Service-performance.json
+#- Service-performance: Service-performance.json
 #- Infra-availability(process): Infra-availability(process).json
 - Infra-availability(host): Infra-availability(host).json
 - Infra-resourceCPU(host): Infra-resourceCPU(host).json
