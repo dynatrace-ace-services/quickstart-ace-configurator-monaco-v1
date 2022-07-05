@@ -8,7 +8,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(PROCESS_GROUP_INSTANCE),mzId(-5832182566370877728)",
+ "filter": "type(PROCESS_GROUP_INSTANCE),mzName({{.mz}})",
  "metricDenominator": "",
  "metricExpression": "builtin:pgi.availability:splitBy()",
  "metricKey": "func:slo.{{.mz}}___infra___dispo_process",

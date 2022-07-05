@@ -8,7 +8,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(SERVICE),mzId(-5832182566370877728)",
+ "filter": "type(SERVICE),mzName({{.mz}})",
  "metricDenominator": "",
  "metricExpression": "(100)*((builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy()))",
  "metricKey": "func:slo.{{.mz}}___service_availability___journeyservice",
