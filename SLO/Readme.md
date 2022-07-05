@@ -8,8 +8,8 @@
 ## Export variables:
 
 	export NEW_CLI=1 
-	export MZ=[MZ-name]
-	export MZid=[MZ-id]
+	export MZ=[mzname (without space)]
+	export MZID=[mzid]
 
 ## Deploy with monaco:
 
