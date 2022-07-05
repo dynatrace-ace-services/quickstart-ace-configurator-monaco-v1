@@ -8,7 +8,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(SYNTHETIC_TEST),mzName({{.mz}})",
+ "filter": "type(SYNTHETIC_TEST),mzId(5437045748241476667)",
  "metricDenominator": "",
  "metricExpression": "(builtin:synthetic.browser.availability.location.totalWoMaintenanceWindow:splitBy())",
  "metricKey": "func:slo.{{.mz}}___application_availability",
