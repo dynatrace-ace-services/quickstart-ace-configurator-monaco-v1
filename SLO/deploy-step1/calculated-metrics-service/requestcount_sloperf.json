@@ -33,7 +33,7 @@
  "enabled": true,
  "entityId": null,
  "managementZones": [
-  "-5832182566370877728"
+  "{{.mz}}"
  ],
  "metadata": {
   "clusterVersion": "1.215.107.20210414-181420",
