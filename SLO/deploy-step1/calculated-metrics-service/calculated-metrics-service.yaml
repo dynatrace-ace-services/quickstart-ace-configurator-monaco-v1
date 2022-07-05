@@ -3,4 +3,4 @@ config:
 requestcount_sloperf:
 - name: {{.Env.MZ}}-slo_perf
 - mz: {{.Env.MZ}}
-- mz-id: {{.Env.MZID}}
+- id: {{.Env.MZID}}
