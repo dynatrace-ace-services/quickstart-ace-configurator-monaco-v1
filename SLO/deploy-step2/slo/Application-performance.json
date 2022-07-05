@@ -8,7 +8,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(APPLICATION),mzId(5437045748241476667)",
+ "filter": "type(APPLICATION),mzId(-5832182566370877728)",
  "metricDenominator": "",
  "metricExpression": "(100)*((builtin:apps.web.actionCount.category:filter(eq(Apdex category,SATISFIED)):splitBy())/(builtin:apps.web.actionCount.category:splitBy()))",
  "metricKey": "func:slo.{{.mz}}___application___apdex_category",

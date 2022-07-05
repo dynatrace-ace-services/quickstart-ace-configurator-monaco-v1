@@ -8,7 +8,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(SERVICE),mzId(5437045748241476667),serviceType(WEB_SERVICE,WEB_REQUEST_SERVICE)",
+ "filter": "type(SERVICE),mzId(-5832182566370877728),serviceType(WEB_SERVICE,WEB_REQUEST_SERVICE)",
  "metricDenominator": "",
 "metricExpression": "100*(builtin:service.requestCount.server:splitBy() - calc:service.{{.mz}}_sloperf:splitBy())/(builtin:service.requestCount.server:splitBy())",
  "metricKey": "func:slo.{{.mz}}___service___perf",
