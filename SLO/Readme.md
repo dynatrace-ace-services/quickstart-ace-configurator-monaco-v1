@@ -8,7 +8,7 @@
 ## Export variables:
 
 	export NEW_CLI=1
-	export MZ=[mzname (without space)]
+	export SLO_PREFIX=[for example mzname without space] #it's the prefix for the SLO name
 	export MZID=[mzid]
 
 ## Deploy with monaco:
