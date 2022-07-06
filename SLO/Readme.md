@@ -13,6 +13,15 @@
 	export SLO_PREFIX=[mzname without space and without special character]
 	export MZID=[mzid]
 
+for example: 
+
+	export NEW_CLI=1
+	export MyTenant=abc123.live.dynatrace.com
+	export MyToken=dt0c01.ABCDEFGHIJ0123456789	#API modules SLO wirtes + configuraton Writes
+	export SLO_PREFIX=easytravel01
+	export MZID=8895610195457057204
+
+
 ## Deploy with monaco:
 
 	cd;cd quickstart-ace-configurator;
