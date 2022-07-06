@@ -55,11 +55,12 @@ This metric consumes DDU metric as a calculated service metric =>  https://www.d
 - to disable a slo from monaco, open slo/slo.yaml and comment the line: 
 <img src="https://user-images.githubusercontent.com/40337213/176834195-e5676e9c-25bc-41e8-b094-87c9c053c1f1.png" width="600" height="200">
 
-- how to find MZID: 
-from the UI, the MZID is available in the URL : **Settings / Prefererences / Management Zones** 
+- how to find MZID:  
+
+--> from the UI, the MZID is available in the URL : **Settings / Prefererences / Management Zones** 
 ![image](https://user-images.githubusercontent.com/40337213/177484763-011fbfee-cbf4-4ba2-9208-9412dd0e607b.png)
 
-from the API 
+--> from the API 
 
 	Managed : https://{your-domain}/e/{your-environment-id}/api/config/v1/managementZones&Api-Token=yyy
 	Saas : https://{your-environment-id}.live.dynatrace.com/api/config/v1/managementZones&Api-Token=yyy
