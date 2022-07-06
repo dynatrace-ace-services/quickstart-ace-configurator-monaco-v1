@@ -26,6 +26,7 @@ for example:
 
 	cd;cd quickstart-ace-configurator;
 	./monaco deploy -e=environments.yaml SLO/deploy-step1
+	#just wait 5 secondes between the 2 steps
 	./monaco deploy -e=environments.yaml SLO/deploy-step2
 
 
