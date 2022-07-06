@@ -1,5 +1,5 @@
 {
- "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.mz}}___infra___resourceMemory_host",
+ "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.slo_prefix}}___infra___resourceMemory_host",
  "denominatorValue": 0,
  "description": " ",
  "enabled": true,
@@ -11,7 +11,7 @@
  "filter": "type(HOST),mzId({{.mzid}})",
  "metricDenominator": "",
  "metricExpression": "builtin:host.mem.avail.pct:splitBy()",
- "metricKey": "func:slo.{{.mz}}___infra___resourceMemory_host",
+ "metricKey": "func:slo.{{.slo_prefix}}___infra___resourceMemory_host",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",

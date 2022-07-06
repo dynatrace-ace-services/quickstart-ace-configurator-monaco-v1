@@ -1,5 +1,5 @@
 {
- "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.mz}}___application___apdex_category",
+ "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.slo_prefix}}___application___apdex_category",
  "denominatorValue": 0,
  "description": " ",
  "enabled": true,
@@ -11,7 +11,7 @@
  "filter": "type(APPLICATION),mzId({{.mzid}})",
  "metricDenominator": "",
  "metricExpression": "(100)*((builtin:apps.web.actionCount.category:filter(eq(Apdex category,SATISFIED)):splitBy())/(builtin:apps.web.actionCount.category:splitBy()))",
- "metricKey": "func:slo.{{.mz}}___application___apdex_category",
+ "metricKey": "func:slo.{{.slo_prefix}}___application___apdex_category",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",

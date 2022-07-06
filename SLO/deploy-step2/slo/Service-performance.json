@@ -1,5 +1,5 @@
 {
- "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.mz}}___service___perf",
+ "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.slo_prefix}}___service___perf",
  "denominatorValue": 0,
  "description": " ",
  "enabled": true,
@@ -10,8 +10,8 @@
  "evaluationType": "AGGREGATE",
  "filter": "type(SERVICE),mzId({{.mzid}}),serviceType(WEB_SERVICE,WEB_REQUEST_SERVICE)",
  "metricDenominator": "",
-"metricExpression": "100*(builtin:service.requestCount.server:splitBy() - calc:service.{{.mz}}_sloperf:splitBy())/(builtin:service.requestCount.server:splitBy())",
- "metricKey": "func:slo.{{.mz}}___service___perf",
+"metricExpression": "100*(builtin:service.requestCount.server:splitBy() - calc:service.{{.slo_prefix}}_sloperf:splitBy())/(builtin:service.requestCount.server:splitBy())",
+ "metricKey": "func:slo.{{.slo_prefix}}___service___perf",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",
