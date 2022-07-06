@@ -8,7 +8,8 @@
 ## Export variables:
 
 	export NEW_CLI=1
-	export MZ=[mzname]
+	export MZ=[mzname (without space)]
+	export MZID=[mzid]
 
 ## Deploy with monaco:
 
@@ -33,8 +34,19 @@ Analyze view
 ## Default configuration:  
 ![image](https://user-images.githubusercontent.com/40337213/176948834-a602780f-49b9-4e0a-ad64-5caf1d19fa3c.png)
 
+- to change the threshold, open the slo/slo.yaml and modify the value : 
+![image](https://user-images.githubusercontent.com/40337213/177481015-71ffac29-4909-4d43-ba70-b3d15e2657bf.png)
+Default value  :
+
+	- target_threshold = 95 %  (10 % for SLO resources : CPU, memory)
+	- timeframe = -1w (1 week)
+	- warning_threshold = 98 % (20 % for SLO resources: CPU, memory)
+
+- to change the performance threshold on the calculated service metric, open the calculated-metrics-service/calculated-metrics-service.yaml file
+![image](https://user-images.githubusercontent.com/40337213/177480770-e2cb827e-df2c-4237-a0ce-11700f01e5dc.png)
+Default value :
+	
+		- performance-threshold = 500 ms  
+
 - to disable a slo from monaco, open slo/slo.yaml and comment the line: 
 <img src="https://user-images.githubusercontent.com/40337213/176834195-e5676e9c-25bc-41e8-b094-87c9c053c1f1.png" width="600" height="200">
-
-- to change the threshold, open the slo/xxx.json and modify the value : 
-![image](https://user-images.githubusercontent.com/40337213/176834354-fb68c020-7b7c-4a83-b518-92736ddaac9a.png)
