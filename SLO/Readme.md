@@ -66,9 +66,9 @@ Default value :
 This metric consumes DDU metric as a calculated service metric =>  https://www.dynatrace.com/support/help/shortlink/metric-cost-calculation
 
 - to disable a slo from monaco, open slo/slo.yaml and comment the line: 
-<img src="https://user-images.githubusercontent.com/40337213/176834195-e5676e9c-25bc-41e8-b094-87c9c053c1f1.png" width="600" height="200">
+![image](https://user-images.githubusercontent.com/40337213/177488321-8e065e6c-a9cf-4f34-9989-61a4bd5b0ba6.png)
 
-- how to find MZID:  
+- how to find the MZID ?  
 
 --> from the UI, the MZID is available in the URL : **Settings / Prefererences / Management Zones** 
 ![image](https://user-images.githubusercontent.com/40337213/177485757-5514048c-6c5c-4ec0-b44d-73cb0829cbda.png)
