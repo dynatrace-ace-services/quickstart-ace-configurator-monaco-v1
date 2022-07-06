@@ -32,7 +32,7 @@ Analyze view
 ![image](https://user-images.githubusercontent.com/40337213/176999225-1b6e9924-6d0f-4e78-89b7-c74220cde85a.png)
 	
 ## Default configuration:  
-![image](https://user-images.githubusercontent.com/40337213/176948834-a602780f-49b9-4e0a-ad64-5caf1d19fa3c.png)
+![image](https://user-images.githubusercontent.com/40337213/177483565-38c496b8-4dfb-4b14-a523-84796a025ca4.png)
 
 - to change the threshold, open the slo/slo.yaml and modify the value : 
 ![image](https://user-images.githubusercontent.com/40337213/177481015-71ffac29-4909-4d43-ba70-b3d15e2657bf.png)
@@ -42,8 +42,8 @@ Default value  :
 	- timeframe = -1w (1 week)
 	- warning_threshold = 98 % (20 % for SLO resources: CPU, memory)
 
-- to change the performance threshold on the calculated service metric, open the calculated-metrics-service/calculated-metrics-service.yaml file
-![image](https://user-images.githubusercontent.com/40337213/177480770-e2cb827e-df2c-4237-a0ce-11700f01e5dc.png)
+- to change the performance threshold on the calculated service metric, open the calculated-metrics-service/calculated-metrics-service.yamlfile
+![image](https://user-images.githubusercontent.com/40337213/177483773-08415f90-2394-49e1-b5ba-6d139717745c.png)
 Default value :
 	
 		- performance-threshold = 500 ms  
