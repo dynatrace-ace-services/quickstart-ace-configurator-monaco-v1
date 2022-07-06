@@ -6,7 +6,7 @@
     "comparison": "GREATER_THAN_OR_EQUAL",
     "negate": false,
     "type": "NUMBER",
-    "value": 200
+  "value": "{{.performance_threshold}}"
    }
   },
 {
@@ -33,14 +33,8 @@
  "enabled": true,
  "entityId": null,
  "managementZones": [
-  "{{.mz}}"
+  "{{.mzid}}"
  ],
- "metadata": {
-  "clusterVersion": "1.215.107.20210414-181420",
-  "configurationVersions": [
-   0
-  ]
- },
  "metricDefinition": {
   "metric": "REQUEST_COUNT",
   "requestAttribute": null
