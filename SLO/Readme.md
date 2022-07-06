@@ -37,11 +37,11 @@ Analyze view
 ![image](https://user-images.githubusercontent.com/40337213/177483565-38c496b8-4dfb-4b14-a523-84796a025ca4.png)
 
 - to change the threshold, open the slo/slo.yaml and modify the value : 
-![image](https://user-images.githubusercontent.com/40337213/177481015-71ffac29-4909-4d43-ba70-b3d15e2657bf.png)
+![image](https://user-images.githubusercontent.com/40337213/177486269-cd394cd1-e60e-4460-9707-211d9b6b306c.png)
 Default value  :
 
 	- target_threshold = 95 %  (10 % for SLO resources : CPU, memory)
-	- timeframe = -1w (1 week)
+	- timeframe = -1w (1 week for all SLOs)
 	- warning_threshold = 98 % (20 % for SLO resources: CPU, memory)
 
 - to change the performance threshold on the calculated service metric, open the calculated-metrics-service/calculated-metrics-service.yamlfile
