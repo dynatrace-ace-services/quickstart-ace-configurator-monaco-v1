@@ -17,7 +17,7 @@ for example:
 
 	export NEW_CLI=1
 	export MyTenant=abc123.live.dynatrace.com
-	export MyToken=dt0c01.ABCDEFGHIJ0123456789	#API modules SLO wirtes + configuraton Writes
+	export MyToken=dt0c01.ABCDEFGHIJ0123456789	#token with modules **slo.write, WriteConfig**
 	export SLO_PREFIX=easytravel01
 	export MZID=8895610195457057204
 
