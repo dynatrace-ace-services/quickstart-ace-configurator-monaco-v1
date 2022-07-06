@@ -56,7 +56,7 @@ Default value  :
 	- warning_threshold = 98 % (20 % for SLO resources: CPU, memory)
 
 - to change the performance threshold on the calculated service metric, open the calculated-metrics-service/calculated-metrics-service.yamlfile
-![image](https://user-images.githubusercontent.com/40337213/177483773-08415f90-2394-49e1-b5ba-6d139717745c.png)
+![image](https://user-images.githubusercontent.com/40337213/177491338-ffa8f393-352d-4626-ac0d-93d4076489d4.png)
 
 Default value :
 	
