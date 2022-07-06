@@ -47,17 +47,21 @@ Analyze view
 
 - to change the threshold, open the slo/slo.yaml and modify the value : 
 ![image](https://user-images.githubusercontent.com/40337213/177486269-cd394cd1-e60e-4460-9707-211d9b6b306c.png)
+
 Default value  :
 
+	
 	- target_threshold = 95 %  (10 % for SLO resources : CPU, memory)
 	- timeframe = -1w (1 week for all SLOs)
 	- warning_threshold = 98 % (20 % for SLO resources: CPU, memory)
 
 - to change the performance threshold on the calculated service metric, open the calculated-metrics-service/calculated-metrics-service.yamlfile
 ![image](https://user-images.githubusercontent.com/40337213/177483773-08415f90-2394-49e1-b5ba-6d139717745c.png)
+
 Default value :
 	
-		- performance-threshold = 500 ms  
+	
+	- performance-threshold = 500 ms  
 
 This metric consumes DDU metric as a calculated service metric =>  https://www.dynatrace.com/support/help/shortlink/metric-cost-calculation
 
