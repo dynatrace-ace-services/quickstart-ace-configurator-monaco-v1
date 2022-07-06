@@ -8,15 +8,15 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(SERVICE),mzName({{.mz}})",
+ "filter": "type(SERVICE),mzId({{.mzid}})",
  "metricDenominator": "",
  "metricExpression": "(100)*((builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy()))",
  "metricKey": "func:slo.{{.mz}}___service_availability___journeyservice",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",
- "target": 95,
- "timeframe": "-1w",
+ "target": "{{.target_threshold}}",
+ "timeframe": "{{.timeframe}}",
  "useRateMetric": true,
- "warning": 98
+ "warning": "{{.warning_threshold}}"
 }

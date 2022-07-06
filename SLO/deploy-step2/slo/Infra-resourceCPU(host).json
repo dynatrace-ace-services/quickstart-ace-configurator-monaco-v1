@@ -8,15 +8,15 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(HOST),mzName({{.mz}})",
+ "filter": "type(HOST),mzId({{.mzid}})",
  "metricDenominator": "",
  "metricExpression": "builtin:host.cpu.idle:splitBy()",
  "metricKey": "func:slo.{{.mz}}___infra___resourceCPU_host",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",
- "target": 10,
- "timeframe": "-1w",
+ "target": "{{.target_threshold}}",
+ "timeframe": "{{.timeframe}}",
  "useRateMetric": true,
- "warning": 20
+ "warning": "{{.warning_threshold}}"
 }

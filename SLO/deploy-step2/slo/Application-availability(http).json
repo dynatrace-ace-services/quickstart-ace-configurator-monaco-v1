@@ -8,15 +8,15 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(HTTP_CHECK),mzName({{.mz}})",
+ "filter": "type(HTTP_CHECK),mzId({{.mzid}})",
  "metricDenominator": "",
  "metricExpression": "(builtin:synthetic.http.availability.location.totalWoMaintenanceWindow:splitBy())",
  "metricKey": "func:slo.{{.mz}}___application_availability",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",
- "target": 95,
- "timeframe": "-1w",
+ "target": "{{.target_threshold}}",
+ "timeframe": "{{.timeframe}}",
  "useRateMetric": true,
- "warning": 98
+ "warning": "{{.warning_threshold}}"
 }

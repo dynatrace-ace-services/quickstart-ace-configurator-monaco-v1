@@ -8,15 +8,15 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(PROCESS_GROUP_INSTANCE),mzName({{.mz}})",
+ "filter": "type(PROCESS_GROUP_INSTANCE),mzId({{.mzid}})",
  "metricDenominator": "",
  "metricExpression": "builtin:pgi.availability:splitBy()",
  "metricKey": "func:slo.{{.mz}}___infra___dispo_process",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",
- "target": 95,
- "timeframe": "-1w",
+ "target": "{{.target_threshold}}",
+ "timeframe": "{{.timeframe}}",
  "useRateMetric": true,
- "warning": 98
+ "warning": "{{.warning_threshold}}"
 }

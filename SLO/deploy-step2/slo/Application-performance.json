@@ -8,15 +8,15 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(APPLICATION),mzName({{.mz}})",
+ "filter": "type(APPLICATION),mzId({{.mzid}})",
  "metricDenominator": "",
  "metricExpression": "(100)*((builtin:apps.web.actionCount.category:filter(eq(Apdex category,SATISFIED)):splitBy())/(builtin:apps.web.actionCount.category:splitBy()))",
  "metricKey": "func:slo.{{.mz}}___application___apdex_category",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",
- "target": 95,
- "timeframe": "-1w",
+ "target": "{{.target_threshold}}",
+ "timeframe": "{{.timeframe}}",
  "useRateMetric": true,
- "warning": 98
+ "warning": "{{.warning_threshold}}"
 }
