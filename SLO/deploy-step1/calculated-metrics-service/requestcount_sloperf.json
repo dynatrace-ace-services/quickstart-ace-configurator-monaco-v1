@@ -40,7 +40,7 @@
   "requestAttribute": null
  },
  "name": "{{.name}}",
- "tsmMetricKey": "calc:service.{{.mz}}_sloperf",
+ "tsmMetricKey": "calc:service.{{.slo_prefix}}_sloperf",
  "unit": "COUNT",
  "unitDisplayName": ""
 }
