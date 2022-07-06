@@ -58,7 +58,7 @@ This metric consumes DDU metric as a calculated service metric =>  https://www.d
 - how to find MZID:  
 
 --> from the UI, the MZID is available in the URL : **Settings / Prefererences / Management Zones** 
-![image](https://user-images.githubusercontent.com/40337213/177484763-011fbfee-cbf4-4ba2-9208-9412dd0e607b.png)
+![image](https://user-images.githubusercontent.com/40337213/177485757-5514048c-6c5c-4ec0-b44d-73cb0829cbda.png)
 
 --> from the API 
 
