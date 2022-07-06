@@ -48,5 +48,8 @@ Default value :
 	
 		- performance-threshold = 500 ms  
 
+This metric consumes DDU metric as a calculated service metric =>  https://www.dynatrace.com/support/help/shortlink/metric-cost-calculation
+
 - to disable a slo from monaco, open slo/slo.yaml and comment the line: 
 <img src="https://user-images.githubusercontent.com/40337213/176834195-e5676e9c-25bc-41e8-b094-87c9c053c1f1.png" width="600" height="200">
+
