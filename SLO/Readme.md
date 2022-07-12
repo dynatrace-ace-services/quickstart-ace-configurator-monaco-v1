@@ -31,13 +31,14 @@ for example:
 
 
 ## Dashboard :
- import **Dynatrace_Simple Smarter** to have slo dashboard for management zone centric view :
+ import **Dynatrace_Simple Smarter** to have slo dashboard for application-centric management zone view 
+ tip : from the configurator config, clic on "reload dashboards" to download the latest version with SLO integration. 
  	https://dynatrace.github.io/BizOpsConfigurator/index.html#downloadExcel
 
 Dynatrace_Simply Smarter home page
 ![image](https://user-images.githubusercontent.com/40337213/176837340-187a05bb-ef54-401a-92d2-77f15eadc503.png)
 
-SLO management zone centric
+SLO application-centric management zone
 ![image](https://user-images.githubusercontent.com/40337213/176890303-94327dd3-f884-4e16-9066-e8516b7f6750.png)
 
 Analyze view
