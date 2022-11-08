@@ -1,0 +1,22 @@
+{
+ "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.slo_prefix}}___application_availability",
+ "denominatorValue": 0,
+ "description": " ",
+ "enabled": true,
+ "errorBudgetBurnRate": {
+  "burnRateVisualizationEnabled": true,
+  "fastBurnThreshold": 10
+ },
+ "evaluationType": "AGGREGATE",
+ "filter": "type(SYNTHETIC_TEST),mzId({{.mzid}})",
+ "metricDenominator": "",
+ "metricExpression": "(builtin:synthetic.browser.availability.location.totalWoMaintenanceWindow:splitBy())",
+ "metricKey": "func:slo.{{.slo_prefix}}___application_availability",
+ "metricNumerator": "",
+ "metricRate": "",
+ "name": "{{.name}}",
+ "target": "{{.target_threshold}}",
+ "timeframe": "{{.timeframe}}",
+ "useRateMetric": true,
+ "warning": "{{.warning_threshold}}"
+}

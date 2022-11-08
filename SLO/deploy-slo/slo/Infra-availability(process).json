@@ -1,0 +1,22 @@
+{
+ "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.slo_prefix}}___infra___dispo_process",
+ "denominatorValue": 0,
+ "description": " ",
+ "enabled": true,
+ "errorBudgetBurnRate": {
+  "burnRateVisualizationEnabled": true,
+  "fastBurnThreshold": 10
+ },
+ "evaluationType": "AGGREGATE",
+ "filter": "type(PROCESS_GROUP_INSTANCE),mzId({{.mzid}})",
+ "metricDenominator": "",
+ "metricExpression": "builtin:pgi.availability:splitBy()",
+ "metricKey": "func:slo.{{.slo_prefix}}___infra___dispo_process",
+ "metricNumerator": "",
+ "metricRate": "",
+ "name": "{{.name}}",
+ "target": "{{.target_threshold}}",
+ "timeframe": "{{.timeframe}}",
+ "useRateMetric": true,
+ "warning": "{{.warning_threshold}}"
+}
