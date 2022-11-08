@@ -1,8 +1,0 @@
-config:
-- requestcount_sloperf: requestcount_sloperf.json
-requestcount_sloperf:
-- name: "{{.Env.SLO_PREFIX}}-slo_perf"
-- slo_prefix: "{{.Env.SLO_PREFIX}}"
-- mzid: "{{.Env.MZID}}"
-- performance_threshold: "500"
-
