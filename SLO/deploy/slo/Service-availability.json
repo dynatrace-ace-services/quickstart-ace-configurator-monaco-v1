@@ -1,0 +1,22 @@
+{
+ "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.slo_prefix}}___service_availability___journeyservice",
+ "denominatorValue": 0,
+ "description": " ",
+ "enabled": true,
+ "errorBudgetBurnRate": {
+  "burnRateVisualizationEnabled": true,
+  "fastBurnThreshold": 10
+ },
+ "evaluationType": "AGGREGATE",
+ "filter": "type(SERVICE),mzId({{.mzid}})",
+ "metricDenominator": "",
+ "metricExpression": "(100)*((builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy()))",
+ "metricKey": "func:slo.{{.slo_prefix}}___service_availability___journeyservice",
+ "metricNumerator": "",
+ "metricRate": "",
+ "name": "{{.name}}",
+ "target": "{{.target_threshold}}",
+ "timeframe": "{{.timeframe}}",
+ "useRateMetric": true,
+ "warning": "{{.warning_threshold}}"
+}
