@@ -25,9 +25,7 @@ for example:
 ## Deploy with monaco:
 
 	cd;cd quickstart-ace-configurator;
-	./monaco deploy -e=environments.yaml SLO/deploy-step1
-	#just wait 5 secondes between the 2 steps
-	./monaco deploy -e=environments.yaml SLO/deploy-step2
+	./monaco deploy -e=environments.yaml SLO/deploy
 
 
 ## Dashboard :
@@ -60,15 +58,10 @@ Default value  :
 	- timeframe = -1w (1 week for all SLOs)
 	- warning_threshold = 98 % (20 % for SLO resources: CPU, memory)
 
-- to change the performance threshold on the calculated service metric, open the calculated-metrics-service/calculated-metrics-service.yamlfile
-![image](https://user-images.githubusercontent.com/40337213/177491338-ffa8f393-352d-4626-ac0d-93d4076489d4.png)
-
 Default value :
 	
 	
 	- performance-threshold = 500 ms  
-
-This metric consumes DDU metric as a calculated service metric =>  https://www.dynatrace.com/support/help/shortlink/metric-cost-calculation
 
 - to disable a slo from monaco, open slo/slo.yaml and comment the line: 
 ![image](https://user-images.githubusercontent.com/40337213/177488321-8e065e6c-a9cf-4f34-9989-61a4bd5b0ba6.png)
