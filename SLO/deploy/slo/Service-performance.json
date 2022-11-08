@@ -10,7 +10,7 @@
  "evaluationType": "AGGREGATE",
  "filter": "type(SERVICE),mzId({{.mzid}}),serviceType(WEB_SERVICE,WEB_REQUEST_SERVICE)",
  "metricDenominator": "",
-"metricExpression": "((builtin:service.response.time:avg:tounit(MicroSecond,MilliSecond):partition(latency,value(good,lt(1000))):splitBy():count:default(0))/(builtin:service.response.time:avg:splitBy():count)*(100))",
+"metricExpression": "((builtin:service.response.time:avg:tounit(MicroSecond,MilliSecond):partition(resptime,value(good,lt(500))):splitBy():count:default(0))/(builtin:service.response.time:avg:splitBy():count)*(100))",
  "metricKey": "func:slo.{{.slo_prefix}}___service___perf",
  "metricNumerator": "",
  "metricRate": "",
