@@ -27,3 +27,4 @@ In case "today" is a bank holiday, you need this monaco template to disable noti
       cd;cd quickstart-ace-configurator;
       ./monaco deploy -e=environments.yaml Maintenance-Window/template-bank-holidays-france
       
+![image](https://user-images.githubusercontent.com/40337213/206142986-ea41db02-a8c9-48d3-90fd-da21a96b22c1.png)
