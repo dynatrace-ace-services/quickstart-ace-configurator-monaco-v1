@@ -17,7 +17,7 @@ bankholidaysfrance_1janvier:
 bankholidaysfrance_lundi_paques:
 - name: "ferié france lundi de paques {{.Env.Year}}"
 - year: "{{.Env.Year}}"
-- day: "{{.Env.Lundi-paques}}"
+- day: "{{.Env.Lundi_paques}}"
 bankholidaysfrance_1mai:
 - name: "ferié france 1er mai {{.Env.Year}}"
 - year: "{{.Env.Year}}"
@@ -33,7 +33,7 @@ bankholidaysfrance_ascension:
 bankholidaysfrance_pentecote:
 - name: "ferié france lundi de pentecote {{.Env.Year}}"
 - year: "{{.Env.Year}}"
-- day: "{{.Env.Lundi-pentecote}}"
+- day: "{{.Env.Lundi_pentecote}}"
 bankholidaysfrance_14juillet:
 - name: "ferié france 14 juillet {{.Env.Year}}"
 - year: "{{.Env.Year}}"
