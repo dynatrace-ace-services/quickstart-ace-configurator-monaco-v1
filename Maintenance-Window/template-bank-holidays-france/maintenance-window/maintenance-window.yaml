@@ -1,0 +1,56 @@
+config:
+- bankholidaysfrance_1janvier: bankholidays.json
+- bankholidaysfrance_lundi_paques: bankholidays.json
+- bankholidaysfrance_1mai: bankholidays.json
+- bankholidaysfrance_8mai: bankholidays.json
+- bankholidaysfrance_ascension: bankholidays.json
+- bankholidaysfrance_pentecote: bankholidays.json
+- bankholidaysfrance_14juillet: bankholidays.json
+- bankholidaysfrance_assomption: bankholidays.json
+- bankholidaysfrance_1novembre: bankholidays.json
+- bankholidaysfrance_11novembre: bankholidays.json
+- bankholidaysfrance_25decembre: bankholidays.json
+bankholidaysfrance_1janvier:
+- name: "ferié france 1er janvier {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "01-01"
+bankholidaysfrance_lundi_paques:
+- name: "ferié france lundi de paques {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "{{.Env.Lundi-paques}}"
+bankholidaysfrance_1mai:
+- name: "ferié france 1er mai {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "05-01"
+bankholidaysfrance_8mai:
+- name: "ferié france 8 mai {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "05-08"
+bankholidaysfrance_ascension:
+- name: "ferié france ascension {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "{{.Env.Ascension}}"
+bankholidaysfrance_pentecote:
+- name: "ferié france lundi de pentecote {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "{{.Env.Lundi-pentecote}}"
+bankholidaysfrance_14juillet:
+- name: "ferié france 14 juillet {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "07-14"
+bankholidaysfrance_assomption:
+- name: "ferié france assomption {{.Env.Year}}"
+- year: "{{.Env.Year}}" 
+- day: "08-15" 
+bankholidaysfrance_1novembre:
+- name: "ferié france 1er novembre {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "11-01"
+bankholidaysfrance_11novembre:
+- name: "ferié france 11 novembre {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "11-11"
+bankholidaysfrance_25decembre:
+- name: "ferié france 25 decembre {{.Env.Year}}"
+- year: "{{.Env.Year}}"
+- day: "12-25"
