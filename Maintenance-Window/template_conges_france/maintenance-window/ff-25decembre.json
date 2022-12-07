@@ -1,0 +1,40 @@
+{
+ "description": "",
+ "enabled": true,
+ "name": "{{.name}}",
+ "schedule": {
+  "end": "{{.annee}}-12-25 23:59",
+  "recurrenceType": "ONCE",
+  "start": "{{.annee}}-12-25 00:00",
+  "zoneId": "Europe/Paris"
+ },
+ "scope": {
+    "entities": [],
+    "matches": [
+     {
+      "managementZoneId": null,
+      "mzId": null,
+      "tagCombination": "AND",
+      "tags": [],
+      "type": "APPLICATION"
+     },
+     {
+      "managementZoneId": null,
+      "mzId": null,
+      "tagCombination": "AND",
+      "tags": [],
+      "type": "CUSTOM_APPLICATION"
+     },
+     {
+      "managementZoneId": null,
+      "mzId": null,
+      "tagCombination": "AND",
+      "tags": [],
+      "type": "MOBILE_APPLICATION"
+     }
+    ]
+   },
+ "suppressSyntheticMonitorsExecution": false,
+ "suppression": "DETECT_PROBLEMS_DONT_ALERT",
+ "type": "PLANNED"
+}
