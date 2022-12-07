@@ -5,4 +5,5 @@ Choose what type of maintenance window you want to apply to the entities filtere
 - [Daily](/Maintenance-Window/deploy-daily-mw)        => **every days** at the same hour
 - [Day of week](/Maintenance-Window/deploy-dayofweek-mw)         => **every MONDAY**,...,  at the same hour
 - [Day of month](/Maintenance-Window/deploy-dayofmonth-mw)       => **every 1er day of the Month**,...,  at the same hour
+- [Day of month](/Maintenance-Window/template_conge_france)       => **disable application web nortification for bank holiday (france)**
 
