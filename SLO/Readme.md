@@ -4,6 +4,9 @@
 
 ## Prerequisite
 - [Install-Ace-Configurator](/Install-Ace-Configurator) which describes how to install monaco
+- ITSM integration:   
+    * Add alerting profile with notification's delay > 15 minutes
+    * Add maintenance window (For exemple [bank holidays France](/Maintenance-Window/template_conges_france))
 	
 ## Export variables:
 
