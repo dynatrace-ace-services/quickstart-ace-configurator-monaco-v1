@@ -15,7 +15,7 @@ In case "today" is a bank holiday, you need this monaco template to disable noti
       export An=2023
       export Lundi-paques=04-10
       export Lundi-pentecote=05-28
-      expotr Ascension=05-18
+      export Ascension=05-18
 
       
 - test variables
