@@ -1,4 +1,6 @@
 # Automatically deploy SLOs per management zone
+Youtube : [SLO for OPS - Boost your Service Desk integration](https://youtu.be/ugauVEjtfWo) 
+
 ![image](https://user-images.githubusercontent.com/40337213/176840959-2778974b-950c-49bb-b79e-8f5bbfce94a0.png)
 
 
