@@ -6,9 +6,9 @@ Youtube  : [Full demo - From zero to hero](https://youtu.be/irxN7PJd43M)
 Youtube : [SLO for OPS - Boost your Service Desk integration](https://youtu.be/ugauVEjtfWo)  
 Monaco introduction : [What is Monaco for Dynatrace?](/What-is-Monaco-for-Dynatrace.pdf) 
 
-Quickstart Ace Integrator : https://github.com/dynatrace-ace-services/quickstart-ace-configurator
-SLO Simply Smarter : https://github.com/dynatrace-ace-services/slo-simply-smarter
-Easy ITSM integration : https://github.com/dynatrace-ace-services/slo-simply-smarter
+=> Quickstart Ace Integrator : https://github.com/dynatrace-ace-services/quickstart-ace-configurator  
+SLO Simply Smarter : https://github.com/dynatrace-ace-services/slo-simply-smarter  
+Easy ITSM integration : https://github.com/dynatrace-ace-services/slo-simply-smarter  
 
 
 ## Best practices & configurations
