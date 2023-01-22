@@ -2,7 +2,7 @@
 
 ✅ Deployment best practices : https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme  
 Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
-SLO Simply Smarter : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme  
+SLO Simply Smarter installation : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme  
 
 Youtube  : [From zero to hero in 2 minutes](https://youtu.be/vyabfN9zt8c)  
 Youtube  : [Full demo - From zero to hero](https://youtu.be/irxN7PJd43M)  
