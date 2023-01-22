@@ -1,8 +1,8 @@
 # QuickStart : Getting Started with the Ace Configurator 
 
-✅ Quickstart Ace Integrator : https://github.com/dynatrace-ace-services/quickstart-ace-configurator  
-SLO Simply Smarter : https://github.com/dynatrace-ace-services/slo-simply-smarter  
-Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration  
+✅ Quickstart Ace Integrator : https://github.com/dynatrace-ace-services/quickstart-ace-configuratorr#readme  
+SLO Simply Smarter : https://github.com/dynatrace-ace-services/slo-simply-smarterr#readme  
+Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integrationr#readme  
 
 Usefull links : 
 - Youtube  : [From zero to hero in 2 minutes](https://youtu.be/vyabfN9zt8c)  
