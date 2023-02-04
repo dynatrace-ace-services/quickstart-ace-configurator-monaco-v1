@@ -10,7 +10,7 @@ Youtube : [SLO for OPS - Boost your Service Desk integration](https://youtu.be/u
 Monaco introduction : [What is Monaco for Dynatrace?](/What-is-Monaco-for-Dynatrace.pdf)  
 BizOpsConfigurator: [Welcome to Dynatrace BizOps Dashboards](https://dynatrace.github.io/BizOpsConfigurator/index.html#prerequisites)  
 
-![image](https://user-images.githubusercontent.com/40337213/216793460-225e6a9d-28e6-46c6-96aa-c7c43ffe8ced.png)
+![image](https://user-images.githubusercontent.com/40337213/216793594-e2fcd732-818d-4510-b982-5ecbbc96e337.png)
 
 ## Best practices & configurations
 In this QuickStart Ace Configurator you will do : 
