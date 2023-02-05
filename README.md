@@ -24,7 +24,7 @@ In this QuickStart Ace Configurator you will do :
 3) Create generic configurations in your Dynatrace environment with Monaco for :   
       - [Tag](/Tag)  
       - [Naming](/Naming) 
-      - [Management-Zone(/Management-Zone)
+      - [Management-Zone](/Management-Zone)
       - [Application](/Application)  
       - [Maintenance window](/Maintenance-Window) 
       - [SLO per MZ application centric](/SLO)  
