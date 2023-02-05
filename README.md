@@ -9,7 +9,7 @@ Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/
 ## Useful links
  - Youtube  : [From zero to hero in 2 minutes](https://youtu.be/vyabfN9zt8c)  
  - Youtube  : [Full demo - From zero to hero](https://youtu.be/irxN7PJd43M)  
- - Docs : [best-practice-tagging-at-scale](https://www.dynatrace.com/support/help/how-to-use-dynatrace/tags-and-metadata/basic-concepts/best-practice-tagging-at-scale)
+ - Dynatrace Doc : [best-practice-tagging-at-scale](https://www.dynatrace.com/support/help/how-to-use-dynatrace/tags-and-metadata/basic-concepts/best-practice-tagging-at-scale)
  - Monaco introduction : [What is Monaco for Dynatrace?](/What-is-Monaco-for-Dynatrace.pdf)  
  - BizOpsConfigurator: [Welcome to Dynatrace BizOps Dashboards](https://dynatrace.github.io/BizOpsConfigurator/index.html#prerequisites)  
 
