@@ -1,4 +1,4 @@
-# QuickStart : Foundations for deployment and configuration
+# Foundations for deployment and configuration
 
 ✅ Deployment best practices : https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme  
 Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
