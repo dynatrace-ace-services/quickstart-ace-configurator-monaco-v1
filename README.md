@@ -1,8 +1,8 @@
 # Foundations for deployment and configuration
 
-✅ Foundations for deployment and configuration : https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme  
-ITSM integration & SLO Quality of Service : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
-Dashboarding Dynatrace Simply Smarter : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme  
+✅ Foundations for deployment and configuration : [quickstart-ace-configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme)  
+ITSM integration & SLO Quality of Service : [easy-itsm-integration](https://github.com/dynatrace-ace-services/easy-itsm-integration#readme)  
+Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
 Youtube  : [From zero to hero in 2 minutes](https://youtu.be/vyabfN9zt8c)  
 Youtube  : [Full demo - From zero to hero](https://youtu.be/irxN7PJd43M)  
