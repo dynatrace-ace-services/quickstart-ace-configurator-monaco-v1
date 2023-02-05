@@ -9,4 +9,4 @@ Choose what type of maintenance window you want to apply to the entities filtere
 
 # Next Step
 
-   - [Maintenance window](/SLO)  
+   - [SLO per MZ application centric](/SLO)  
