@@ -4,13 +4,6 @@
 ITSM integration & SLO Quality of Service : [easy-itsm-integration](https://github.com/dynatrace-ace-services/easy-itsm-integration#readme)  
 Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
-Useful links
- - Youtube  : [From zero to hero in 2 minutes](https://youtu.be/vyabfN9zt8c)  
- - Youtube  : [Full demo - From zero to hero](https://youtu.be/irxN7PJd43M)  
- - Youtube : [SLO for OPS - Boost your Service Desk integration](https://youtu.be/ugauVEjtfWo)  
- - Monaco introduction : [What is Monaco for Dynatrace?](/What-is-Monaco-for-Dynatrace.pdf)  
- - BizOpsConfigurator: [Welcome to Dynatrace BizOps Dashboards](https://dynatrace.github.io/BizOpsConfigurator/index.html#prerequisites)  
-
 ![image](https://user-images.githubusercontent.com/40337213/216836220-e2766736-c456-43b8-b1fa-b6aa6ea4faaf.png)
 
 ## Best practices & configurations
@@ -72,4 +65,9 @@ Monaco is used to apply the generic configuration based on the 2 main tags `app`
 
  - [HostGroup](/HostGroup)  
 
-
+# Useful links
+ - Youtube  : [From zero to hero in 2 minutes](https://youtu.be/vyabfN9zt8c)  
+ - Youtube  : [Full demo - From zero to hero](https://youtu.be/irxN7PJd43M)  
+ - Youtube : [SLO for OPS - Boost your Service Desk integration](https://youtu.be/ugauVEjtfWo)  
+ - Monaco introduction : [What is Monaco for Dynatrace?](/What-is-Monaco-for-Dynatrace.pdf)  
+ - BizOpsConfigurator: [Welcome to Dynatrace BizOps Dashboards](https://dynatrace.github.io/BizOpsConfigurator/index.html#prerequisites)  
