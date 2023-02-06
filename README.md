@@ -4,7 +4,7 @@
 ITSM integration & SLO Quality of Service : [easy-itsm-integration](https://github.com/dynatrace-ace-services/easy-itsm-integration#readme)  
 Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
-![image](https://user-images.githubusercontent.com/40337213/216836220-e2766736-c456-43b8-b1fa-b6aa6ea4faaf.png)
+![image](https://user-images.githubusercontent.com/40337213/216949405-4b6c513d-b097-4251-882c-ea5b90ab1a52.png)
 
 ## Useful links
  - Youtube  : [From zero to hero in 2 minutes](https://youtu.be/vyabfN9zt8c)  
