@@ -1,5 +1,5 @@
 ---
-//////////////////////////////////////////*DEPRECATED*//////////////////////////////////////////  
+*DEPRECATED*
 Prefer this approach : [ITSM Integration & SLO Quality of Service](https://github.com/dynatrace-ace-services/easy-itsm-integration)  
 
 - create specific SLO by management zone for alerting  [here](https://github.com/dynatrace-ace-services/easy-itsm-integration/tree/main/template_monaco)
