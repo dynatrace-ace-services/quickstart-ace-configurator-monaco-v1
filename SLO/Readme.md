@@ -1,4 +1,13 @@
 # Automatically deploy SLO per MZ application centric
+
+//DEPRECATED//
+Prefer this approach : [ITSM Integration & SLO Quality of Service](https://github.com/dynatrace-ace-services/easy-itsm-integration)
+- create specific SLO by management zone for alerting  [here](https://github.com/dynatrace-ace-services/easy-itsm-integration/tree/main/template_monaco)
+- add a generic dashboards and generic SLOs [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)
+
+
+
+
 Youtube : [SLO for OPS - Boost your Service Desk integration](https://youtu.be/ugauVEjtfWo) 
 
 ![image](https://user-images.githubusercontent.com/40337213/176840959-2778974b-950c-49bb-b79e-8f5bbfce94a0.png)
