@@ -1,5 +1,3 @@
-# Automatically deploy SLO per MZ application centric
-
 ---
 //////////////////////////////////////////*DEPRECATED*//////////////////////////////////////////  
 Prefer this approach : [ITSM Integration & SLO Quality of Service](https://github.com/dynatrace-ace-services/easy-itsm-integration)  
@@ -9,6 +7,7 @@ Prefer this approach : [ITSM Integration & SLO Quality of Service](https://githu
 
 ---
 
+# Automatically deploy SLO per MZ application centric
 
 Youtube : [SLO for OPS - Boost your Service Desk integration](https://youtu.be/ugauVEjtfWo) 
 
