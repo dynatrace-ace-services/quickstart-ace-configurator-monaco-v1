@@ -1,7 +1,7 @@
 # Foundations for deployment & configuration
 
 ✅ Foundations for deployment & configuration : [quickstart-ace-configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme)  
-ITSM integration & SLO Quality of Service : [easy-itsm-integration](https://github.com/dynatrace-ace-services/itsm-integration-with-slo#readme)  
+ITSM integration & SLO Quality of Service : [itsm-integration-with-slo](https://github.com/dynatrace-ace-services/itsm-integration-with-slo#readme)  
 Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
 ![image](https://user-images.githubusercontent.com/40337213/216949405-4b6c513d-b097-4251-882c-ea5b90ab1a52.png)
