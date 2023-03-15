@@ -1,4 +1,4 @@
-# HostGroup
+# Host_Group
 
 Before starting the **Quickstart Ace Configurator**, you have to define your **Host Group**. 
 Based on our experience a host group has to contain "application name" and "environment"  
