@@ -21,7 +21,7 @@ Avantage of the basic approach :
 
 ## Advanced approach  
 
-You can use this approach to be completly generic and evolutive. 
+You can use this approach to be completly generic. 
 
 Recommanded informations :   
 
