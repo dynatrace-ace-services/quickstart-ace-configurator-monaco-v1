@@ -22,7 +22,7 @@ Avantage of the basic approach :
 ## Advanced approach  
 
 You can use this approach to be completly generic. 
-- All information are definid in the host_group. 
+- All information are defined in the host_group. 
 - Need tag with regex. 
 
 Recommanded informations :   
