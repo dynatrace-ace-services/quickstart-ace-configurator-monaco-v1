@@ -15,13 +15,15 @@ you can add this information in metadata.
 ![image](https://user-images.githubusercontent.com/40337213/225312399-fed466ca-ab10-405a-ac4b-21f7a5f1a85a.png)
 
 Avantage of the basic approach :
-- the tag and mz rulesare simple to do.
-- no regex used.
+- the tag and mz rules are simple to do.
+- no regex.
 
 
 ## Advanced approach  
 
 You can use this approach to be completly generic. 
+- All information are definid in the host_group. 
+- Need tag with regex. 
 
 Recommanded informations :   
 
