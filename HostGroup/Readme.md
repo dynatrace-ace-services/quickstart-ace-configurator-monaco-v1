@@ -5,7 +5,7 @@ Based on our experience a host group has to contain "application name" and "envi
 
 ## Basic approach  
 
-- `host_group` = <app>_<env>
+- `host_group` = `<app>_<env>`
 - `tag` = host_group for all entities (host, process group, service, custom device, application ...)
 - `management_zone` based on host_group tag.
 
