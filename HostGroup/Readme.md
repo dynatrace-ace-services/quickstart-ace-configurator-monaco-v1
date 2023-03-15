@@ -1,7 +1,27 @@
 # HostGroup
 
 Before starting the **Quickstart Ace Configurator**, you have to define your **Host Group**. 
-Based on our experience a host group has to contain, general role 
+Based on our experience a host group has to contain "application name" and "environment"  
+
+## Basic approach  
+
+- `host_group` = <app>_<env>
+- `tag` = host_group for all entities (host, process group, service, custom device, application ...)
+- `management_zone` based on host_group tag.
+
+in case you need to deal with others information: for example = Business Unit , Region , Tier , Customer name  
+you can add this information in metadata.   
+
+![image](https://user-images.githubusercontent.com/40337213/225312399-fed466ca-ab10-405a-ac4b-21f7a5f1a85a.png)
+
+Avantage of the basic approach :
+- the tag and mz rulesare simple to do.
+- no regex used.
+
+
+## Advanced approach  
+
+You can use this approach to be completly generic and evolutive. 
 
 Recommanded informations :   
 
