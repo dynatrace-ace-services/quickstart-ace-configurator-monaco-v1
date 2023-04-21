@@ -23,7 +23,8 @@ In this QuickStart Ace Configurator you will do :
 2) Install Monaco and backup your Dynatrace tenant configuration before starting :  
       - [Install-Ace-Configurator](/Install-Ace-Configurator)
 
-3) Create generic configurations in your Dynatrace environment with Monaco for :   
+3) Create generic configurations in your Dynatrace environment with Monaco for : 
+(monaco v1)
       - [Tag](/Tag)  
       - [Naming](/Naming) 
       - [Management-Zone](/Management-Zone)
