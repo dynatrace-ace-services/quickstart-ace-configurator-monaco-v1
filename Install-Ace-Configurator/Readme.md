@@ -5,7 +5,7 @@
       cd;
       git clone https://github.com/dynatrace-ace-services/quickstart-ace-configurator
 
-- install monaco
+- install monaco v1 (deprecated)
 
       cd;cd quickstart-ace-configurator;
       curl -L https://github.com/dynatrace/dynatrace-configuration-as-code/releases/download/v1.8.9/monaco-linux-amd64 -o monaco
