@@ -8,8 +8,7 @@
 - install monaco
 
       cd;cd quickstart-ace-configurator;
-      wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/latest/download/monaco-linux-amd64;
-      mv monaco-linux-amd64 monaco;
+      curl -L https://github.com/dynatrace/dynatrace-configuration-as-code/releases/download/v1.8.9/monaco-linux-amd64 -o monaco
       chmod +x monaco;
       export NEW_CLI=1;
     
