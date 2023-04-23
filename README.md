@@ -22,8 +22,7 @@ In this QuickStart Ace Configurator you will do :
 HostGroup need contains "env" and "application name"  
 example : prd_easytravel 
 
-More details on how define HostGroup here:   
-[HostGroup](/HostGroup)
+More details on how define HostGroup here: [HostGroup](/HostGroup)
 
 For kube monitoring: HostGroup = KubeName   
 
