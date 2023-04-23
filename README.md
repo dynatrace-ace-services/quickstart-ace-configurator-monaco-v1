@@ -17,8 +17,26 @@ Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/
 ## Best practices & configurations
 In this QuickStart Ace Configurator you will do : 
 
-1) Define the hostgroup with these best practices based on our experience:    
-      - [HostGroup](/HostGroup)  
+1) Define the HostGroup (mandatory) : 
+
+* For legacy application : 
+- HostGroup need contains "env" and "application nam"  
+- example : prd_easytravel 
+
+* For kube monitoring : 
+- HostGroup = KubeName  
+
+More details on how define HostGroup here :  
+- [HostGroup](/HostGroup)
+
+
+3) deploy configuration for each application with monaco v2 based on 
+- HostGroupName = prd_easytravel
+- DomainName = www.easytravel.com
+
+ * [Monaco installation](https://www.dynatrace.com/support/help/manage/configuration-as-code/installation)
+ * [Monaco template for application example](https://github.com/dynatrace-ace-services/dynatrace-lab/tree/main/project)
+
 
 2) Install Monaco and backup your Dynatrace tenant configuration before starting :  
       - [Install-Ace-Configurator](/Install-Ace-Configurator)
