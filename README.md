@@ -19,14 +19,14 @@ In this QuickStart Ace Configurator you will do :
 
 1) Define the HostGroup (mandatory) : 
 
-- For legacy application : 
+- For legacy application:  
 HostGroup need contains "env" and "application nam"  
 example : prd_easytravel 
 
-- For kube monitoring : 
+- For kube monitoring:  
 HostGroup = KubeName  
 
-- More details on how define HostGroup here :  
+- More details on how define HostGroup here:   
 [HostGroup](/HostGroup)
 
 
