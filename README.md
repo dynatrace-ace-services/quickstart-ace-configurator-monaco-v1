@@ -18,7 +18,7 @@ Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/
 In this QuickStart Ace Configurator you will do : 
 
 1) Define the HostGroup (mandatory) :  
-HostGroup need contains "env" and "application nam"  
+HostGroup need contains "env" and "application name"  
 example : prd_easytravel 
 
 More details on how define HostGroup here:   
