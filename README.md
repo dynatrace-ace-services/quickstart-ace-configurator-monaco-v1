@@ -22,9 +22,7 @@ In this QuickStart Ace Configurator you will do :
        "env" and "application name"  
        example : prd_easytravel 
 
-More details on how define HostGroup here: [HostGroup](/HostGroup)
-
-For kube monitoring: HostGroup = KubeName   
+More details on how define HostGroup here: [HostGroup](/HostGroup) (for kube monitoring: HostGroup = KubeName)   
 
 2) Deploy configuration for each application with monaco v2 based on 
 
