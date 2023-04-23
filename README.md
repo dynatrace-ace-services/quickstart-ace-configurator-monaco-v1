@@ -19,15 +19,15 @@ In this QuickStart Ace Configurator you will do :
 
 1) Define the HostGroup (mandatory) : 
 
-* For legacy application : 
-- HostGroup need contains "env" and "application nam"  
-- example : prd_easytravel 
+- For legacy application : 
+HostGroup need contains "env" and "application nam"  
+example : prd_easytravel 
 
-* For kube monitoring : 
-- HostGroup = KubeName  
+- For kube monitoring : 
+HostGroup = KubeName  
 
-More details on how define HostGroup here :  
-- [HostGroup](/HostGroup)
+- More details on how define HostGroup here :  
+[HostGroup](/HostGroup)
 
 
 3) deploy configuration for each application with monaco v2 based on 
