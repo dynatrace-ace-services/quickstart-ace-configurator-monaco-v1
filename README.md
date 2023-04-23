@@ -17,18 +17,14 @@ Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/
 ## Best practices & configurations
 In this QuickStart Ace Configurator you will do : 
 
-1) Define the HostGroup (mandatory) : 
-
-- For legacy application:  
+1) Define the HostGroup (mandatory) :  
 HostGroup need contains "env" and "application nam"  
 example : prd_easytravel 
 
-- For kube monitoring:  
-HostGroup = KubeName  
-
-- More details on how define HostGroup here:   
+More details on how define HostGroup here:   
 [HostGroup](/HostGroup)
 
+For kube monitoring: HostGroup = KubeName   
 
 2) Deploy configuration for each application with monaco v2 based on 
 
